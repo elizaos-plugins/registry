@@ -1,11 +1,4 @@
 {
-  "@elizaos/client-discord": "github:elizaos-plugins/client-discord",
-  "@elizaos/client-farcaster": "github:elizaos-plugins/client-farcaster",
-  "@elizaos/client-github": "github:elizaos-plugins/client-github",
-  "@elizaos/client-lens": "github:elizaos-plugins/client-lens",
-  "@elizaos/client-slack": "github:elizaos-plugins/client-slack",
-  "@elizaos/client-telegram": "github:elizaos-plugins/client-telegram",
-  "@elizaos/client-twitter": "github:elizaos-plugins/client-twitter",
   "@elizaos/plugin-0g": "github:elizaos-plugins/plugin-0g",
   "@elizaos/plugin-3d-generation": "github:elizaos-plugins/plugin-3d-generation",
   "@elizaos/plugin-abstract": "github:elizaos-plugins/plugin-abstract",
