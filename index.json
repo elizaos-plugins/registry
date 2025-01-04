@@ -1,6 +1,4 @@
 {
-  "@elizaos/client-auto": "github:elizaos-plugins/client-auto",
-  "@elizaos/client-direct": "github:elizaos-plugins/client-direct",
   "@elizaos/client-discord": "github:elizaos-plugins/client-discord",
   "@elizaos/client-farcaster": "github:elizaos-plugins/client-farcaster",
   "@elizaos/client-github": "github:elizaos-plugins/client-github",
@@ -30,7 +28,6 @@
   "@elizaos/plugin-multiversx": "github:elizaos-plugins/plugin-multiversx",
   "@elizaos/plugin-near": "github:elizaos-plugins/plugin-near",
   "@elizaos/plugin-nft-generation": "github:elizaos-plugins/plugin-nft-generation",
-  "@elizaos/plugin-node": "github:elizaos-plugins/plugin-node",
   "@elizaos/plugin-solana": "github:elizaos-plugins/plugin-solana",
   "@elizaos/plugin-starknet": "github:elizaos-plugins/plugin-starknet",
   "@elizaos/plugin-story": "github:elizaos-plugins/plugin-story",
