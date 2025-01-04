@@ -1,9 +1,4 @@
 {
-  "@elizaos/adapter-postgres": "github:elizaos-plugins/adapter-postgres",
-  "@elizaos/adapter-redis": "github:elizaos-plugins/adapter-redis",
-  "@elizaos/adapter-sqlite": "github:elizaos-plugins/adapter-sqlite",
-  "@elizaos/adapter-sqljs": "github:elizaos-plugins/adapter-sqljs",
-  "@elizaos/adapter-supabase": "github:elizaos-plugins/adapter-supabase",
   "@elizaos/client-auto": "github:elizaos-plugins/client-auto",
   "@elizaos/client-direct": "github:elizaos-plugins/client-direct",
   "@elizaos/client-discord": "github:elizaos-plugins/client-discord",
