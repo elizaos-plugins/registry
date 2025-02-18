@@ -56,6 +56,7 @@
     "@elizaos-plugins/plugin-lensNetwork": "github:elizaos-plugins/plugin-lensNetwork",
     "@elizaos-plugins/plugin-letzai": "github:elizaos-plugins/plugin-letzai",
     "@elizaos-plugins/plugin-massa": "github:elizaos-plugins/plugin-massa",
+    "@elizaos-plugins/plugin-messari-ai-toolkit": "github:messari/plugin-messari-ai-toolkit",
     "@elizaos-plugins/plugin-movement": "github:elizaos-plugins/plugin-movement",
     "@elizaos-plugins/plugin-multiversx": "github:elizaos-plugins/plugin-multiversx",
     "@elizaos-plugins/plugin-near": "github:elizaos-plugins/plugin-near",
