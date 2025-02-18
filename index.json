@@ -90,5 +90,7 @@
     "@elizaos-plugins/plugin-zerion": "github:elizaos-plugins/plugin-zerion",
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
     "@elizaos-plugins/plugin-omniflix": "github:elizaos-plugins/plugin-omniflix",
-    "@elizaos-plugins/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt"
+    "@elizaos-plugins/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
+    "@elizaos-plugins/plugin-grix": "github:grixprotocol/plugin-grix"
+
 }
