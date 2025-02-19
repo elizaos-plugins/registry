@@ -94,5 +94,5 @@
   "@elizaos-plugins/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
   "@elizaos-plugins/plugin-firecrawl": "github:tobySolutions/plugin-firecrawl",
   "@elizaos-plugins/plugin-ATTPs": "github.com:APRO-com/plugin-ATTPs.git",
-  "@elizaos-plugins/plugin-youtube-to-text": "git@github.com:kavyagb22/plugin-youtube-to-text.git"
+  "@elizaos-plugins/plugin-youtube-to-text": "github.com:kavyagb22/plugin-youtube-to-text.git"
 }
