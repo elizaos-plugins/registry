@@ -1,6 +1,4 @@
 {
-missing
-
   "@elizaos-plugins/adapter-mongodb": "github:elizaos-plugins/adapter-mongodb",
   "@elizaos-plugins/adapter-postgres": "github:elizaos-plugins/adapter-postgres",
   "@elizaos-plugins/adapter-pglite": "github:elizaos-plugins/adapter-pglite",
