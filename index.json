@@ -82,6 +82,7 @@
     "@elizaos-plugins/plugin-omniflix": "github:elizaos-plugins/plugin-omniflix",
     "@elizaos-plugins/plugin-opacity": "github:elizaos-plugins/plugin-opacity",
     "@elizaos-plugins/plugin-open-weather": "github:elizaos-plugins/plugin-open-weather",
+    "@elizaos-plugins/plugin-orderly": "github:orderlynetwork/plugin-orderly",
     "@elizaos-plugins/plugin-primus": "github:elizaos-plugins/plugin-primus",
     "@elizaos-plugins/plugin-quai": "github:elizaos-plugins/plugin-quai",
     "@elizaos-plugins/plugin-rabbi-trader": "github:elizaos-plugins/plugin-rabbi-trader",
