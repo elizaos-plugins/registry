@@ -50,7 +50,7 @@
     "@elizaos-plugins/plugin-evm": "github:elizaos-plugins/plugin-evm",
     "@elizaos-plugins/plugin-executor": "github:t3rn/plugin-t3rn-executor",
     "@elizaos-plugins/plugin-ferePro": "github:elizaos-plugins/plugin-ferePro",
-    "@elizaos-plugins/plugin-firecrawl": "github:tobySolutions/plugin-firecrawl",
+    "@elizaos-plugins/plugin-firecrawl": "github:fleek-platform/plugin-firecrawl",
     "@elizaos-plugins/plugin-flow": "github:fixes-world/plugin-flow",
     "@elizaos-plugins/plugin-flow-advanced": "github:fixes-world/plugin-flow-advanced",
     "@elizaos-plugins/plugin-fuel": "github:elizaos-plugins/plugin-fuel",
@@ -120,5 +120,6 @@
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
     "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
     "@elizaos-plugins/plugin-mbd-farcaster": "github:developerfred/mbd-farcaster",
-    "@elizaos-plugins/plugin-sonic": "github:thopatevijay/plugin-sonic"
+    "@elizaos-plugins/plugin-sonic": "github:thopatevijay/plugin-sonic",
+    "@elizaos-plugins/plugin-composio": "github:fleek-platform/composio-plugin"
 }
