@@ -36,6 +36,7 @@
     "@elizaos-plugins/plugin-coingecko": "github:elizaos-plugins/plugin-coingecko",
     "@elizaos-plugins/plugin-coinmarketcap": "github:elizaos-plugins/plugin-coinmarketcap",
     "@elizaos-plugins/plugin-compass": "github:CompassLabs/plugin-compass",
+    "@elizaos-plugins/plugin-composio": "github:fleek-platform/composio-plugin"
     "@elizaos-plugins/plugin-computer-use": "github:amit0365/plugin-computer-use",
     "@elizaos-plugins/plugin-conflux": "github:elizaos-plugins/plugin-conflux",
     "@elizaos-plugins/plugin-cosmos": "github:elizaos-plugins/plugin-cosmos",
@@ -120,6 +121,5 @@
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
     "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
     "@elizaos-plugins/plugin-mbd-farcaster": "github:developerfred/mbd-farcaster",
-    "@elizaos-plugins/plugin-sonic": "github:thopatevijay/plugin-sonic",
-    "@elizaos-plugins/plugin-composio": "github:fleek-platform/composio-plugin"
+    "@elizaos-plugins/plugin-sonic": "github:thopatevijay/plugin-sonic"
 }
