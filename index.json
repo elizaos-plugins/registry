@@ -75,6 +75,7 @@
     "@elizaos-plugins/plugin-letzai": "github:elizaos-plugins/plugin-letzai",
     "@elizaos-plugins/plugin-lightlink": "github:lightlink-network/plugin-lightlink",
     "@elizaos-plugins/plugin-massa": "github:elizaos-plugins/plugin-massa",
+    "@elizaos-plugins/plugin-membase": "github:unibaseio/plugin-membase",
     "@elizaos-plugins/plugin-merkle": "github:merkle-trade/merkle-eliza-plugin",
     "@elizaos-plugins/plugin-messari-ai-toolkit": "github:messari/plugin-messari-ai-toolkit",
     "@elizaos-plugins/plugin-movement": "github:elizaos-plugins/plugin-movement",
