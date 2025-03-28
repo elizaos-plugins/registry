@@ -100,6 +100,7 @@
     "@elizaos-plugins/plugin-para": "github:aipop-fun/plugin-para",
     "@elizaos-plugins/plugin-payai": "github:notorious-d-e-v/plugin-payai",
     "@elizaos-plugins/plugin-primus": "github:elizaos-plugins/plugin-primus",
+    "@elizaos-plugins/plugin-proof-of-agent": "github:automata-network/elizaos-plugin-proof-of-agent",
     "@elizaos-plugins/plugin-quai": "github:elizaos-plugins/plugin-quai",
     "@elizaos-plugins/plugin-rabbi-trader": "github:elizaos-plugins/plugin-rabbi-trader",
     "@elizaos-plugins/plugin-recall": "github:recallnet/plugin-recall",
