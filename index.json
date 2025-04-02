@@ -33,6 +33,7 @@
     "@elizaos-plugins/plugin-bnb": "github:elizaos-plugins/plugin-bnb",
     "@elizaos-plugins/plugin-bnv-me-id": "github:brand-new-vision/plugin-bnv-me-id",
     "@elizaos-plugins/plugin-binance": "github:elizaos-plugins/plugin-binance",
+    "@elizaos-plugins/plugin-bless": "github:blessnetwork/elizaos-bless-plugin",
     "@elizaos-plugins/plugin-ccxt": "github:pranavjadhav1363/plugin-ccxt",
     "@elizaos-plugins/plugin-clara-twitter": "github:warp-contracts/plugin-clara-twitter",
     "@elizaos-plugins/plugin-coinbase": "github:elizaos-plugins/plugin-coinbase",
