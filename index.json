@@ -107,6 +107,7 @@
     "@elizaos-plugins/plugin-raiinmaker": "github:Coiin-Blockchain/plugin-raiinmaker",
     "@elizaos-plugins/plugin-recall": "github:recallnet/plugin-recall",
     "@elizaos-plugins/plugin-rss3": "github:rss3-network/elizaos-plugin-rss3",
+    "@elizaos-plugins/plugin-safe": "github:5afe/plugin-safe",
     "@elizaos-plugins/plugin-sei": "github:elizaos-plugins/plugin-sei",
     "@elizaos-plugins/plugin-sgx": "github:elizaos-plugins/plugin-sgx",
     "@elizaos-plugins/plugin-siwe": "github:DimaKush/plugin-siwe",
