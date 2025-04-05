@@ -16,6 +16,7 @@
     "@elizaos-plugins/client-slack": "github:elizaos-plugins/client-slack",
     "@elizaos-plugins/client-telegram": "github:elizaos-plugins/client-telegram",
     "@elizaos-plugins/client-twitter": "github:elizaos-plugins/client-twitter",
+    "@elizaos-plugins/client-twitter-api-access": "github:notorious-d-e-v/client-twitter-api-access",
     "@elizaos-plugins/client-tako": "github:takoprotocol/client-tako",
     "@elizaos-plugins/plugin-0g": "github:elizaos-plugins/plugin-0g",
     "@elizaos-plugins/plugin-3d-generation": "github:elizaos-plugins/plugin-3d-generation",
