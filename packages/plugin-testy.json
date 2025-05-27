@@ -1,0 +1,34 @@
+{
+  "name": "@yungalgo/plugin-testy",
+  "description": "ElizaOS plugin for testy",
+  "repository": {
+    "type": "git",
+    "url": "github:yungalgo/plugin-testy"
+  },
+  "maintainers": [
+    {
+      "name": "yungalgo",
+      "github": "yungalgo"
+    }
+  ],
+  "categories": [],
+  "tags": [
+    "plugin",
+    "elizaos"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "gitBranch": "0.1.0",
+      "gitTag": "v0.1.0",
+      "runtimeVersion": "1.0.0-beta.76",
+      "releaseDate": "2025-05-27T01:41:22.125Z",
+      "deprecated": false
+    }
+  ],
+  "latestStable": "0.1.0",
+  "latestVersion": "0.1.0",
+  "type": "plugin",
+  "installable": true,
+  "platform": "node"
+}
