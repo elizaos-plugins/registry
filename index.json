@@ -151,6 +151,7 @@
     "@elizaos-plugins/plugin-tee-log": "github:elizaos-plugins/plugin-tee-log",
     "@elizaos-plugins/plugin-tee-marlin": "github:elizaos-plugins/plugin-tee-marlin",
     "@elizaos-plugins/plugin-telegram": "github:elizaos-plugins/plugin-telegram",
+    "@elizaos-plugins/plugin-testerson": "github:yungalgo/plugin-testerson",
     "@elizaos-plugins/plugin-thirdweb": "github:elizaos-plugins/plugin-thirdweb",
     "@elizaos-plugins/plugin-ton": "github:elizaos-plugins/plugin-ton",
     "@elizaos-plugins/plugin-trn": "github:Gen3Games/plugin-trn",
