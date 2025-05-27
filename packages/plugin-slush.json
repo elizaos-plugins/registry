@@ -1,0 +1,34 @@
+{
+  "name": "@yungalgo/plugin-slush",
+  "description": "ElizaOS plugin for slush",
+  "repository": {
+    "type": "git",
+    "url": "github:yungalgo/plugin-slush"
+  },
+  "maintainers": [
+    {
+      "name": "yungalgo",
+      "github": "yungalgo"
+    }
+  ],
+  "categories": [],
+  "tags": [
+    "plugin",
+    "elizaos"
+  ],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "gitBranch": "0.1.0",
+      "gitTag": "v0.1.0",
+      "runtimeVersion": "1.0.0-beta.76",
+      "releaseDate": "2025-05-27T05:35:35.614Z",
+      "deprecated": false
+    }
+  ],
+  "latestStable": "0.1.0",
+  "latestVersion": "0.1.0",
+  "type": "plugin",
+  "installable": true,
+  "platform": "node"
+}
