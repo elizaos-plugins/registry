@@ -173,4 +173,5 @@
     "@elizaos-plugins/plugin-zytron": "github:zypher-network/plugin-zytron",
     "@elizaos-plugins/plugin-cardano": "github:relipasoft/plugin-cardano",
     "@elizaos-plugins/plugin-reveel-payid": "github:r3vl/plugin-reveel-payid"
+    "@yungalgo/plugin-melon": "github:yungalgo/plugin-melon",
 }
