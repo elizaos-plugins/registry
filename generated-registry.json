@@ -3477,6 +3477,28 @@
         "v1": true
       }
     },
+    "@elizaos/plugin-twitter-rss": {
+      "git": {
+        "repo": "Dexploarer/elizaos-rss-plugin",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-twitter-rss",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
     "@elizaos-plugins/plugin-venice": {
       "git": {
         "repo": "elizaos-plugins/plugin-venice",
