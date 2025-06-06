@@ -178,4 +178,5 @@
     "@elizaos-plugins/plugin-reveel-payid": "github:r3vl/plugin-reveel-payid",
     "@elizaos-plugins/plugin-xmtp": "github:elizaos-plugins/plugin-xmtp",
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge"
+    "@yungalgo/plugin-goober": "github:yungalgo/plugin-goober",
 }
