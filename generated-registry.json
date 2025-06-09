@@ -1,0 +1,3877 @@
+{
+  "lastUpdatedAt": "2025-06-09T04:41:09.016Z",
+  "registry": {
+    "@elizaos-plugins/adapter-mongodb": {
+      "git": {
+        "repo": "elizaos-plugins/adapter-mongodb",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/adapter-mongodb",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/adapter-pglite": {
+      "git": {
+        "repo": "elizaos-plugins/adapter-pglite",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/adapter-pglite",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/adapter-postgres": {
+      "git": {
+        "repo": "elizaos-plugins/adapter-postgres",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/adapter-postgres",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/adapter-qdrant": {
+      "git": {
+        "repo": "elizaos-plugins/adapter-qdrant",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/adapter-qdrant",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/adapter-sqlite": {
+      "git": {
+        "repo": "elizaos-plugins/adapter-sqlite",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/adapter-sqlite",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/adapter-sqljs": {
+      "git": {
+        "repo": "elizaos-plugins/adapter-sqljs",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/adapter-sqljs",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/adapter-supabase": {
+      "git": {
+        "repo": "elizaos-plugins/adapter-supabase",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/adapter-supabase",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-auto": {
+      "git": {
+        "repo": "elizaos-plugins/client-auto",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-auto",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-clara": {
+      "git": {
+        "repo": "redstone-finance/client-clara",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-clara",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-discord": {
+      "git": {
+        "repo": "elizaos-plugins/client-discord",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-discord",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-farcaster": {
+      "git": {
+        "repo": "elizaos-plugins/client-farcaster",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-farcaster",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-github": {
+      "git": {
+        "repo": "elizaos-plugins/client-github",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-github",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-lens": {
+      "git": {
+        "repo": "elizaos-plugins/client-lens",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-lens",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-slack": {
+      "git": {
+        "repo": "elizaos-plugins/client-slack",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-slack",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-tako": {
+      "git": {
+        "repo": "takoprotocol/client-tako",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-tako",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-telegram": {
+      "git": {
+        "repo": "elizaos-plugins/client-telegram",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-telegram",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-twitter": {
+      "git": {
+        "repo": "elizaos-plugins/client-twitter",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-twitter",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-twitter-api-access": {
+      "git": {
+        "repo": "notorious-d-e-v/client-twitter-api-access",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-twitter-api-access",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-wechat": {
+      "git": {
+        "repo": "aiqubits/client-wechat",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-wechat",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/client-xmtp": {
+      "git": {
+        "repo": "ephemeraHQ/client-xmtp",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/client-xmtp",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-0g": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-0g",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-0g",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-3d-generation": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-3d-generation",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-3d-generation",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-ATTPs": {
+      "git": {
+        "repo": "APRO-com/plugin-ATTPs",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-ATTPs",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-abstract": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-abstract",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-abstract",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-akash": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-akash",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-akash",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-allora": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-allora",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-allora",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-anthropic": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-anthropic",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-anthropic",
+        "v0": null,
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-anyone": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-anyone",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-anyone",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-aptos": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-aptos",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-aptos",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-arthera": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-arthera",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-arthera",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-asterai": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-asterai",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-asterai",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-autonome": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-autonome",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-autonome",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-avail": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-avail",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-avail",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-avalanche": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-avalanche",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-avalanche",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-binance": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-binance",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-binance",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-bink": {
+      "git": {
+        "repo": "Bink-AI/elizaos-plugin-binkai",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bink",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-bioagent": {
+      "git": {
+        "repo": "bio-xyz/plugin-bioagent",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bioagent",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-bitquery": {
+      "git": {
+        "repo": "ChuXo/plugin-bitquery",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bitquery",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-bless": {
+      "git": {
+        "repo": "blessnetwork/elizaos-bless-plugin",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bless",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-bnb": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-bnb",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bnb",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-bnv-me-id": {
+      "git": {
+        "repo": "brand-new-vision/plugin-bnv-me-id",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bnv-me-id",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-bootstrap": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-bootstrap",
+        "v0": {
+          "version": "0.25.9",
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.6",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-bootstrap",
+        "v0": "0.25.9",
+        "v1": "1.0.6"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-browser": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-browser",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-browser",
+        "v0": null,
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-ccxt": {
+      "git": {
+        "repo": "pranavjadhav1363/plugin-ccxt",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-ccxt",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-clara-twitter": {
+      "git": {
+        "repo": "warp-contracts/plugin-clara-twitter",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-clara-twitter",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-coinbase": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-coinbase",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-coinbase",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-coingecko": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-coingecko",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-coingecko",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-coinmarketcap": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-coinmarketcap",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-coinmarketcap",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-compass": {
+      "git": {
+        "repo": "CompassLabs/plugin-compass",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-compass",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-computer-use": {
+      "git": {
+        "repo": "amit0365/plugin-computer-use",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-computer-use",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-conflux": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-conflux",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-conflux",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-cosmos": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-cosmos",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-cosmos",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-cronoszkevm": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-cronoszkevm",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-cronoszkevm",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-d.a.t.a": {
+      "git": {
+        "repo": "carv-protocol/plugin-d.a.t.a",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-d.a.t.a",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-dcap": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-dcap",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-dcap",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-debridge": {
+      "git": {
+        "repo": "gabrielantonyxaviour/eliza-plugin-debridge",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-debridge",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-depin": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-depin",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-depin",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-dexpaprika": {
+      "git": {
+        "repo": "donbagger/plugin-dexpaprika",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-dexpaprika",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-di": {
+      "git": {
+        "repo": "fixes-world/plugin-di",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-di",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-discord": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-discord",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.10",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-discord",
+        "v0": null,
+        "v1": "1.0.10"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-echochambers": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-echochambers",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-echochambers",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-edwin": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-edwin",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-edwin",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-elevenlabs": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-elevenlabs",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.5",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-elevenlabs",
+        "v0": null,
+        "v1": "1.0.5"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-enso": {
+      "git": {
+        "repo": "EnsoBuild/plugin-enso",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-enso",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-evm": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-evm",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.9",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-evm",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.9"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-executor": {
+      "git": {
+        "repo": "t3rn/plugin-t3rn-executor",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-executor",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-farcaster": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-farcaster",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.2",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-farcaster",
+        "v0": null,
+        "v1": "1.0.2"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-ferePro": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-ferePro",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-ferePro",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-firecrawl": {
+      "git": {
+        "repo": "tobySolutions/plugin-firecrawl",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-firecrawl",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-flow": {
+      "git": {
+        "repo": "fixes-world/plugin-flow",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-flow",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-flow-advanced": {
+      "git": {
+        "repo": "fixes-world/plugin-flow-advanced",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-flow-advanced",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-fuel": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-fuel",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-fuel",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-genlayer": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-genlayer",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-genlayer",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-gigbot": {
+      "git": {
+        "repo": "PaymagicXYZ/plugin-gigbot",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-gigbot",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-giphy": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-giphy",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-giphy",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-gitbook": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-gitbook",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-gitbook",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-goat": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-goat",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-goat",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-goplus": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-goplus",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-goplus",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-grix": {
+      "git": {
+        "repo": "grixprotocol/plugin-grix",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-grix",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-groq": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-groq",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.4",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-groq",
+        "v0": null,
+        "v1": "1.0.4"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-hedera": {
+      "git": {
+        "repo": "hedera-dev/plugin-hedera",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-hedera",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-holoworld": {
+      "git": {
+        "repo": "mcp-dao/plugin-holoworld",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-holoworld",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-hyperliquid": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-hyperliquid",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-hyperliquid",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-icp": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-icp",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-icp",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-iexec": {
+      "git": {
+        "repo": "iExecBlockchainComputing/plugin-iexec",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-iexec",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-image-generation": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-image-generation",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-image-generation",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-intiface": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-intiface",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-intiface",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-irys": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-irys",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-irys",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-isaacx": {
+      "git": {
+        "repo": "isaacx0/plugin-isaacx",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-isaacx",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-kaia": {
+      "git": {
+        "repo": "kaiachain/kaia-eliza-plugin",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-kaia",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-knowledge": {
+      "git": {
+        "repo": "elizaos/plugin-knowledge",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.3",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-knowledge",
+        "v0": null,
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-lensNetwork": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-lensNetwork",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-lensNetwork",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-letzai": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-letzai",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-letzai",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-livekit": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-livekit",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.2",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-livekit",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-lightlink": {
+      "git": {
+        "repo": "lightlink-network/plugin-lightlink",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-lightlink",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-local-ai": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-local-ai",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.4",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-local-ai",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.4"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-massa": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-massa",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-massa",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-mbd-farcaster": {
+      "git": {
+        "repo": "developerfred/mbd-farcaster",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-mbd-farcaster",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-mcp": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-mcp",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.5",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-mcp",
+        "v0": null,
+        "v1": "1.0.5"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-membase": {
+      "git": {
+        "repo": "unibaseio/plugin-membase",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-membase",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-merkle": {
+      "git": {
+        "repo": "merkle-trade/merkle-eliza-plugin",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-merkle",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-messari-ai-toolkit": {
+      "git": {
+        "repo": "messari/plugin-messari-ai-toolkit",
+        "v0": {
+          "version": "v0.0.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": "master"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-messari-ai-toolkit",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-morpheus": {
+      "git": {
+        "repo": "bowtiedbluefin/plugin-morpheus",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-morpheus",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-movement": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-movement",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-movement",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-multichain": {
+      "git": {
+        "repo": "near-agent/elizaos-plugin-multichain",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-multichain",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-multiversx": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-multiversx",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-multiversx",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-near": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-near",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-near",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-nft-generation": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-nft-generation",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-nft-generation",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-nkn": {
+      "git": {
+        "repo": "nknorg/eliza-plugin-nkn",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-nkn",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-node": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-node",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.0-alpha.25",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-node",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0-alpha.25"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-notion": {
+      "git": {
+        "repo": "tskoyo/plugin-notion",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-notion",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-obsidian": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-obsidian",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-obsidian",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-okto": {
+      "git": {
+        "repo": "okto-hq/eliza-plugin",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-okto",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-okx": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-okx",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-okx",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-ollama": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-ollama",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-ollama",
+        "v0": null,
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-omniflix": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-omniflix",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-omniflix",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-opacity": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-opacity",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-opacity",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-open-weather": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-open-weather",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-open-weather",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-openai": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-openai",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-openai",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-orderly": {
+      "git": {
+        "repo": "orderlynetwork/plugin-orderly",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-orderly",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-para": {
+      "git": {
+        "repo": "aipop-fun/plugin-para",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-para",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-payai": {
+      "git": {
+        "repo": "notorious-d-e-v/plugin-payai",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-payai",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-pdf": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-pdf",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.1",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-pdf",
+        "v0": null,
+        "v1": "1.0.1"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-primus": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-primus",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-primus",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-proof-of-agent": {
+      "git": {
+        "repo": "automata-network/elizaos-plugin-proof-of-agent",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-proof-of-agent",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-pundiai-dataset": {
+      "git": {
+        "repo": "PundiAI/plugin-pundiai-dataset",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-pundiai-dataset",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-quai": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-quai",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-quai",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-rabbi-trader": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-rabbi-trader",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-rabbi-trader",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-raiinmaker": {
+      "git": {
+        "repo": "Coiin-Blockchain/plugin-raiinmaker",
+        "v0": {
+          "version": "v0.1.0",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-raiinmaker",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-recall": {
+      "git": {
+        "repo": "recallnet/plugin-recall",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-recall",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-redpill": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-redpill",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-redpill",
+        "v0": null,
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-rss3": {
+      "git": {
+        "repo": "rss3-network/elizaos-plugin-rss3",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-rss3",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-rss-feed": {
+      "git": {
+        "repo": "jasny/elizaos-rss-feed",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-rss-feed",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-safe": {
+      "git": {
+        "repo": "5afe/plugin-safe",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-safe",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-sei": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-sei",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-sei",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-sgx": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-sgx",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-sgx",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-siwe": {
+      "git": {
+        "repo": "DimaKush/plugin-siwe",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-siwe",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-solana": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-solana",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-solana",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-solana-agent-kit": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-solana-agent-kit",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-solana-agent-kit",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-sonic": {
+      "git": {
+        "repo": "thopatevijay/plugin-sonic",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-sonic",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-spheron": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-spheron",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-spheron",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-sql": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-sql",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.6",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-sql",
+        "v0": null,
+        "v1": "1.0.6"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-stargaze": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-stargaze",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-stargaze",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-starknet": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-starknet",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-starknet",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-storacha": {
+      "git": {
+        "repo": "storacha/elizaos-plugin",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.2.1",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-storacha",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-storage-s3": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-storage-s3",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-storage-s3",
+        "v0": null,
+        "v1": "1.0.3"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-story": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-story",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-story",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-sui": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-sui",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-sui",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-tee": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-tee",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.2",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-tee",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.2"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-tee-log": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-tee-log",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-tee-log",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-tee-marlin": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-tee-marlin",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-tee-marlin",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-telegram": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-telegram",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.2",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-telegram",
+        "v0": null,
+        "v1": "1.0.2"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-thirdweb": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-thirdweb",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-thirdweb",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-ton": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-ton",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-ton",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-trn": {
+      "git": {
+        "repo": "Gen3Games/plugin-trn",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-trn",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-trustgo": {
+      "git": {
+        "repo": "TrustaLabs/plugin-trustgo",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-trustgo",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-tts": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-tts",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-tts",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-twilio": {
+      "git": {
+        "repo": "boolkeys/plugin-twilio",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-twilio",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-twitter": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-twitter",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.9",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-twitter",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.9"
+      },
+      "supports": {
+        "v0": true,
+        "v1": true
+      }
+    },
+    "@elizaos/plugin-twitter-rss": {
+      "git": {
+        "repo": "Dexploarer/elizaos-rss-plugin",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-twitter-rss",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-venice": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-venice",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-venice",
+        "v0": null,
+        "v1": "1.0.0-beta.41"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-viction": {
+      "git": {
+        "repo": "BuildOnViction/plugin-viction",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-viction",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-video-generation": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-video-generation",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-video-generation",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-video-understanding": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-video-understanding",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.2",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-video-understanding",
+        "v0": null,
+        "v1": "1.0.2"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    },
+    "@elizaos-plugins/plugin-web-search": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-web-search",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-web-search",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-whatsapp": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-whatsapp",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-whatsapp",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-xdc": {
+      "git": {
+        "repo": "xdc-community/plugin-xdc",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-xdc",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-youtube-to-text": {
+      "git": {
+        "repo": "wellaios/plugin-youtube-to-text",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-youtube-to-text",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-youtube-transcription": {
+      "git": {
+        "repo": "prismadic/elizaos-plugin-youtube-transcription",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-youtube-transcription",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-zapper": {
+      "git": {
+        "repo": "ben-dh3/plugin-zapper",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-zapper",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-zerion": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-zerion",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-zerion",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-zksync-era": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-zksync-era",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-zksync-era",
+        "v0": "0.25.6-alpha.1",
+        "v1": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-zytron": {
+      "git": {
+        "repo": "zypher-network/plugin-zytron",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-zytron",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-cardano": {
+      "git": {
+        "repo": "relipasoft/plugin-cardano",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-cardano",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-reveel-payid": {
+      "git": {
+        "repo": "r3vl/plugin-reveel-payid",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-reveel-payid",
+        "v0": null,
+        "v1": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      }
+    },
+    "@elizaos-plugins/plugin-xmtp": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-xmtp",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.4",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-xmtp",
+        "v0": null,
+        "v1": "1.0.4"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      }
+    }
+  }
+}
