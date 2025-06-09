@@ -32,7 +32,7 @@ cd eliza-plugin-starter
 
 # Configure and build
 cp .env.example .env
-pnpm install && pnpm build
+bun install && bun build
 
 # Launch development
 pnpm start
@@ -98,7 +98,7 @@ json{
         }
     },
     "dependencies": {
-        "@elizaos/core": "^0.1.7"
+        "@elizaos/core": "^1.0.0"
     },
     "scripts": {
         "build": "tsc && cp -R src/plugins dist/plugins",
@@ -212,7 +212,7 @@ Transform your AI agents with groundbreaking capabilities that push the boundari
 
 ## 🔧 Installation
 ```bash
-npm install @elizaos/plugin-revolutionary
+bun add @elizaos/plugin-revolutionary
 ⚙️ Configuration
 Set these environment variables to unlock full power:
 
