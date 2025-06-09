@@ -245,23 +245,31 @@ git clone https://github.com/elizaos-plugins/registry.git
 cd registry
 git checkout -b add-revolutionary-plugin
 2. Add Your Plugin Entry
-Edit index.json with surgical precision:
-json{
-    "name": "@elizaos/plugin-revolutionary",
-    "description": "Revolutionary AI agent capabilities that change everything",
-    "repository": "https://github.com/your-username/elizaos-plugin-revolutionary",
-    "author": "Revolutionary Developer",
-    "version": "1.0.0",
-    "category": "utility",
-    "tags": ["revolutionary", "game-changing", "ai-agent"],
-    "license": "MIT",
-    "verified": false
-}
-3. Submit Your Masterpiece
-bashgit add index.json
-git commit -m "Add revolutionary plugin - changes everything"
-git push origin add-revolutionary-plugin
-Create a pull request with:
++Edit **registry/index.json** (alphabetical order!):
++
++```json
++{
++  "@elizaos-plugins/plugin-rapid-reasoner": "github:elizaos-plugins/plugin-rapid-reasoner",
++  "@elizaos-plugins/plugin-revolutionary": "github:your-username/elizaos-plugin-revolutionary",
++  "@elizaos-plugins/plugin-sei": "github:elizaos-plugins/plugin-sei",
++  "__v2": {}
++}
++```
++
++> **Format rules**  
++> • One key → value pair per plugin (`package-name` → `repo-URL`).  
++> • Keep the `@elizaos-plugins` scope.  
++> • Maintain strict alphabetical order.  
++> • Don’t touch the `__v2` block.
+
+# Stage only the new registry entry
+git add registry/index.json
+
+# Commit it
+git commit -m "Add @elizaos-plugins/plugin-revolutionary – changes everything"
+
+# Push your feature branch (replace with whatever you called it)
+git push -u origin add-revolutionary-plugin
 
 Title: Add [Plugin Name] - [Brief Description]
 Description: Comprehensive overview of capabilities and testing results
