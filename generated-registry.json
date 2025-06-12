@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-11T21:19:26.940Z",
+  "lastUpdatedAt": "2025-06-13T00:08:36.398Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -538,7 +538,7 @@
         },
         "v1": {
           "version": null,
-          "branch": "1.x"
+          "branch": null
         }
       },
       "npm": {
@@ -548,7 +548,7 @@
       },
       "supports": {
         "v0": true,
-        "v1": true
+        "v1": false
       }
     },
     "@elizaos-plugins/plugin-allora": {
@@ -1989,14 +1989,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.4",
+          "version": "1.0.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.4"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": false,
@@ -2100,7 +2100,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2165,14 +2165,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.6",
+          "version": "v1.0.7",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-mcp",
         "v0": null,
-        "v1": "1.0.6"
+        "v1": "1.0.7"
       },
       "supports": {
         "v0": false,
@@ -2254,7 +2254,7 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -2264,7 +2264,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-movement": {
@@ -2518,7 +2518,7 @@
         },
         "v1": {
           "version": "v1.0.3",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {

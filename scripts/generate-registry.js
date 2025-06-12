@@ -194,15 +194,21 @@ async function processRepo(npmId, gitRef, octokit) {
   let supportsV1 = false;
 
   for (const pkg of pkgs) {
-    if (pkg.coreRange) {
-      const satisfiesV0 = semver.satisfies("0.9.0", pkg.coreRange);
-      const satisfiesV1 = semver.satisfies("1.0.0", pkg.coreRange);
+    if (pkg.version && pkg.coreRange) {
+      const pkgMajor = semver.major(semver.clean(pkg.version));
+      const satisfiesV0Core = semver.satisfies("0.9.0", pkg.coreRange);
+      const satisfiesV1Core = semver.satisfies("1.0.0", pkg.coreRange);
 
-      if (satisfiesV0) {
+      // For v0: package version must be < 1.0.0 AND core dependency should be compatible
+      // Branches can be "0.x" or "main"
+      if (pkgMajor === 0 && satisfiesV0Core) {
         supportsV0 = true;
         supportedBranches.v0 = pkg.branch;
       }
-      if (satisfiesV1) {
+      
+      // For v1: package version must be >= 1.0.0 AND core dependency should be compatible
+      // Only set v1 branch if the package version is actually v1
+      if (pkgMajor >= 1 && satisfiesV1Core) {
         supportsV1 = true;
         supportedBranches.v1 = pkg.branch;
       }
@@ -212,11 +218,18 @@ async function processRepo(npmId, gitRef, octokit) {
   const [gitTagInfo, npmInfo] = await Promise.all([tagsPromise, npmPromise]);
 
   // Set version support based on npm versions first (more reliable)
+  // But ensure version constraints are respected
   if (npmInfo?.v0) {
-    supportsV0 = true;
+    const v0Major = semver.major(semver.clean(npmInfo.v0));
+    if (v0Major === 0) {
+      supportsV0 = true;
+    }
   }
   if (npmInfo?.v1) {
-    supportsV1 = true;
+    const v1Major = semver.major(semver.clean(npmInfo.v1));
+    if (v1Major >= 1) {
+      supportsV1 = true;
+    }
   }
 
   console.log(`${npmId} → v0:${supportsV0} v1:${supportsV1}`);
@@ -235,10 +248,8 @@ async function processRepo(npmId, gitRef, octokit) {
     },
   };
 
-  // Set version support flags based on both branch detection and npm versions
-  // Prioritize npm data when available
-  supportsV0 = supportsV0 || !!supportedBranches.v0 || !!npmInfo?.v0;
-  supportsV1 = supportsV1 || !!supportedBranches.v1 || !!npmInfo?.v1;
+  // Version support flags have already been properly set based on version constraints
+  // No need to override them here
 
   return [
     npmId,
