@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-06-11T21:19:26.940Z",
+  "lastUpdatedAt": "2025-06-12T15:06:43.680Z",
   "registry": {
     "@elizaos-plugins/adapter-mongodb": {
       "git": {
@@ -1989,14 +1989,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.4",
+          "version": "1.0.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.4"
+        "v1": "1.0.5"
       },
       "supports": {
         "v0": false,
@@ -2100,7 +2100,7 @@
         },
         "v1": {
           "version": "v1.0.4",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2232,7 +2232,7 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "master"
         }
       },
       "npm": {
@@ -2242,7 +2242,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-morpheus": {
@@ -2250,11 +2250,11 @@
         "repo": "bowtiedbluefin/plugin-morpheus",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -2263,8 +2263,8 @@
         "v1": null
       },
       "supports": {
-        "v0": false,
-        "v1": false
+        "v0": true,
+        "v1": true
       }
     },
     "@elizaos-plugins/plugin-movement": {
@@ -2518,7 +2518,7 @@
         },
         "v1": {
           "version": "v1.0.3",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
