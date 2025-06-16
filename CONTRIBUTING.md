@@ -1,8 +1,8 @@
-Contributing to ElizaOS Plugin Registry 🚀
+# Contributing to ElizaOS Plugin Registry 🚀
 Welcome to the ElizaOS Plugin Registry - the epicenter of autonomous agent innovation! This registry powers 183+ official plugins and serves as the gateway for developers worldwide to contribute to the future of AI agents.
-🎯 Mission Statement
+## 🎯 Mission Statement
 The ElizaOS Plugin Registry is where cutting-edge AI agent capabilities are born, tested, and distributed to the global community. Every plugin here represents a step toward more capable, versatile, and powerful autonomous agents.
-🔥 What Makes a Registry-Worthy Plugin
+## 🔥 What Makes a Registry-Worthy Plugin
 Your plugin isn't just code - it's a contribution to the AI agent revolution. To earn a spot in this registry, your plugin must be:
 
 🛡️ Production-Ready: Robust error handling, comprehensive testing, and bulletproof security
@@ -11,12 +11,13 @@ Your plugin isn't just code - it's a contribution to the AI agent revolution. To
 🎨 Professionally Branded: Quality visual assets that represent your plugin's capabilities
 🧪 Thoroughly Tested: Comprehensive test coverage with both unit and integration tests
 
-🚀 Quick Start: Adding Your Plugin
+## 🚀 Quick Start: Adding Your Plugin
 Ready to join the elite? Here's your path to registry inclusion:
-Step 1: Develop Your Plugin
+### Step 1: Develop Your Plugin
 Use our battle-tested development approaches:
-Option A: ElizaOS CLI (Recommended for New Devs)
-bash# Get the tools of the trade
+#### Option A: ElizaOS CLI (Recommended for New Devs)
+```bash
+# Get the tools of the trade
 npm install -g elizaos
 
 # Create your masterpiece
@@ -25,8 +26,10 @@ cd my-revolutionary-plugin
 
 # Start building with hot reloading
 elizaos dev
-Option B: Plugin Starter Template (For the Experienced)
-bash# Clone the proven foundation
+```
+#### Option B: Plugin Starter Template (For the Experienced)
+```bash
+# Clone the proven foundation
 git clone https://github.com/elizaos/eliza-plugin-starter.git
 cd eliza-plugin-starter
 
@@ -35,9 +38,11 @@ cp .env.example .env
 bun install && bun build
 
 # Launch development
-pnpm start
-Option C: Full Repository Development (For the Hardcore)
-bash# Get the complete ElizaOS source
+bun start
+```
+#### Option C: Full Repository Development (For the Hardcore)
+```bash
+# Get the complete ElizaOS source
 git clone https://github.com/elizaos/eliza.git
 cd eliza
 
@@ -46,11 +51,16 @@ git checkout $(git describe --tags --abbrev=0)
 
 # Setup and build
 cp .env.example .env
-pnpm install --include=optional sharp
-pnpm build && pnpm start
-Step 2: Follow the Sacred Architecture
+bun install --include=optional sharp
+bun build && bun start
+```
+
+### Step 2: Follow the Sacred Architecture
+
 Every registry plugin must implement the core interface:
-typescriptinterface Plugin {
+
+```typescript
+interface Plugin {
     name: string;                    // Your plugin's unique identity
     description: string;             // What makes it special
     actions?: Action[];              // The magic it performs
@@ -61,8 +71,13 @@ typescriptinterface Plugin {
     adapters?: Adapter[];            // Data transformation
     init?: (config, runtime) => Promise<void>; // Initialization ritual
 }
-Step 3: Structure Like a Pro
+```
+
+### Step 3: Structure Like a Pro
+
 Your plugin repository must follow our battle-tested structure:
+
+```
 your-plugin/
 ├── images/                        # 🎨 Visual branding assets
 │   ├── logo.png                   # Square logo (400x400px)
@@ -79,10 +94,16 @@ your-plugin/
 ├── tests/                         # 🧪 Comprehensive test suite
 ├── package.json                   # 📦 Plugin manifest
 └── README.md                      # 📖 Your plugin's story
-💎 Registry Standards
-Package Configuration Perfection
+```
+
+## 💎 Registry Standards
+
+### Package Configuration Perfection
+
 Your package.json must include our registry metadata:
-json{
+
+```json
+{
     "name": "@elizaos/plugin-revolutionary",
     "version": "1.0.0",
     "type": "module",
@@ -107,20 +128,25 @@ json{
         "format": "prettier --write src"
     }
 }
-Action Implementation Excellence
+```
+
+### Action Implementation Excellence
+
 Actions are where your plugin shines. Make them count:
-typescriptimport { Action, HandlerCallback, IAgentRuntime, Memory, State } from '@elizaos/core';
+
+```typescript
+import { Action, HandlerCallback, IAgentRuntime, Memory, State } from '@elizaos/core';
 
 export const revolutionaryAction: Action = {
     name: "REVOLUTIONARY_TASK",
     similes: ["AMAZING_TASK", "INCREDIBLE_FEAT"],
     description: "Performs revolutionary AI agent task",
-    
+
     validate: async (runtime: IAgentRuntime, message: Memory) => {
         // Bulletproof validation
         return true;
     },
-    
+
     handler: async (
         runtime: IAgentRuntime,
         message: Memory,
@@ -143,7 +169,7 @@ export const revolutionaryAction: Action = {
             return false;
         }
     },
-    
+
     examples: [
         [
             {
@@ -157,9 +183,14 @@ export const revolutionaryAction: Action = {
         ]
     ]
 };
-Provider Power
+```
+
+### Provider Power
+
 Providers fuel your agent's intelligence:
-typescriptimport { Provider, IAgentRuntime, Memory } from '@elizaos/core';
+
+```typescript
+import { Provider, IAgentRuntime, Memory } from '@elizaos/core';
 
 export const intelligenceProvider: Provider = {
     get: async (runtime: IAgentRuntime, message: Memory) => {
@@ -171,9 +202,14 @@ export const intelligenceProvider: Provider = {
         }
     },
 };
-🧪 Testing Like a Champion
+```
+
+## 🧪 Testing Like a Champion
+
 Your plugin must pass our rigorous testing standards:
-typescriptimport { describe, it, expect, beforeEach } from '@jest/globals';
+
+```typescript
+import { describe, it, expect, beforeEach } from '@jest/globals';
 import { runAiTest } from "@elizaos/core/test_resources";
 import revolutionaryPlugin from '../src/index';
 
@@ -198,9 +234,14 @@ describe('Revolutionary Plugin', () => {
         // Test edge cases, error conditions, and boundary scenarios
     });
 });
-📖 Documentation That Inspires
+```
+
+## 📖 Documentation That Inspires
+
 Your README.md must tell an compelling story:
-markdown# 🚀 Revolutionary Plugin
+
+```markdown
+# 🚀 Revolutionary Plugin
 
 Transform your AI agents with groundbreaking capabilities that push the boundaries of what's possible.
 
@@ -213,14 +254,17 @@ Transform your AI agents with groundbreaking capabilities that push the boundari
 ## 🔧 Installation
 ```bash
 bun add @elizaos/plugin-revolutionary
-⚙️ Configuration
+```
+
+## ⚙️ Configuration
 Set these environment variables to unlock full power:
 
-REVOLUTIONARY_API_KEY: Your access to revolutionary capabilities
-ADVANCED_MODE: Optional - Enable advanced features (default: false)
+- `REVOLUTIONARY_API_KEY`: Your access to revolutionary capabilities
+- `ADVANCED_MODE`: Optional - Enable advanced features (default: false)
 
-🎮 Usage
-json{
+## 🎮 Usage
+```json
+{
   "plugins": ["@elizaos/plugin-revolutionary"],
   "settings": {
     "secrets": {
@@ -228,12 +272,12 @@ json{
     }
   }
 }
-💡 Examples That Inspire
-Show real-world usage scenarios with expected outputs.
-🔍 API Reference
-Document every action, provider, and service with precision.
-🛠️ Troubleshooting
-Solutions for every challenge users might face.
+```
+
+- 💡 **Examples That Inspire**: Show real-world usage scenarios with expected outputs.
+- 🔍 **API Reference**: Document every action, provider, and service with precision.
+- 🛠️ **Troubleshooting**: Solutions for every challenge users might face.
+```
 
 ## 🎯 Registry Submission Process
 
@@ -244,134 +288,147 @@ Ready to join the elite? Follow this exact process:
 git clone https://github.com/elizaos-plugins/registry.git
 cd registry
 git checkout -b add-revolutionary-plugin
-2. Add Your Plugin Entry
-+Edit **registry/index.json** (alphabetical order!):
-+
-+```json
-+{
-+  "@elizaos-plugins/plugin-rapid-reasoner": "github:elizaos-plugins/plugin-rapid-reasoner",
-+  "@elizaos-plugins/plugin-revolutionary": "github:your-username/elizaos-plugin-revolutionary",
-+  "@elizaos-plugins/plugin-sei": "github:elizaos-plugins/plugin-sei",
-+  "__v2": {}
-+}
-+```
-+
-+> **Format rules**  
-+> • One key → value pair per plugin (`package-name` → `repo-URL`).  
-+> • Keep the `@elizaos-plugins` scope.  
-+> • Maintain strict alphabetical order.  
-+> • Don’t touch the `__v2` block.
+```
 
+### 2. Add Your Plugin Entry
+
+Edit **index.json** (alphabetical order!):
+
+> **⚠️ Important Format Note**: The current registry format is locked for ecosystem compatibility. While we're considering format improvements, changes require coordination with the CI and CLI systems.
+
+```json
+{
+  "@elizaos-plugins/plugin-rapid-reasoner": "github:elizaos-plugins/plugin-rapid-reasoner",
+  "@elizaos-plugins/plugin-revolutionary": "github:your-username/elizaos-plugin-revolutionary",
+  "@elizaos-plugins/plugin-sei": "github:elizaos-plugins/plugin-sei"
+}
+```
+
+**Format rules:**
+- One key → value pair per plugin (`package-name` → `repo-URL`)
+- Keep the `@elizaos-plugins` scope
+- Maintain strict alphabetical order
+- Follow the current simple key-value structure
+
+### 3. Submit Your Pull Request
+```bash
 # Stage only the new registry entry
-git add registry/index.json
-
+git add index.json
 # Commit it
 git commit -m "Add @elizaos-plugins/plugin-revolutionary – changes everything"
-
-# Push your feature branch (replace with whatever you called it)
+# Push your feature branch
 git push -u origin add-revolutionary-plugin
+```
 
-Title: Add [Plugin Name] - [Brief Description]
-Description: Comprehensive overview of capabilities and testing results
-Links: Repository, NPM package, documentation, and demo videos
+**PR Requirements:**
+- **Title**: Add [Plugin Name] - [Brief Description]
+- **Description**: Comprehensive overview of capabilities and testing results
+- **Links**: Repository, NPM package, documentation, and demo videos
 
-🔍 Review Process
+## 🔍 Review Process
+
 Our elite review team evaluates every submission on:
-🛡️ Security Assessment
 
-Code security scanning for vulnerabilities
-API key and secret handling verification
-Input validation and sanitization review
-Error handling and graceful degradation testing
+### 🛡️ Security Assessment
+- Code security scanning for vulnerabilities
+- API key and secret handling verification
+- Input validation and sanitization review
+- Error handling and graceful degradation testing
 
-⚡ Performance Evaluation
+### ⚡ Performance Evaluation
+- Load testing and performance benchmarking
+- Memory usage and resource efficiency analysis
+- Response time optimization verification
+- Scalability assessment for production use
 
-Load testing and performance benchmarking
-Memory usage and resource efficiency analysis
-Response time optimization verification
-Scalability assessment for production use
+### 📚 Documentation Quality
+- README completeness and clarity
+- Code documentation and JSDoc coverage
+- Example quality and real-world applicability
+- Troubleshooting guide effectiveness
 
-📚 Documentation Quality
+### 🧪 Testing Standards
+- Test coverage minimum 80% for critical paths
+- Integration testing with ElizaOS core
+- Cross-platform compatibility verification
+- Error scenario and edge case coverage
 
-README completeness and clarity
-Code documentation and JSDoc coverage
-Example quality and real-world applicability
-Troubleshooting guide effectiveness
+## 🏆 Registry Categories
 
-🧪 Testing Standards
-
-Test coverage minimum 80% for critical paths
-Integration testing with ElizaOS core
-Cross-platform compatibility verification
-Error scenario and edge case coverage
-
-🏆 Registry Categories
 Choose your plugin's destiny:
 
-🔗 Blockchain: DeFi, NFT, and Web3 integrations
-🤝 Social: Discord, Twitter, Telegram, and platform clients
-🛠️ Utility: Helper functions and agent enhancement tools
-📊 Analytics: Data processing and intelligence gathering
-🎨 Creative: Content generation and artistic capabilities
-🔐 Security: Authentication, encryption, and safety features
-🌐 Integration: Third-party service connections and APIs
+- 🔗 **Blockchain**: DeFi, NFT, and Web3 integrations
+- 🤝 **Social**: Discord, Twitter, Telegram, and platform clients
+- 🛠️ **Utility**: Helper functions and agent enhancement tools
+- 📊 **Analytics**: Data processing and intelligence gathering
+- 🎨 **Creative**: Content generation and artistic capabilities
+- 🔐 **Security**: Authentication, encryption, and safety features
+- 🌐 **Integration**: Third-party service connections and APIs
 
-🚨 Critical Requirements
+## 🚨 Critical Requirements
+
 Your plugin will be rejected if it:
 
-❌ Contains hardcoded secrets or API keys
-❌ Lacks proper error handling or crashes the agent
-❌ Has insufficient documentation or examples
-❌ Fails security or performance benchmarks
-❌ Violates our code standards or best practices
-❌ Doesn't include comprehensive test coverage
+- ❌ Contains hardcoded secrets or API keys
+- ❌ Lacks proper error handling or crashes the agent
+- ❌ Has insufficient documentation or examples
+- ❌ Fails security or performance benchmarks
+- ❌ Violates our code standards or best practices
+- ❌ Doesn't include comprehensive test coverage
 
-🎖️ Verification and Promotion
+## 🎖️ Verification and Promotion
+
 Exceptional plugins earn special recognition:
-🌟 Verified Status
+
+### 🌟 Verified Status
 Plugins that exceed our standards receive verification badges and:
+- Featured placement in registry listings
+- Highlighted in official ElizaOS documentation
+- Promoted in community showcases and demos
+- Priority support and maintenance assistance
 
-Featured placement in registry listings
-Highlighted in official ElizaOS documentation
-Promoted in community showcases and demos
-Priority support and maintenance assistance
-
-🏅 Hall of Fame
+### 🏅 Hall of Fame
 Revolutionary plugins that transform the ecosystem join our Hall of Fame with:
+- Permanent featured status
+- Official ElizaOS team endorsement
+- Conference speaking opportunities
+- Direct collaboration with core development team
 
-Permanent featured status
-Official ElizaOS team endorsement
-Conference speaking opportunities
-Direct collaboration with core development team
+## 🤝 Community and Support
 
-🤝 Community and Support
 Join the revolution:
 
-Discord: Connect with plugin developers and core team
-GitHub Discussions: Share ideas and get technical help
-Documentation: Comprehensive guides and tutorials
-Office Hours: Weekly sessions with core developers
+- **Discord**: Connect with plugin developers and core team
+- **GitHub Discussions**: Share ideas and get technical help
+- **Documentation**: Comprehensive guides and tutorials
+- **Office Hours**: Weekly sessions with core developers
 
-📈 Success Metrics
+## 📈 Success Metrics
+
 Track your plugin's impact:
 
-Downloads: NPM install statistics
-Usage: Agent deployment metrics
-Community: GitHub stars and forks
-Feedback: User reviews and contributions
+- **Downloads**: NPM install statistics
+- **Usage**: Agent deployment metrics
+- **Community**: GitHub stars and forks
+- **Feedback**: User reviews and contributions
 
-🔮 Future Roadmap
+## 🔮 Future Roadmap
+
 The registry is constantly evolving:
 
-AI-Powered Discovery: Intelligent plugin recommendations
-Advanced Analytics: Detailed usage and performance metrics
-Automated Testing: Continuous integration and deployment
-Marketplace Integration: Commercial plugin distribution options
+- **AI-Powered Discovery**: Intelligent plugin recommendations
+- **Advanced Analytics**: Detailed usage and performance metrics
+- **Automated Testing**: Continuous integration and deployment
+- **Marketplace Integration**: Commercial plugin distribution options
 
+## 🚀 Ready to Change Everything?
 
-🚀 Ready to Change Everything?
 The ElizaOS ecosystem needs YOUR revolutionary ideas. Whether you're building the next breakthrough in AI agent capabilities or solving a specific problem that's been holding back the community, this registry is where your contribution becomes part of the future.
-Every plugin in this registry represents a step toward more capable, intelligent, and autonomous agents. What will YOUR contribution be?
-Start building today. The future is waiting for your plugin.
 
-Built with ❤️ by the ElizaOS community | Contributing to the future of autonomous agents
+Every plugin in this registry represents a step toward more capable, intelligent, and autonomous agents. What will YOUR contribution be?
+
+**Start building today. The future is waiting for your plugin.**
+
+---
+
+*Built with ❤️ by the ElizaOS community | Contributing to the future of autonomous agents*
