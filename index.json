@@ -176,7 +176,7 @@
     "@elizaos-plugins/plugin-zerion": "github:elizaos-plugins/plugin-zerion",
     "@elizaos-plugins/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
     "@elizaos-plugins/plugin-zytron": "github:zypher-network/plugin-zytron",
-    "@elizaos-plugins/plugin-cardano": "github:relipasoft/plugin-cardano",
+    "@elizaos-plugins/plugin-cardano": "github:elizaos-plugins/plugin-cardano",
     "@elizaos-plugins/plugin-reveel-payid": "github:r3vl/plugin-reveel-payid",
     "@elizaos-plugins/plugin-xmtp": "github:elizaos-plugins/plugin-xmtp",
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge"
