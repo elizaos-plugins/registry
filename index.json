@@ -181,6 +181,7 @@
     "@elizaos/plugin-cardano": "github:relipasoft/plugin-cardano",
     "@elizaos/plugin-reveel-payid": "github:r3vl/plugin-reveel-payid",
     "@elizaos/plugin-xmtp": "github:elizaos-plugins/plugin-xmtp",
+    "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
     "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge"
 }
