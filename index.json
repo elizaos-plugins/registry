@@ -183,6 +183,7 @@
     "@elizaos/plugin-xmtp": "github:elizaos-plugins/plugin-xmtp",
     "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
     "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
+    "@manuelbarbas/plugin-fair": "github:manuelbarbas/plugin-fair",
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
     "plugin-desearch": "github:Desearch-ai/plugin-desearch"
 }
