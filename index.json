@@ -200,4 +200,5 @@
     "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
     "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai"
+    "plugin-fluxpoint-kg": "github:RolandOne/plugin-fluxpoint-kg",
 }
