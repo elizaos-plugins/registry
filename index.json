@@ -185,6 +185,7 @@
     "@elizaos/plugin-video-generation": "github:elizaos-plugins/plugin-video-generation",
     "@elizaos/plugin-video-understanding": "github:elizaos-plugins/plugin-video-understanding",
     "@elizaos/plugin-web-search": "github:elizaos-plugins/plugin-web-search",
+    "@elizaos/plugin-wolfram": "github:elizaos-plugins/plugin-wolfram",
     "@elizaos/plugin-whatsapp": "github:elizaos-plugins/plugin-whatsapp",
     "@elizaos/plugin-xdc": "github:xdc-community/plugin-xdc",
     "@elizaos/plugin-youtube-to-text": "github:wellaios/plugin-youtube-to-text",
