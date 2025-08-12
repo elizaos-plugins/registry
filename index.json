@@ -200,5 +200,6 @@
     "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
     "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
-    "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai"
+    "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai",
+    "@elizaos/plugin-action-bench": "github:elizaos-plugins/plugin-action-bench"
 }
