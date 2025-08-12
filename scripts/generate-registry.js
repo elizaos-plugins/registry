@@ -57,6 +57,42 @@ async function getGitHubBranches(owner, repo, octokit, retries = CONFIG.RETRY_AT
   return [];
 }
 
+// Get GitHub repository information (including description) with retry logic
+async function getGitHubRepoInfo(owner, repo, octokit, retries = CONFIG.RETRY_ATTEMPTS) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const { data } = await octokit.rest.repos.get({ owner, repo });
+      return {
+        description: data.description || null,
+        homepage: data.homepage || null,
+        topics: data.topics || [],
+        stargazers_count: data.stargazers_count || 0,
+        language: data.language || null
+      };
+    } catch (error) {
+      if (attempt === retries) {
+        console.warn(`  Failed to get repo info for ${owner}/${repo} after ${retries} attempts: ${error.message}`);
+        return {
+          description: null,
+          homepage: null,
+          topics: [],
+          stargazers_count: 0,
+          language: null
+        };
+      }
+      // Wait before retry (exponential backoff)
+      await new Promise(resolve => setTimeout(resolve, 1000 * Math.pow(2, attempt - 1)));
+    }
+  }
+  return {
+    description: null,
+    homepage: null,
+    topics: [],
+    stargazers_count: 0,
+    language: null
+  };
+}
+
 // Fetch package.json from GitHub with retry logic
 async function fetchPackageJSON(owner, repo, ref, octokit, retries = CONFIG.RETRY_ATTEMPTS) {
   for (let attempt = 1; attempt <= retries; attempt++) {
@@ -190,6 +226,7 @@ async function processRepo(npmId, gitRef, octokit) {
   // Kick off remote calls
   const branchesPromise = getGitHubBranches(owner, repo, octokit);
   const tagsPromise = getLatestGitTags(owner, repo, octokit);
+  const repoInfoPromise = getGitHubRepoInfo(owner, repo, octokit);
   const npmPromise = inspectNpm(guessNpmName(npmId));
 
   // Support detection via package.json across relevant branches
@@ -251,7 +288,7 @@ async function processRepo(npmId, gitRef, octokit) {
     }
   }
 
-  const [gitTagInfo, npmInfo] = await Promise.all([tagsPromise, npmPromise]);
+  const [gitTagInfo, npmInfo, repoInfo] = await Promise.all([tagsPromise, npmPromise, repoInfoPromise]);
 
   // Set version support based on npm versions first (more reliable)
   // But ensure version constraints are respected
@@ -293,6 +330,11 @@ async function processRepo(npmId, gitRef, octokit) {
       git: gitInfo,
       npm: npmInfo,
       supports: { v0: supportsV0, v1: supportsV1 },
+      description: repoInfo.description,
+      homepage: repoInfo.homepage,
+      topics: repoInfo.topics,
+      stargazers_count: repoInfo.stargazers_count,
+      language: repoInfo.language,
     },
     issues,
   ];

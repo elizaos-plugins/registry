@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "index.json"
   workflow_dispatch: # Allow manual triggering
 
 jobs:
