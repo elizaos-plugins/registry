@@ -30,6 +30,56 @@ async function safeFetchJSON(url) {
   }
 }
 
+// Helper function to normalize dependency ranges for semver checks
+function normalizeDependencyRange(depRange) {
+  if (!depRange || typeof depRange !== 'string') {
+    return null;
+  }
+  
+  // Handle common edge cases
+  const trimmed = depRange.trim();
+  
+  // Handle "latest" - treat as very high version that satisfies anything
+  if (trimmed === 'latest') {
+    return '>=0.0.0';
+  }
+  
+  // Handle exact versions without operators (e.g., "0.25.6-alpha.1", "1.0.0")
+  if (semver.valid(semver.clean(trimmed))) {
+    // If it's an exact version, convert to ">=" range
+    const cleanVersion = semver.clean(trimmed);
+    return `>=${cleanVersion}`;
+  }
+  
+  // Handle URL dependencies or invalid ranges
+  if (trimmed.startsWith('http') || trimmed.startsWith('git') || trimmed.startsWith('file:')) {
+    return null;
+  }
+  
+  // Try to validate the range as-is
+  try {
+    // Test if semver can parse this range
+    semver.validRange(trimmed);
+    return trimmed;
+  } catch {
+    return null;
+  }
+}
+
+// Helper function to safely check semver satisfaction
+function safelyCheckSemverSatisfies(version, range) {
+  try {
+    const normalizedRange = normalizeDependencyRange(range);
+    if (!normalizedRange) {
+      return false;
+    }
+    return semver.satisfies(version, normalizedRange);
+  } catch (error) {
+    console.warn(`  Failed to check semver satisfies for ${version} against ${range}: ${error.message}`);
+    return false;
+  }
+}
+
 // Parse GitHub reference
 function parseGitRef(gitRef) {
   if (!gitRef.startsWith("github:")) return null;
@@ -287,8 +337,8 @@ async function processRepo(npmId, gitRef, octokit) {
   for (const pkg of pkgs) {
     if (pkg.version && pkg.coreRange) {
       const pkgMajor = semver.major(semver.clean(pkg.version));
-      const satisfiesV0Core = semver.satisfies("0.9.0", pkg.coreRange);
-      const satisfiesV1Core = semver.satisfies("1.0.0", pkg.coreRange);
+      const satisfiesV0Core = safelyCheckSemverSatisfies("0.9.0", pkg.coreRange);
+      const satisfiesV1Core = safelyCheckSemverSatisfies("1.0.0", pkg.coreRange);
 
       // For v0: package version must be < 1.0.0 AND core dependency should be compatible
       // Branches can be "0.x" or "main"
@@ -312,14 +362,14 @@ async function processRepo(npmId, gitRef, octokit) {
   // Check if NPM versions have proper core dependencies
   if (npmInfo?.v0 && npmInfo?.v0CoreRange) {
     const v0Major = semver.major(semver.clean(npmInfo.v0));
-    const satisfiesV0Core = semver.satisfies("0.9.0", npmInfo.v0CoreRange);
+    const satisfiesV0Core = safelyCheckSemverSatisfies("0.9.0", npmInfo.v0CoreRange);
     if (v0Major === 0 && satisfiesV0Core) {
       supportsV0 = true;
     }
   }
   if (npmInfo?.v1 && npmInfo?.v1CoreRange) {
     const v1Major = semver.major(semver.clean(npmInfo.v1));
-    const satisfiesV1Core = semver.satisfies("1.0.0", npmInfo.v1CoreRange);
+    const satisfiesV1Core = safelyCheckSemverSatisfies("1.0.0", npmInfo.v1CoreRange);
     if (v1Major >= 1 && satisfiesV1Core) {
       supportsV1 = true;
     }
