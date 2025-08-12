@@ -1,12 +1,12 @@
 {
-  "lastUpdatedAt": "2025-08-12T14:58:23.615Z",
+  "lastUpdatedAt": "2025-08-12T15:17:30.280Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
         "repo": "bealers/plugin-mattermost",
         "v0": {
           "version": "v0.5.0",
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -21,7 +21,7 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": null,
@@ -617,7 +617,7 @@
         "repo": "ephemeraHQ/client-xmtp",
         "v0": {
           "version": "0.25.6-alpha.1",
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -632,7 +632,7 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": null,
@@ -650,7 +650,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -662,7 +662,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for integrating ElizaOS with the Zero Gravity (0G) protocol for decentralized file storage, enabling file uploads to the 0G network.",
       "homepage": null,
@@ -1178,7 +1178,7 @@
         },
         "v1": {
           "version": "v1.0.1",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -1190,7 +1190,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Amazon Bedrock plugin for ElizaOS - integrates Claude, Titan, and other foundation models",
       "homepage": null,
@@ -1207,7 +1207,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -1219,7 +1219,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Enables Eliza to interact with Binance for price checks, trades, and managing wallet balances.",
       "homepage": null,
@@ -1268,7 +1268,7 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -1280,7 +1280,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -1581,7 +1581,7 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -1593,7 +1593,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -1642,7 +1642,7 @@
         },
         "v1": {
           "version": "v1.0.1",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -1654,7 +1654,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for Eliza that enables real-time cryptocurrency price checking using the CoinMarketCap API.",
       "homepage": null,
@@ -1699,7 +1699,7 @@
         "repo": "amit0365/plugin-computer-use",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -1714,7 +1714,7 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": null,
@@ -1891,7 +1891,7 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -1903,7 +1903,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "ElizaOS plugin allowing agents to use deBridge",
       "homepage": null,
@@ -2111,7 +2111,7 @@
         },
         "v1": {
           "version": "v1.0.2",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2123,7 +2123,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Enables ELIZA to interact in chat rooms with dynamic conversational capabilities.",
       "homepage": null,
@@ -2175,7 +2175,7 @@
         },
         "v1": {
           "version": "v1.0.5",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2187,7 +2187,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -2705,7 +2705,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2717,7 +2717,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for integrating blockchain capabilities into the ElizaOS ecosystem using the GOAT framework, enabling AI agents to interact with blockchain protocols.",
       "homepage": null,
@@ -2890,7 +2890,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2902,7 +2902,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Enables token swapping on Holdstation DEX with support for ZKsync Era and upcoming Berachain.",
       "homepage": null,
@@ -2950,7 +2950,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -2962,7 +2962,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A powerful plugin for managing GPU instances on the Hyperbolic platform through Eliza AI.",
       "homepage": null,
@@ -3041,7 +3041,7 @@
         "repo": "iExecBlockchainComputing/plugin-iexec",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -3056,7 +3056,7 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": "An ElizaOS iExec Plugin",
@@ -3109,7 +3109,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -3121,7 +3121,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Provides comprehensive interaction with the Injective blockchain through module-based action creation.",
       "homepage": null,
@@ -3169,7 +3169,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -3181,7 +3181,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for ElizaOS that integrates Irys for decentralized data storage and retrieval, enabling multi-agent collaboration.",
       "homepage": null,
@@ -3231,7 +3231,7 @@
         "repo": "kaiachain/kaia-eliza-plugin",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": "1.0.0",
@@ -3246,8 +3246,8 @@
         "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": false,
-        "v1": false
+        "v0": true,
+        "v1": true
       },
       "description": "Kaia Plugin for ElizaOS",
       "homepage": null,
@@ -3596,7 +3596,7 @@
         "repo": "merkle-trade/merkle-eliza-plugin",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -3611,7 +3611,7 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": null,
@@ -3641,7 +3641,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -3658,7 +3658,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -3670,7 +3670,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Enables Mina blockchain interactions for token transfers, wallet management, and balance queries.",
       "homepage": null,
@@ -3747,7 +3747,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -3759,7 +3759,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Enables Movement Network blockchain functionality for Eliza OS agents, allowing them to send MOVE tokens and check wallet balances.",
       "homepage": null,
@@ -3820,7 +3820,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -3832,7 +3832,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "MultiversX blockchain integration plugin for Eliza OS enabling token management and transfers.",
       "homepage": null,
@@ -3852,7 +3852,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -3864,7 +3864,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for Eliza OS that integrates NEAR Protocol for token management, transfers, and swaps via Ref Finance.",
       "homepage": null,
@@ -4034,7 +4034,7 @@
         "repo": "okto-hq/eliza-plugin",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -4049,7 +4049,7 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": "A comprehensive integration plugin for ElizaOS that provides access to Okto's various APIs and services, enabling seamless Web3 interactions.",
@@ -4296,7 +4296,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -4505,7 +4505,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -4517,7 +4517,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Integrates with Pyth Network for real-time price feeds and data streams across multiple asset classes.",
       "homepage": null,
@@ -4610,7 +4610,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Plugin for ElizaOS agents for validation of generated content on the Raiinmaker platform",
       "homepage": "https://www.raiinmaker.com",
@@ -4754,7 +4754,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -4766,7 +4766,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Enables Eliza agents to perform actions on the Sei blockchain, including transferring SEI tokens and querying wallet balances.",
       "homepage": null,
@@ -4940,7 +4940,7 @@
         "repo": "thopatevijay/plugin-sonic",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -4955,7 +4955,7 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": "Core Sonic blockchain plugin for Eliza OS.",
@@ -4977,7 +4977,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -4989,7 +4989,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Integrates the Spheron Protocol SDK with Eliza for deployment, escrow operations, and lease management.",
       "homepage": null,
@@ -5038,7 +5038,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -5050,7 +5050,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Enables cross-chain token swaps between blockchains using the Squid Router protocol.",
       "homepage": null,
@@ -5067,7 +5067,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -5079,7 +5079,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for fetching NFT data from the Stargaze API.",
       "homepage": null,
@@ -5131,7 +5131,7 @@
         },
         "v1": {
           "version": "v1.2.1",
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -5200,7 +5200,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -5212,7 +5212,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Enables interaction with Story Protocol - an IP management system on that allows creators to register, license, and manage their intellectual property assets",
       "homepage": null,
@@ -5387,7 +5387,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -5399,7 +5399,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "This plugin provides access to thirdweb's Nebula AI for analyzing smart contracts and blockchain data.",
       "homepage": null,
@@ -5419,7 +5419,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -5431,7 +5431,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for managing TON (The Open Network) blockchain operations, including wallet management and secure token transfers.",
       "homepage": null,
@@ -5790,7 +5790,7 @@
         },
         "v1": {
           "version": "v1.0.0",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
@@ -5802,7 +5802,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for integrating WhatsApp Cloud API with applications, enabling messaging capabilities and webhook handling.",
       "homepage": null,
@@ -5904,7 +5904,7 @@
         "repo": "ben-dh3/plugin-zapper",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": "1.2.9",
@@ -5919,7 +5919,7 @@
         "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": "Zapper plugin for Eliza OS that provides actions for querying wallet address or Farcaster profile portfolio data.",
@@ -6089,7 +6089,7 @@
         "repo": "elizaos-plugins/plugin-xmtp",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": "v1.1.0",
@@ -6104,7 +6104,7 @@
         "v1CoreRange": "^1.3.1"
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
       },
       "description": "Enables secure, decentralized, and end-to-end encrypted messaging through the XMTP protocol.",
@@ -6180,11 +6180,11 @@
         "repo": "Mazzz-zzz/plugin-elizaos-compchembridge",
         "v0": {
           "version": "0.1.8",
-          "branch": null
+          "branch": "master"
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -6195,8 +6195,8 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
-        "v1": false
+        "v0": true,
+        "v1": true
       },
       "description": "ElizaOS plugin for parsing Gaussian 16 quantum chemistry logfiles into a knowledge graph",
       "homepage": null,
@@ -6215,7 +6215,7 @@
         },
         "v1": {
           "version": "1.0.0",
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
@@ -6227,7 +6227,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "This package allows any ElizaOS agent to pay for content generation on Bonsai.",
       "homepage": "https://onbonsai.gitbook.io/docs/elizaos/plugin-bonsai",
