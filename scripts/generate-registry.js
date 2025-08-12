@@ -172,7 +172,7 @@ async function getLatestGitTags(owner, repo, octokit) {
 async function inspectNpm(pkgName) {
   const meta = await safeFetchJSON(`https://registry.npmjs.org/${pkgName}`);
   if (!meta || !meta.versions) {
-    return { repo: pkgName, v0: null, v1: null };
+    return { repo: pkgName, v0: null, v1: null, v0CoreRange: null, v1CoreRange: null };
   }
   const versions = Object.keys(meta.versions);
   const sorted = versions.sort(semver.rcompare);
@@ -195,10 +195,28 @@ async function inspectNpm(pkgName) {
     }
   }
   
+  // Get core dependency ranges for the found versions
+  let v0CoreRange = null;
+  let v1CoreRange = null;
+  
+  if (v0 && meta.versions[v0]) {
+    const v0Pkg = meta.versions[v0];
+    v0CoreRange = v0Pkg.dependencies?.["@elizaos/core"] || 
+                  v0Pkg.peerDependencies?.["@elizaos/core"] || null;
+  }
+  
+  if (v1 && meta.versions[v1]) {
+    const v1Pkg = meta.versions[v1];
+    v1CoreRange = v1Pkg.dependencies?.["@elizaos/core"] || 
+                  v1Pkg.peerDependencies?.["@elizaos/core"] || null;
+  }
+  
   return {
     repo: pkgName,
     v0,
     v1,
+    v0CoreRange,
+    v1CoreRange,
   };
 }
 
@@ -290,17 +308,19 @@ async function processRepo(npmId, gitRef, octokit) {
 
   const [gitTagInfo, npmInfo, repoInfo] = await Promise.all([tagsPromise, npmPromise, repoInfoPromise]);
 
-  // Set version support based on npm versions first (more reliable)
-  // But ensure version constraints are respected
-  if (npmInfo?.v0) {
+  // Set version support based on npm versions and core dependencies (more reliable)
+  // Check if NPM versions have proper core dependencies
+  if (npmInfo?.v0 && npmInfo?.v0CoreRange) {
     const v0Major = semver.major(semver.clean(npmInfo.v0));
-    if (v0Major === 0) {
+    const satisfiesV0Core = semver.satisfies("0.9.0", npmInfo.v0CoreRange);
+    if (v0Major === 0 && satisfiesV0Core) {
       supportsV0 = true;
     }
   }
-  if (npmInfo?.v1) {
+  if (npmInfo?.v1 && npmInfo?.v1CoreRange) {
     const v1Major = semver.major(semver.clean(npmInfo.v1));
-    if (v1Major >= 1) {
+    const satisfiesV1Core = semver.satisfies("1.0.0", npmInfo.v1CoreRange);
+    if (v1Major >= 1 && satisfiesV1Core) {
       supportsV1 = true;
     }
   }
