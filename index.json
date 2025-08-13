@@ -205,4 +205,5 @@
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
     "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai",
     "@elizaos/plugin-action-bench": "github:elizaos-plugins/plugin-action-bench"
+    "plugin-asd123": "github:yungalgo/plugin-asd123",
 }
