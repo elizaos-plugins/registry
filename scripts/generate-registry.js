@@ -30,6 +30,56 @@ async function safeFetchJSON(url) {
   }
 }
 
+// Helper function to normalize dependency ranges for semver checks
+function normalizeDependencyRange(depRange) {
+  if (!depRange || typeof depRange !== 'string') {
+    return null;
+  }
+  
+  // Handle common edge cases
+  const trimmed = depRange.trim();
+  
+  // Handle "latest" - treat as very high version that satisfies anything
+  if (trimmed === 'latest') {
+    return '>=0.0.0';
+  }
+  
+  // Handle exact versions without operators (e.g., "0.25.6-alpha.1", "1.0.0")
+  if (semver.valid(semver.clean(trimmed))) {
+    // If it's an exact version, convert to ">=" range
+    const cleanVersion = semver.clean(trimmed);
+    return `>=${cleanVersion}`;
+  }
+  
+  // Handle URL dependencies or invalid ranges
+  if (trimmed.startsWith('http') || trimmed.startsWith('git') || trimmed.startsWith('file:')) {
+    return null;
+  }
+  
+  // Try to validate the range as-is
+  try {
+    // Test if semver can parse this range
+    semver.validRange(trimmed);
+    return trimmed;
+  } catch {
+    return null;
+  }
+}
+
+// Helper function to safely check semver satisfaction
+function safelyCheckSemverSatisfies(version, range) {
+  try {
+    const normalizedRange = normalizeDependencyRange(range);
+    if (!normalizedRange) {
+      return false;
+    }
+    return semver.satisfies(version, normalizedRange);
+  } catch (error) {
+    console.warn(`  Failed to check semver satisfies for ${version} against ${range}: ${error.message}`);
+    return false;
+  }
+}
+
 // Parse GitHub reference
 function parseGitRef(gitRef) {
   if (!gitRef.startsWith("github:")) return null;
@@ -55,6 +105,42 @@ async function getGitHubBranches(owner, repo, octokit, retries = CONFIG.RETRY_AT
     }
   }
   return [];
+}
+
+// Get GitHub repository information (including description) with retry logic
+async function getGitHubRepoInfo(owner, repo, octokit, retries = CONFIG.RETRY_ATTEMPTS) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const { data } = await octokit.rest.repos.get({ owner, repo });
+      return {
+        description: data.description || null,
+        homepage: data.homepage || null,
+        topics: data.topics || [],
+        stargazers_count: data.stargazers_count || 0,
+        language: data.language || null
+      };
+    } catch (error) {
+      if (attempt === retries) {
+        console.warn(`  Failed to get repo info for ${owner}/${repo} after ${retries} attempts: ${error.message}`);
+        return {
+          description: null,
+          homepage: null,
+          topics: [],
+          stargazers_count: 0,
+          language: null
+        };
+      }
+      // Wait before retry (exponential backoff)
+      await new Promise(resolve => setTimeout(resolve, 1000 * Math.pow(2, attempt - 1)));
+    }
+  }
+  return {
+    description: null,
+    homepage: null,
+    topics: [],
+    stargazers_count: 0,
+    language: null
+  };
 }
 
 // Fetch package.json from GitHub with retry logic
@@ -136,7 +222,7 @@ async function getLatestGitTags(owner, repo, octokit) {
 async function inspectNpm(pkgName) {
   const meta = await safeFetchJSON(`https://registry.npmjs.org/${pkgName}`);
   if (!meta || !meta.versions) {
-    return { repo: pkgName, v0: null, v1: null };
+    return { repo: pkgName, v0: null, v1: null, v0CoreRange: null, v1CoreRange: null };
   }
   const versions = Object.keys(meta.versions);
   const sorted = versions.sort(semver.rcompare);
@@ -159,10 +245,28 @@ async function inspectNpm(pkgName) {
     }
   }
   
+  // Get core dependency ranges for the found versions
+  let v0CoreRange = null;
+  let v1CoreRange = null;
+  
+  if (v0 && meta.versions[v0]) {
+    const v0Pkg = meta.versions[v0];
+    v0CoreRange = v0Pkg.dependencies?.["@elizaos/core"] || 
+                  v0Pkg.peerDependencies?.["@elizaos/core"] || null;
+  }
+  
+  if (v1 && meta.versions[v1]) {
+    const v1Pkg = meta.versions[v1];
+    v1CoreRange = v1Pkg.dependencies?.["@elizaos/core"] || 
+                  v1Pkg.peerDependencies?.["@elizaos/core"] || null;
+  }
+  
   return {
     repo: pkgName,
     v0,
     v1,
+    v0CoreRange,
+    v1CoreRange,
   };
 }
 
@@ -190,6 +294,7 @@ async function processRepo(npmId, gitRef, octokit) {
   // Kick off remote calls
   const branchesPromise = getGitHubBranches(owner, repo, octokit);
   const tagsPromise = getLatestGitTags(owner, repo, octokit);
+  const repoInfoPromise = getGitHubRepoInfo(owner, repo, octokit);
   const npmPromise = inspectNpm(guessNpmName(npmId));
 
   // Support detection via package.json across relevant branches
@@ -232,8 +337,8 @@ async function processRepo(npmId, gitRef, octokit) {
   for (const pkg of pkgs) {
     if (pkg.version && pkg.coreRange) {
       const pkgMajor = semver.major(semver.clean(pkg.version));
-      const satisfiesV0Core = semver.satisfies("0.9.0", pkg.coreRange);
-      const satisfiesV1Core = semver.satisfies("1.0.0", pkg.coreRange);
+      const satisfiesV0Core = safelyCheckSemverSatisfies("0.9.0", pkg.coreRange);
+      const satisfiesV1Core = safelyCheckSemverSatisfies("1.0.0", pkg.coreRange);
 
       // For v0: package version must be < 1.0.0 AND core dependency should be compatible
       // Branches can be "0.x" or "main"
@@ -251,19 +356,21 @@ async function processRepo(npmId, gitRef, octokit) {
     }
   }
 
-  const [gitTagInfo, npmInfo] = await Promise.all([tagsPromise, npmPromise]);
+  const [gitTagInfo, npmInfo, repoInfo] = await Promise.all([tagsPromise, npmPromise, repoInfoPromise]);
 
-  // Set version support based on npm versions first (more reliable)
-  // But ensure version constraints are respected
-  if (npmInfo?.v0) {
+  // Set version support based on npm versions and core dependencies (more reliable)
+  // Check if NPM versions have proper core dependencies
+  if (npmInfo?.v0 && npmInfo?.v0CoreRange) {
     const v0Major = semver.major(semver.clean(npmInfo.v0));
-    if (v0Major === 0) {
+    const satisfiesV0Core = safelyCheckSemverSatisfies("0.9.0", npmInfo.v0CoreRange);
+    if (v0Major === 0 && satisfiesV0Core) {
       supportsV0 = true;
     }
   }
-  if (npmInfo?.v1) {
+  if (npmInfo?.v1 && npmInfo?.v1CoreRange) {
     const v1Major = semver.major(semver.clean(npmInfo.v1));
-    if (v1Major >= 1) {
+    const satisfiesV1Core = safelyCheckSemverSatisfies("1.0.0", npmInfo.v1CoreRange);
+    if (v1Major >= 1 && satisfiesV1Core) {
       supportsV1 = true;
     }
   }
@@ -293,6 +400,11 @@ async function processRepo(npmId, gitRef, octokit) {
       git: gitInfo,
       npm: npmInfo,
       supports: { v0: supportsV0, v1: supportsV1 },
+      description: repoInfo.description,
+      homepage: repoInfo.homepage,
+      topics: repoInfo.topics,
+      stargazers_count: repoInfo.stargazers_count,
+      language: repoInfo.language,
     },
     issues,
   ];

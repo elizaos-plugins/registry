@@ -1,6 +1,35 @@
 {
-  "lastUpdatedAt": "2025-06-26T05:37:48.932Z",
+  "lastUpdatedAt": "2025-08-12T15:17:30.280Z",
   "registry": {
+    "@bealers/plugin-mattermost": {
+      "git": {
+        "repo": "bealers/plugin-mattermost",
+        "v0": {
+          "version": "v0.5.0",
+          "branch": "main"
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@bealers/plugin-mattermost",
+        "v0": "0.5.1",
+        "v1": null,
+        "v0CoreRange": "latest",
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
     "@elizaos/adapter-mongodb": {
       "git": {
         "repo": "elizaos-plugins/adapter-mongodb",
@@ -16,12 +45,19 @@
       "npm": {
         "repo": "@elizaos/adapter-mongodb",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Database adapter for MongoDB enabling document storage with query capabilities.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/adapter-pglite": {
       "git": {
@@ -38,12 +74,19 @@
       "npm": {
         "repo": "@elizaos/adapter-pglite",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Lightweight PostgreSQL adapter for embedded database applications.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/adapter-postgres": {
       "git": {
@@ -60,12 +103,19 @@
       "npm": {
         "repo": "@elizaos/adapter-postgres",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Adapter that provides PostgreSQL connectivity with vector embedding support for semantic search capabilities.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/adapter-qdrant": {
       "git": {
@@ -82,12 +132,19 @@
       "npm": {
         "repo": "@elizaos/adapter-qdrant",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Vector database adapter for Qdrant with similarity search capabilities.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/adapter-sqlite": {
       "git": {
@@ -104,12 +161,19 @@
       "npm": {
         "repo": "@elizaos/adapter-sqlite",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "File-based SQL database adapter for lightweight local storage.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/adapter-sqljs": {
       "git": {
@@ -126,12 +190,21 @@
       "npm": {
         "repo": "@elizaos/adapter-sqljs",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/adapter-supabase": {
       "git": {
@@ -148,12 +221,21 @@
       "npm": {
         "repo": "@elizaos/adapter-supabase",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Enables ElizaOS integration with Supabase for data persistence and real-time capabilities.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 8,
+      "language": "TypeScript"
     },
     "@elizaos/client-auto": {
       "git": {
@@ -170,12 +252,21 @@
       "npm": {
         "repo": "@elizaos/client-auto",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/client-clara": {
       "git": {
@@ -192,12 +283,23 @@
       "npm": {
         "repo": "@elizaos/client-clara",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "Comprehensive management system for agent-to-agent interactions. It acts as a multifaceted platform, encompassing a registry, a matching engine, and a payment system.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/client-discord": {
       "git": {
@@ -214,12 +316,21 @@
       "npm": {
         "repo": "@elizaos/client-discord",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A Discord client for ElizaOS, enabling integration with Discord servers for interaction, voice, and message management.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 9,
+      "language": "TypeScript"
     },
     "@elizaos/client-farcaster": {
       "git": {
@@ -236,12 +347,21 @@
       "npm": {
         "repo": "@elizaos/client-farcaster",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Client that enables eliza agents to integrate with the Farcaster social network",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/client-github": {
       "git": {
@@ -258,12 +378,21 @@
       "npm": {
         "repo": "@elizaos/client-github",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A component of the Eliza framework designed to interact with GitHub repositories, offering functionalities like cloning, managing branches, and creating pull requests.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/client-lens": {
       "git": {
@@ -280,12 +409,22 @@
       "npm": {
         "repo": "@elizaos/client-lens",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin designed to enhance the visibility and management of client information within a software application.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/client-slack": {
       "git": {
@@ -302,12 +441,21 @@
       "npm": {
         "repo": "@elizaos/client-slack",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "This package integrates the Eliza AI agent with Slack, allowing users to interact with Eliza within a Slack workspace.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/client-tako": {
       "git": {
@@ -324,12 +472,19 @@
       "npm": {
         "repo": "@elizaos/client-tako",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "Tako Client for ElizaOS",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/client-telegram": {
       "git": {
@@ -346,12 +501,21 @@
       "npm": {
         "repo": "@elizaos/client-telegram",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Integrates a Telegram client with ElizaOS, enabling characters to interact via Telegram with easy setup and basic lifecycle management.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/client-twitter": {
       "git": {
@@ -368,12 +532,22 @@
       "npm": {
         "repo": "@elizaos/client-twitter",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "This package integrates Twitter/X with the Eliza AI agent, enabling post generation, interaction handling, search functionality, Twitter Spaces support, and an optional approval workflow via Discord.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 35,
+      "language": "TypeScript"
     },
     "@elizaos/client-twitter-api-access": {
       "git": {
@@ -390,12 +564,24 @@
       "npm": {
         "repo": "@elizaos/client-twitter-api-access",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "This package uses the V2 X API to integrate X with the Eliza AI agent, enabling post generation, interaction handling, search functionality, Twitter Spaces support, and an optional approval workflow via Discord. ",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugins",
+        "twitter-bot",
+        "web3"
+      ],
+      "stargazers_count": 9,
+      "language": "TypeScript"
     },
     "@elizaos/client-wechat": {
       "git": {
@@ -412,19 +598,26 @@
       "npm": {
         "repo": "@elizaos/client-wechat",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "client-wechat for ElizaOS",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/client-xmtp": {
       "git": {
         "repo": "ephemeraHQ/client-xmtp",
         "v0": {
           "version": "0.25.6-alpha.1",
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -434,12 +627,19 @@
       "npm": {
         "repo": "@elizaos/client-xmtp",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
         "v0": true,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-0g": {
       "git": {
@@ -449,19 +649,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-0g",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for integrating ElizaOS with the Zero Gravity (0G) protocol for decentralized file storage, enabling file uploads to the 0G network.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-3d-generation": {
       "git": {
@@ -478,34 +688,22 @@
       "npm": {
         "repo": "@elizaos/plugin-3d-generation",
         "v0": "0.25.6-alpha.1",
-        "v1": null
-      },
-      "supports": {
-        "v0": true,
-        "v1": false
-      }
-    },
-    "@elizaos/plugin-ATTPs": {
-      "git": {
-        "repo": "APRO-com/plugin-ATTPs",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-ATTPs",
-        "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for generating 3D models using the FAL.ai API within the ElizaOS ecosystem.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-abstract": {
       "git": {
@@ -522,12 +720,22 @@
       "npm": {
         "repo": "@elizaos/plugin-abstract",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for seamless token transfers on the Abstract blockchain within the ElizaOS ecosystem.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-akash": {
       "git": {
@@ -544,12 +752,22 @@
       "npm": {
         "repo": "@elizaos/plugin-akash",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for Eliza that facilitates deployment management and cloud compute operations on the Akash Network.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-allora": {
       "git": {
@@ -559,19 +777,58 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-allora",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Empowers Eliza agents with real-time AI inferences from the Allora Network.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-ankr": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-ankr",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-ankr",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^0.25.9"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Provides blockchain data query interfaces for wallet information, NFT operations, and token analytics.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-anthropic": {
       "git": {
@@ -581,19 +838,26 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.3",
+          "version": "v1.0.6",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-anthropic",
         "v0": null,
-        "v1": "1.0.3"
+        "v1": "1.0.6",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-anyone": {
       "git": {
@@ -610,12 +874,21 @@
       "npm": {
         "repo": "@elizaos/plugin-anyone",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Integrates Anyone protocol proxy services into Eliza agents, enabling start/stop of Anyone client services and automatic proxy configuration.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-aptos": {
       "git": {
@@ -625,19 +898,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-aptos",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Enables seamless token transfers and wallet management on the Aptos blockchain within the ElizaOS ecosystem.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-arthera": {
       "git": {
@@ -647,19 +930,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.5",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-arthera",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.5",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "This plugin enables interaction with Arthera, providing actions and providers for transferring tokens and managing wallet connections.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-asterai": {
       "git": {
@@ -670,18 +963,115 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-asterai",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables Eliza agents to interact with asterai plugins and agents, expanding their utility within the asterai ecosystem.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-ATTPs": {
+      "git": {
+        "repo": "APRO-com/plugin-ATTPs",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-ATTPs",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "The ElizaOS plugin for APRO ATTPs",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-autocoder": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-autocoder",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.2.2",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-autocoder",
+        "v0": null,
+        "v1": "1.2.2",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.2.1"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Autocoder for ElizaOS - Auto generate new plugins!",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-auton8n": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-auton8n",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-auton8n",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Automatically generate n8n workflows which your agent can set up and run",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 19,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-autonome": {
       "git": {
@@ -692,18 +1082,28 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-autonome",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables launching new Eliza agents through the Autonome platform.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-avail": {
       "git": {
@@ -714,18 +1114,28 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-avail",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for interacting with the Avail DA network, enabling the transfer of AVAIL tokens and submission of data to the network.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-avalanche": {
       "git": {
@@ -742,12 +1152,22 @@
       "npm": {
         "repo": "@elizaos/plugin-avalanche",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.1"
+        "v1": "1.0.1",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": true,
-        "v1": true
-      }
+        "v0": false,
+        "v1": false
+      },
+      "description": "A plugin for comprehensive DeFi operations on the Avalanche blockchain within the ElizaOS ecosystem, including token transfers, swaps, and yield strategy management.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-bedrock": {
       "git": {
@@ -758,18 +1178,25 @@
         },
         "v1": {
           "version": "v1.0.1",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bedrock",
         "v0": null,
-        "v1": "1.0.1"
+        "v1": "1.0.1",
+        "v0CoreRange": null,
+        "v1CoreRange": "latest"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": "Amazon Bedrock plugin for ElizaOS - integrates Claude, Titan, and other foundation models",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-binance": {
       "git": {
@@ -779,19 +1206,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-binance",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables Eliza to interact with Binance for price checks, trades, and managing wallet balances.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-bink": {
       "git": {
@@ -808,12 +1245,19 @@
       "npm": {
         "repo": "@elizaos/plugin-bink",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-bioagent": {
       "git": {
@@ -824,18 +1268,27 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bioagent",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
-        "v1": false
-      }
+        "v1": true
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 7,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-bitquery": {
       "git": {
@@ -852,12 +1305,22 @@
       "npm": {
         "repo": "@elizaos/plugin-bitquery",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "ElizaOS Bitquery Plugin (used by @ainstein_001 on X)",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-bless": {
       "git": {
@@ -874,12 +1337,21 @@
       "npm": {
         "repo": "@elizaos/plugin-bless",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin enabling ElizaOS agents to interact with the Bless Network.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 5,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-bnb": {
       "git": {
@@ -889,19 +1361,26 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bnb",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Enables interactions with BNB Chain ecosystem including BNB Smart Chain, opBNB, and BNB Greenfield networks.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-bnv-me-id": {
       "git": {
@@ -918,12 +1397,29 @@
       "npm": {
         "repo": "@elizaos/plugin-bnv-me-id",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "AI Agents need style too",
+      "homepage": null,
+      "topics": [
+        "3d",
+        "ai",
+        "avatar",
+        "avatar-generator",
+        "crypto",
+        "elizaos-plugin",
+        "fashion",
+        "social",
+        "virtual-worlds"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-bootstrap": {
       "git": {
@@ -933,19 +1429,26 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.12",
+          "version": "1.4.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.0.12"
+        "v1": "1.4.2",
+        "v0CoreRange": "0.25.9",
+        "v1CoreRange": "1.4.2"
       },
       "supports": {
-        "v0": true,
-        "v1": true
-      }
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-browser": {
       "git": {
@@ -962,12 +1465,19 @@
       "npm": {
         "repo": "@elizaos/plugin-browser",
         "v0": null,
-        "v1": "1.0.3"
+        "v1": "1.0.3",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": "Web scraping and content extraction with Playwright",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-ccxt": {
       "git": {
@@ -984,12 +1494,19 @@
       "npm": {
         "repo": "@elizaos/plugin-ccxt",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "@elizaos/plugin-ccxt enables cryptocurrency trading and arbitrage on Eliza OS using CCXT. It lets users check balances, place market/limit orders, and find arbitrage opportunities across exchanges. Configurable via API keys, it supports multiple platforms while adhering to exchange rate limits. Ideal for traders seeking automated trading solutions.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-clara-twitter": {
       "git": {
@@ -1006,12 +1523,22 @@
       "npm": {
         "repo": "@elizaos/plugin-clara-twitter",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for Twitter/X integration, enabling automated tweet posting and context-aware content generation.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-coinbase": {
       "git": {
@@ -1021,19 +1548,58 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-coinbase",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.2",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A Coinbase integration plugin for ElizaOS, offering access to APIs for commerce, trading, token management, mass payments, advanced trading features, and webhook management.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-clanker": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-clanker",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-clanker",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-coingecko": {
       "git": {
@@ -1043,19 +1609,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.1",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-coingecko",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.1",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for fetching real-time cryptocurrency price data and market information from the CoinGecko API.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 11,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-coinmarketcap": {
       "git": {
@@ -1065,19 +1641,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.1",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-coinmarketcap",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.1",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for Eliza that enables real-time cryptocurrency price checking using the CoinMarketCap API.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-compass": {
       "git": {
@@ -1094,19 +1680,26 @@
       "npm": {
         "repo": "@elizaos/plugin-compass",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-computer-use": {
       "git": {
         "repo": "amit0365/plugin-computer-use",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -1116,12 +1709,21 @@
       "npm": {
         "repo": "@elizaos/plugin-computer-use",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-conflux": {
       "git": {
@@ -1138,12 +1740,22 @@
       "npm": {
         "repo": "@elizaos/plugin-conflux",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for seamless interaction with the Conflux blockchain, supporting token transfers, cross-space bridge operations, and ConfiPump token management within the ElizaOS ecosystem.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-cosmos": {
       "git": {
@@ -1160,12 +1772,22 @@
       "npm": {
         "repo": "@elizaos/plugin-cosmos",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "This plugin facilitates interactions with Cosmos-compatible blockchains, offering actions and utilities for blockchain operations.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-cronoszkevm": {
       "git": {
@@ -1182,12 +1804,22 @@
       "npm": {
         "repo": "@elizaos/plugin-cronoszkevm",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for seamless token transfers on the Cronos zkEVM network, supporting ZKCRO, USDC, and ETH via Web3 and zkSync integration.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-d.a.t.a": {
       "git": {
@@ -1204,12 +1836,19 @@
       "npm": {
         "repo": "@elizaos/plugin-d.a.t.a",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-dcap": {
       "git": {
@@ -1220,18 +1859,28 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-dcap",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for verifying DCAP attestation on-chain, supporting both TDX and SGX environments.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-debridge": {
       "git": {
@@ -1242,18 +1891,30 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-debridge",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
-        "v1": false
-      }
+        "v1": true
+      },
+      "description": "ElizaOS plugin allowing agents to use deBridge",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "debridge",
+        "defi",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-depin": {
       "git": {
@@ -1264,18 +1925,28 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-depin",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Connects AI agents to physical infrastructure through Decentralized Physical Infrastructure Networks.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-dexpaprika": {
       "git": {
@@ -1292,12 +1963,24 @@
       "npm": {
         "repo": "@elizaos/plugin-dexpaprika",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "ElizaOS plugin for accessing real-time DeFi analytics via DexPaprika API. Get data on blockchain networks, DEXes, liquidity pools, and tokens.",
+      "homepage": null,
+      "topics": [
+        "blockchain",
+        "crypto",
+        "defi",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-di": {
       "git": {
@@ -1314,12 +1997,23 @@
       "npm": {
         "repo": "@elizaos/plugin-di",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Dependency Injection Plugin for Eliza framework",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-discord": {
       "git": {
@@ -1329,19 +2023,84 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.10",
+          "version": "v1.2.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-discord",
         "v0": null,
-        "v1": "1.0.10"
+        "v1": "1.2.5",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.4"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": "A Discord plugin for ElizaOS, enabling integration with Discord servers for interaction, voice, and message management.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-defillama": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-defillama",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.3.5",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-defillama",
+        "v0": null,
+        "v1": "1.3.5",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.3.1"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-e2b": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-e2b",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.2.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-e2b",
+        "v0": null,
+        "v1": "1.2.0",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.2.1"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-echochambers": {
       "git": {
@@ -1351,19 +2110,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.2",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-echochambers",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.2",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables ELIZA to interact in chat rooms with dynamic conversational capabilities.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-edwin": {
       "git": {
@@ -1380,12 +2149,22 @@
       "npm": {
         "repo": "@elizaos/plugin-edwin",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for Eliza that enables interaction with Edwin tools for decentralized finance (DeFi) operations.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-elevenlabs": {
       "git": {
@@ -1396,18 +2175,25 @@
         },
         "v1": {
           "version": "v1.0.5",
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-elevenlabs",
         "v0": null,
-        "v1": "1.0.5"
+        "v1": "1.0.5",
+        "v0CoreRange": null,
+        "v1CoreRange": "latest"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-enso": {
       "git": {
@@ -1424,12 +2210,22 @@
       "npm": {
         "repo": "@elizaos/plugin-enso",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-evm": {
       "git": {
@@ -1446,12 +2242,22 @@
       "npm": {
         "repo": "@elizaos/plugin-evm",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.12"
+        "v1": "1.0.12",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.8"
       },
       "supports": {
-        "v0": true,
-        "v1": true
-      }
+        "v0": false,
+        "v1": false
+      },
+      "description": "This plugin enables interaction with EVM-compatible chains, supporting token transfers, cross-chain bridging, and swaps via LiFi integration.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 12,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-executor": {
       "git": {
@@ -1468,12 +2274,24 @@
       "npm": {
         "repo": "@elizaos/plugin-executor",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "t3rn blockchain executor plugin for Eliza OS.",
+      "homepage": "https://www.t3rn.io/",
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins",
+        "t3rn"
+      ],
+      "stargazers_count": 5,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-farcaster": {
       "git": {
@@ -1490,12 +2308,19 @@
       "npm": {
         "repo": "@elizaos/plugin-farcaster",
         "v0": null,
-        "v1": "1.0.5"
+        "v1": "1.0.5",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.8"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 5,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-ferePro": {
       "git": {
@@ -1505,19 +2330,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.6",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-ferePro",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
-        "v1": false
-      }
+        "v1": true
+      },
+      "description": "A plugin for WebSocket communication with FerePro API, offering AI-driven market insights in the ElizaOS ecosystem.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-firecrawl": {
       "git": {
@@ -1534,12 +2369,19 @@
       "npm": {
         "repo": "@elizaos/plugin-firecrawl",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "This is the plugin for the firecrawl service with Eliza. This plugin is capable of data scraping and web search.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-flow": {
       "git": {
@@ -1549,19 +2391,30 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "1.0.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-flow",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.5",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "The basic Eliza plugin for Flow Blockchain",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-flow-advanced": {
       "git": {
@@ -1578,12 +2431,23 @@
       "npm": {
         "repo": "@elizaos/plugin-flow-advanced",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "The advanced Eliza plugin for Flow Blockchain",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-fuel": {
       "git": {
@@ -1593,19 +2457,58 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-fuel",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for managing Fuel blockchain transactions through natural language commands within the ElizaOS ecosystem.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-gelato": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-gelato",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-gelato",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Enables smart contract interactions via Gelato Relay supporting both ERC2771 and non-ERC2771 calls on EVM chains.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-genlayer": {
       "git": {
@@ -1622,12 +2525,22 @@
       "npm": {
         "repo": "@elizaos/plugin-genlayer",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for the GenLayer protocol, facilitating contract deployment, interactions, and transaction management.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-gigbot": {
       "git": {
@@ -1644,12 +2557,23 @@
       "npm": {
         "repo": "@elizaos/plugin-gigbot",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-giphy": {
       "git": {
@@ -1659,19 +2583,28 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.5",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-giphy",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.5",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for enhancing agent interactions by responding with relevant GIFs based on user inputs using the Giphy API.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-gitbook": {
       "git": {
@@ -1681,19 +2614,87 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.6",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-gitbook",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.6",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables querying and retrieving GitBook documentation within ElizaOS.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-gitcoin-passport": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-gitcoin-passport",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-gitcoin-passport",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
+      },
+      "supports": {
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Interacts with Gitcoin Passport API for verifying and managing digital identity credentials.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-github": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-github",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.2.9",
+          "branch": "main"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-github",
+        "v0": null,
+        "v1": "1.2.9",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.2.9"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-goat": {
       "git": {
@@ -1703,19 +2704,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-goat",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for integrating blockchain capabilities into the ElizaOS ecosystem using the GOAT framework, enabling AI agents to interact with blockchain protocols.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 5,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-google-genai": {
       "git": {
@@ -1732,12 +2743,19 @@
       "npm": {
         "repo": "@elizaos/plugin-google-genai",
         "v0": null,
-        "v1": "1.0.0"
+        "v1": "1.0.2",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": "LLM ElizaOS plugin for google genai",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-goplus": {
       "git": {
@@ -1747,19 +2765,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "v1.0.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-goplus",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.2",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for on-chain security checks via GoPlus API integration.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-grix": {
       "git": {
@@ -1769,19 +2797,31 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "1.0.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-grix",
         "v0": null,
-        "v1": null
+        "v1": "1.0.1",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.15"
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "defi-options-data-plugin – A plugin for real-time DeFi options data fetching and price analysis via Grix Finance API.",
+      "homepage": "https://grix.finance",
+      "topics": [
+        "ai",
+        "ai-defi",
+        "derivatives",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-groq": {
       "git": {
@@ -1798,12 +2838,19 @@
       "npm": {
         "repo": "@elizaos/plugin-groq",
         "v0": null,
-        "v1": "1.0.4"
+        "v1": "1.0.4",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-hedera": {
       "git": {
@@ -1813,19 +2860,57 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "1.0.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-hedera",
         "v0": null,
-        "v1": null
+        "v1": "1.0.1",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.15"
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 5,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-holdstation": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-holdstation",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-holdstation",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables token swapping on Holdstation DEX with support for ZKsync Era and upcoming Berachain.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-holoworld": {
       "git": {
@@ -1842,12 +2927,50 @@
       "npm": {
         "repo": "@elizaos/plugin-holoworld",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-hyperbolic": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-hyperbolic",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-hyperbolic",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "A powerful plugin for managing GPU instances on the Hyperbolic platform through Eliza AI.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-hyperliquid": {
       "git": {
@@ -1857,19 +2980,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.1",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-hyperliquid",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.1",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "This plugin enables interaction with the Hyperliquid DEX through Eliza, offering spot trading capabilities.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 10,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-icp": {
       "git": {
@@ -1886,19 +3019,29 @@
       "npm": {
         "repo": "@elizaos/plugin-icp",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "An Internet Computer Protocol (ICP) plugin for Eliza OS, enabling meme token creation, ICP canister interaction, and wallet management.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-iexec": {
       "git": {
         "repo": "iExecBlockchainComputing/plugin-iexec",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -1908,12 +3051,23 @@
       "npm": {
         "repo": "@elizaos/plugin-iexec",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
-      }
+      },
+      "description": "An ElizaOS iExec Plugin",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-image-generation": {
       "git": {
@@ -1930,12 +3084,50 @@
       "npm": {
         "repo": "@elizaos/plugin-image-generation",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for generating and managing images with features like manipulation, storage integration, and optimized handling.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-injective": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-injective",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-injective",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "Provides comprehensive interaction with the Injective blockchain through module-based action creation.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-intiface": {
       "git": {
@@ -1945,19 +3137,28 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.2",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-intiface",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.2",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for Eliza OS that integrates with Intiface/Buttplug.io for controlling intimate hardware devices.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-irys": {
       "git": {
@@ -1967,19 +3168,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-irys",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for ElizaOS that integrates Irys for decentralized data storage and retrieval, enabling multi-agent collaboration.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-isaacx": {
       "git": {
@@ -1996,34 +3207,59 @@
       "npm": {
         "repo": "@elizaos/plugin-isaacx",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "This plugin provides integration with the Isaac X API, enabling ElizaOS Agents to reason scientifically using the latest academic research.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugins",
+        "research",
+        "science"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-kaia": {
       "git": {
         "repo": "kaiachain/kaia-eliza-plugin",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
-          "version": null,
+          "version": "1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-kaia",
         "v0": null,
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": null,
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": false,
-        "v1": false
-      }
+        "v0": true,
+        "v1": true
+      },
+      "description": "Kaia Plugin for ElizaOS",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "blockchain",
+        "elizaos-plugins",
+        "kaia",
+        "layer1"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-knowledge": {
       "git": {
@@ -2033,19 +3269,26 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.10",
-          "branch": "1.x"
+          "version": "v1.2.2",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.0.10"
+        "v1": "1.2.2",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.2.0"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": "Eliza RAG Knowledge Plugin",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 8,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-lensNetwork": {
       "git": {
@@ -2055,19 +3298,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.2",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-lensNetwork",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
-        "v1": false
-      }
+        "v1": true
+      },
+      "description": "A plugin for seamless token transfers on the Abstract testnet within the ElizaOS ecosystem, supporting both native ETH and ERC20 tokens.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-letzai": {
       "git": {
@@ -2084,12 +3337,51 @@
       "npm": {
         "repo": "@elizaos/plugin-letzai",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for integrating LetzAI Image Generation capabilities into the elizaos ecosystem, allowing users to generate images using LetzAI models.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-linear": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-linear",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.2.15",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-linear",
+        "v0": null,
+        "v1": "1.2.15",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.3.1"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-livekit": {
       "git": {
@@ -2106,12 +3398,19 @@
       "npm": {
         "repo": "@elizaos/plugin-livekit",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-lightlink": {
       "git": {
@@ -2128,12 +3427,19 @@
       "npm": {
         "repo": "@elizaos/plugin-lightlink",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "Adds lightlink support to ElizaOS - @elizaos/plugin-lightlink",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-local-ai": {
       "git": {
@@ -2143,19 +3449,26 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.4",
-          "branch": "1.x"
+          "version": "v1.2.1",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-local-ai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.4"
+        "v1": "1.2.1",
+        "v0CoreRange": "1.0.0-alpha.0",
+        "v1CoreRange": "^1.2.1"
       },
       "supports": {
-        "v0": true,
-        "v1": true
-      }
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-massa": {
       "git": {
@@ -2172,12 +3485,22 @@
       "npm": {
         "repo": "@elizaos/plugin-massa",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "This plugin serves as the foundation for all interactions with the Massa ecosystem.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-mbd-farcaster": {
       "git": {
@@ -2194,12 +3517,19 @@
       "npm": {
         "repo": "@elizaos/plugin-mbd-farcaster",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "Eliza Plugin MBD Farcaster ",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-mcp": {
       "git": {
@@ -2216,12 +3546,19 @@
       "npm": {
         "repo": "@elizaos/plugin-mcp",
         "v0": null,
-        "v1": "1.0.7"
+        "v1": "1.0.7",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.4"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": "ElizaOS plugin allowing agents to connect to MCP servers",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 7,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-membase": {
       "git": {
@@ -2238,19 +3575,28 @@
       "npm": {
         "repo": "@elizaos/plugin-membase",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "js sdk for membase in eliza",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-merkle": {
       "git": {
         "repo": "merkle-trade/merkle-eliza-plugin",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -2260,12 +3606,19 @@
       "npm": {
         "repo": "@elizaos/plugin-merkle",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-messari-ai-toolkit": {
       "git": {
@@ -2275,19 +3628,55 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "1.0.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-messari-ai-toolkit",
         "v0": null,
-        "v1": null
+        "v1": "1.0.2",
+        "v0CoreRange": null,
+        "v1CoreRange": "latest"
       },
       "supports": {
         "v0": false,
-        "v1": false
-      }
+        "v1": true
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-mina": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-mina",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-mina",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables Mina blockchain interactions for token transfers, wallet management, and balance queries.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-morpheus": {
       "git": {
@@ -2298,18 +3687,56 @@
         },
         "v1": {
           "version": null,
-          "branch": "main"
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-morpheus",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": "Morpheus Plugin for ElizaOS",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-morpho": {
+      "git": {
+        "repo": "bowtiedbluefin/plugin-morpho",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.2.6",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-morpho",
+        "v0": null,
+        "v1": "1.2.6",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.3.0"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/plugin-movement": {
       "git": {
@@ -2319,19 +3746,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-movement",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables Movement Network blockchain functionality for Eliza OS agents, allowing them to send MOVE tokens and check wallet balances.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-multichain": {
       "git": {
@@ -2348,12 +3785,31 @@
       "npm": {
         "repo": "@elizaos/plugin-multichain",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "Eliza plugin for multichain operations",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "bitcoin",
+        "chain-signatures",
+        "cosmos",
+        "crypto",
+        "elizaos-plugins",
+        "ethereum",
+        "evm",
+        "multichain",
+        "near",
+        "near-intents"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-multiversx": {
       "git": {
@@ -2363,19 +3819,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-multiversx",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "MultiversX blockchain integration plugin for Eliza OS enabling token management and transfers.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-near": {
       "git": {
@@ -2385,19 +3851,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-near",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "0.25.6-alpha.1"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for Eliza OS that integrates NEAR Protocol for token management, transfers, and swaps via Ref Finance.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 5,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-nft-generation": {
       "git": {
@@ -2414,12 +3890,22 @@
       "npm": {
         "repo": "@elizaos/plugin-nft-generation",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "NFT collection generation plugin for Eliza OS that enables creation, management, and verification of NFTs on the Solana blockchain.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-nkn": {
       "git": {
@@ -2436,12 +3922,19 @@
       "npm": {
         "repo": "@elizaos/plugin-nkn",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-node": {
       "git": {
@@ -2458,12 +3951,22 @@
       "npm": {
         "repo": "@elizaos/plugin-node",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.0-alpha.25"
+        "v1": "1.0.0-alpha.25",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0-alpha.25"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": true
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-notion": {
       "git": {
@@ -2480,12 +3983,19 @@
       "npm": {
         "repo": "@elizaos/plugin-notion",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-obsidian": {
       "git": {
@@ -2502,19 +4012,29 @@
       "npm": {
         "repo": "@elizaos/plugin-obsidian",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "An Obsidian plugin for ELIZA OS that enables powerful file and note management within Obsidian vaults.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 7,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-okto": {
       "git": {
         "repo": "okto-hq/eliza-plugin",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -2524,12 +4044,25 @@
       "npm": {
         "repo": "@elizaos/plugin-okto",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
-      }
+      },
+      "description": "A comprehensive integration plugin for ElizaOS that provides access to Okto's various APIs and services, enabling seamless Web3 interactions.",
+      "homepage": "https://docsv2.okto.tech/docs/okto-eliza-plugin",
+      "topics": [
+        "agents",
+        "ai",
+        "blockchain",
+        "elizaos-plugins",
+        "okto"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-okx": {
       "git": {
@@ -2546,12 +4079,19 @@
       "npm": {
         "repo": "@elizaos/plugin-okx",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/plugin-ollama": {
       "git": {
@@ -2561,19 +4101,26 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.3",
+          "version": "v1.2.4",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-ollama",
         "v0": null,
-        "v1": "1.0.3"
+        "v1": "1.2.4",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-omniflix": {
       "git": {
@@ -2590,12 +4137,22 @@
       "npm": {
         "repo": "@elizaos/plugin-omniflix",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for ElizaOS that enables interaction with the OmniFlix Network blockchain, supporting bank, staking, and governance operations.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-opacity": {
       "git": {
@@ -2612,12 +4169,22 @@
       "npm": {
         "repo": "@elizaos/plugin-opacity",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-open-weather": {
       "git": {
@@ -2634,12 +4201,21 @@
       "npm": {
         "repo": "@elizaos/plugin-open-weather",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for Eliza that enables weather checking for any specified city using the OpenWeather API.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-openai": {
       "git": {
@@ -2649,19 +4225,26 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.6",
+          "version": "v1.0.10",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.6"
+        "v1": "1.0.10",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": true
-      }
+      },
+      "description": "Integrates OpenAI's GPT models for automated text generation with customizable prompts.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-openrouter": {
       "git": {
@@ -2671,19 +4254,26 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.5",
-          "branch": "1.x"
+          "version": "v1.2.6",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openrouter",
         "v0": null,
-        "v1": "1.0.5"
+        "v1": "1.2.6",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.2.5"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-orderly": {
       "git": {
@@ -2693,19 +4283,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-orderly",
         "v0": null,
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": null,
+        "v1CoreRange": "latest"
       },
       "supports": {
         "v0": false,
-        "v1": false
-      }
+        "v1": true
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-para": {
       "git": {
@@ -2722,12 +4322,19 @@
       "npm": {
         "repo": "@elizaos/plugin-para",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-payai": {
       "git": {
@@ -2744,12 +4351,28 @@
       "npm": {
         "repo": "@elizaos/plugin-payai",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "Eliza plugin for the PayAI marketplace.",
+      "homepage": "https://payai.gitbook.io/payai-docs",
+      "topics": [
+        "agentic-ai",
+        "ai",
+        "crypto",
+        "cryptocurrency",
+        "elizaos-plugin",
+        "elizaos-plugins",
+        "solana",
+        "web3"
+      ],
+      "stargazers_count": 19,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-pdf": {
       "git": {
@@ -2766,12 +4389,19 @@
       "npm": {
         "repo": "@elizaos/plugin-pdf",
         "v0": null,
-        "v1": "1.0.1"
+        "v1": "1.0.1",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": "Core Node.js plugin for Eliza OS that provides essential services and actions for file operations.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-primus": {
       "git": {
@@ -2788,12 +4418,22 @@
       "npm": {
         "repo": "@elizaos/plugin-primus",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-proof-of-agent": {
       "git": {
@@ -2810,12 +4450,22 @@
       "npm": {
         "repo": "@elizaos/plugin-proof-of-agent",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "The Proof of Agent plugin is designed to facilitate token claims using a proof of agent mechanism. It leverages trusted execution environments (TEE) and remote attestation to ensure secure and verified transactions.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-pundiai-dataset": {
       "git": {
@@ -2832,12 +4482,48 @@
       "npm": {
         "repo": "@elizaos/plugin-pundiai-dataset",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "Eliza’s plugin architecture ,Plugin for interacting with pundiai dataset API to fetch data",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-pyth-data": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-pyth-data",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-pyth-data",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "^0.1.7",
+        "v1CoreRange": "latest"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "Integrates with Pyth Network for real-time price feeds and data streams across multiple asset classes.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-quai": {
       "git": {
@@ -2854,12 +4540,22 @@
       "npm": {
         "repo": "@elizaos/plugin-quai",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Enables native token transfers and interactions with the Quai blockchain for Eliza OS.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-rabbi-trader": {
       "git": {
@@ -2876,12 +4572,22 @@
       "npm": {
         "repo": "@elizaos/plugin-rabbi-trader",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 7,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-raiinmaker": {
       "git": {
@@ -2891,19 +4597,30 @@
           "branch": null
         },
         "v1": {
-          "version": null,
+          "version": "1.0.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-raiinmaker",
         "v0": null,
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": null,
+        "v1CoreRange": "latest"
       },
       "supports": {
         "v0": false,
-        "v1": false
-      }
+        "v1": true
+      },
+      "description": "Plugin for ElizaOS agents for validation of generated content on the Raiinmaker platform",
+      "homepage": "https://www.raiinmaker.com",
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-recall": {
       "git": {
@@ -2920,12 +4637,19 @@
       "npm": {
         "repo": "@elizaos/plugin-recall",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "This plugin integrates **Recall storage** with Eliza AI agents, providing persistent memory capabilities. ",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-redpill": {
       "git": {
@@ -2935,19 +4659,26 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.3",
-          "branch": "1.x"
+          "version": "v1.2.1",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-redpill",
         "v0": null,
-        "v1": "1.0.3"
+        "v1": "1.2.1",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.2.5"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-rss3": {
       "git": {
@@ -2964,12 +4695,23 @@
       "npm": {
         "repo": "@elizaos/plugin-rss3",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "A RSS3 plugin for ElizaOS.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-safe": {
       "git": {
@@ -2986,12 +4728,22 @@
       "npm": {
         "repo": "@elizaos/plugin-safe",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "Eliza plugin for Safe SDK",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-sei": {
       "git": {
@@ -3001,19 +4753,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sei",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables Eliza agents to perform actions on the Sei blockchain, including transferring SEI tokens and querying wallet balances.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-sgx": {
       "git": {
@@ -3030,12 +4792,51 @@
       "npm": {
         "repo": "@elizaos/plugin-sgx",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "The SGX Plugin for Eliza provides Intel SGX attestation capabilities to enhance security by creating trusted execution environments for data protection.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-shell": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-shell",
+        "v0": {
+          "version": "v0.2.0",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.2.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-shell",
+        "v0": null,
+        "v1": "1.2.0",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.2.0"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "A shell plugin for ElizaOS. USE AT YOUR OWN RISK. THIS GIVES AI FULL ACCESS TO THE HOST MACHINE",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-siwe": {
       "git": {
@@ -3052,34 +4853,23 @@
       "npm": {
         "repo": "@elizaos/plugin-siwe",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
-    },
-    "@elizaos/plugin-solana": {
-      "git": {
-        "repo": "elizaos-plugins/plugin-solana",
-        "v0": {
-          "version": "0.25.6-alpha.1",
-          "branch": null
-        },
-        "v1": {
-          "version": "v1.0.3",
-          "branch": "1.x"
-        }
       },
-      "npm": {
-        "repo": "@elizaos/plugin-solana",
-        "v0": "0.25.6-alpha.1",
-        "v1": "1.0.3"
-      },
-      "supports": {
-        "v0": true,
-        "v1": true
-      }
+      "description": "Sign-In with Ethereum (SIWE) plugin for ElizaOS",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin",
+        "siwe"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-solana-agent-kit": {
       "git": {
@@ -3096,19 +4886,61 @@
       "npm": {
         "repo": "@elizaos/plugin-solana-agent-kit",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Integrates Solana Agent Kit into Eliza for token operations, swaps, lending, and staking on Solana.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 5,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-solana": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-solana",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.3",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-solana",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.3",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "Core Solana blockchain plugin for Eliza OS, enabling token operations, trading, and DeFi integrations.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 8,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-sonic": {
       "git": {
         "repo": "thopatevijay/plugin-sonic",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
           "version": null,
@@ -3118,12 +4950,23 @@
       "npm": {
         "repo": "@elizaos/plugin-sonic",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
-      }
+      },
+      "description": "Core Sonic blockchain plugin for Eliza OS.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin",
+        "plugin-sonic"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-spheron": {
       "git": {
@@ -3133,19 +4976,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-spheron",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Integrates the Spheron Protocol SDK with Eliza for deployment, escrow operations, and lease management.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-sql": {
       "git": {
@@ -3155,19 +5008,55 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.12",
+          "version": "1.4.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.0.12"
+        "v1": "1.4.2",
+        "v0CoreRange": null,
+        "v1CoreRange": "1.4.2"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
+    "@elizaos/plugin-squid-router": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-squid-router",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.0",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-squid-router",
+        "v0": "0.25.6-alpha.1",
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": "Enables cross-chain token swaps between blockchains using the Squid Router protocol.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-stargaze": {
       "git": {
@@ -3177,19 +5066,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-stargaze",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for fetching NFT data from the Stargaze API.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-starknet": {
       "git": {
@@ -3199,19 +5098,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-starknet",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Core Starknet blockchain plugin for Eliza OS, enabling token operations, trading, and DeFi integrations.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-storacha": {
       "git": {
@@ -3222,18 +5131,36 @@
         },
         "v1": {
           "version": "v1.2.1",
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-storacha",
         "v0": null,
-        "v1": null
+        "v1": "1.0.1",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
-        "v1": false
-      }
+        "v1": true
+      },
+      "description": "🔌 A plugin providing distributed storage functionality for ElizaOS agents.",
+      "homepage": "https://storacha.ai",
+      "topics": [
+        "client",
+        "decentralized",
+        "decentralized-storage",
+        "elizaos",
+        "elizaos-plugins",
+        "filecoin",
+        "ipfs",
+        "plugin",
+        "storage",
+        "web3"
+      ],
+      "stargazers_count": 5,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-storage-s3": {
       "git": {
@@ -3250,12 +5177,19 @@
       "npm": {
         "repo": "@elizaos/plugin-storage-s3",
         "v0": null,
-        "v1": "1.0.3"
+        "v1": "1.0.3",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-story": {
       "git": {
@@ -3265,19 +5199,28 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-story",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Enables interaction with Story Protocol - an IP management system on that allows creators to register, license, and manage their intellectual property assets",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-sui": {
       "git": {
@@ -3287,19 +5230,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.1",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sui",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.1",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "Core Sui blockchain plugin for Eliza OS, enabling token operations and wallet management on the Sui network.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 7,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-tee": {
       "git": {
@@ -3316,12 +5269,22 @@
       "npm": {
         "repo": "@elizaos/plugin-tee",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.2"
+        "v1": "1.0.2",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": true
-      }
+      },
+      "description": "A plugin for secure key derivation and remote attestation within Trusted Execution Environments (TEE).",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-tee-log": {
       "git": {
@@ -3338,12 +5301,21 @@
       "npm": {
         "repo": "@elizaos/plugin-tee-log",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Enhances Eliza's logging capabilities by providing a secure method to generate, store, and verify logs within a Trusted Execution Environment (TEE).",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-tee-marlin": {
       "git": {
@@ -3360,12 +5332,22 @@
       "npm": {
         "repo": "@elizaos/plugin-tee-marlin",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for verifying agents on Eliza using Trusted Execution Environments (TEEs) through the Marlin Oyster platform.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-telegram": {
       "git": {
@@ -3375,19 +5357,26 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.4",
-          "branch": "1.x"
+          "version": "v1.0.10",
+          "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-telegram",
         "v0": null,
-        "v1": "1.0.4"
+        "v1": "1.0.10",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.19"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 4,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-thirdweb": {
       "git": {
@@ -3397,19 +5386,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-thirdweb",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "This plugin provides access to thirdweb's Nebula AI for analyzing smart contracts and blockchain data.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-ton": {
       "git": {
@@ -3419,19 +5418,29 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-ton",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for managing TON (The Open Network) blockchain operations, including wallet management and secure token transfers.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 16,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-trn": {
       "git": {
@@ -3448,12 +5457,23 @@
       "npm": {
         "repo": "@elizaos/plugin-trn",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "ElizaOS plugin for The Root Network",
+      "homepage": "https://www.therootnetwork.com/",
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-trustgo": {
       "git": {
@@ -3470,12 +5490,19 @@
       "npm": {
         "repo": "@elizaos/plugin-trustgo",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-tts": {
       "git": {
@@ -3492,12 +5519,22 @@
       "npm": {
         "repo": "@elizaos/plugin-tts",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for generating text-to-speech using FAL.ai API within the ElizaOS ecosystem, featuring automatic language detection and voice selection.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-twilio": {
       "git": {
@@ -3514,12 +5551,23 @@
       "npm": {
         "repo": "@elizaos/plugin-twilio",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": "A Twilio plugin for ElizaOS that enables SMS and voice call capabilities.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin",
+        "twilio"
+      ],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-twitter": {
       "git": {
@@ -3529,19 +5577,29 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.9",
+          "version": "v1.2.21",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-twitter",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.9"
+        "v1": "1.2.21",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "^1.2.5"
       },
       "supports": {
-        "v0": true,
-        "v1": true
-      }
+        "v0": false,
+        "v1": false
+      },
+      "description": "A plugin for Twitter/X integration, enabling automated tweet posting and context-aware content generation.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 28,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-venice": {
       "git": {
@@ -3558,12 +5616,19 @@
       "npm": {
         "repo": "@elizaos/plugin-venice",
         "v0": null,
-        "v1": "1.0.13"
+        "v1": "1.0.13",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.12"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-viction": {
       "git": {
@@ -3580,12 +5645,19 @@
       "npm": {
         "repo": "@elizaos/plugin-viction",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-video-generation": {
       "git": {
@@ -3602,12 +5674,22 @@
       "npm": {
         "repo": "@elizaos/plugin-video-generation",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for AI-powered video generation using Luma AI, enabling automated video creation from text prompts.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-video-understanding": {
       "git": {
@@ -3624,12 +5706,19 @@
       "npm": {
         "repo": "@elizaos/plugin-video-understanding",
         "v0": null,
-        "v1": "1.0.2"
+        "v1": "1.0.2",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.0"
       },
       "supports": {
         "v0": false,
         "v1": true
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-web-search": {
       "git": {
@@ -3646,12 +5735,51 @@
       "npm": {
         "repo": "@elizaos/plugin-web-search",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for powerful web search capabilities, enabling efficient search query handling and result processing through a customizable API interface.",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 5,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-wolfram": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-wolfram",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.3.2",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-wolfram",
+        "v0": null,
+        "v1": "1.3.2",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.3.2"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-whatsapp": {
       "git": {
@@ -3661,19 +5789,28 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.0",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-whatsapp",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": "1.0.0",
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": "latest"
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for integrating WhatsApp Cloud API with applications, enabling messaging capabilities and webhook handling.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-xdc": {
       "git": {
@@ -3690,12 +5827,19 @@
       "npm": {
         "repo": "@elizaos/plugin-xdc",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-youtube-to-text": {
       "git": {
@@ -3712,12 +5856,19 @@
       "npm": {
         "repo": "@elizaos/plugin-youtube-to-text",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 3,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-youtube-transcription": {
       "git": {
@@ -3734,34 +5885,50 @@
       "npm": {
         "repo": "@elizaos/plugin-youtube-transcription",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-zapper": {
       "git": {
         "repo": "ben-dh3/plugin-zapper",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
-          "version": null,
+          "version": "1.2.9",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-zapper",
         "v0": null,
-        "v1": null
+        "v1": "1.2.9",
+        "v0CoreRange": null,
+        "v1CoreRange": "1.0.9"
       },
       "supports": {
-        "v0": false,
+        "v0": true,
         "v1": false
-      }
+      },
+      "description": "Zapper plugin for Eliza OS that provides actions for querying wallet address or Farcaster profile portfolio data.",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-zerion": {
       "git": {
@@ -3772,18 +5939,28 @@
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-zerion",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
-        "v1": false
-      }
+        "v0": false,
+        "v1": true
+      },
+      "description": "A plugin for Eliza that fetches real-time wallet portfolio and position data using the Zerion API.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-zksync-era": {
       "git": {
@@ -3800,12 +5977,22 @@
       "npm": {
         "repo": "@elizaos/plugin-zksync-era",
         "v0": "0.25.6-alpha.1",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "A plugin for integrating ZKSync Era blockchain operations, enabling token transfers and transaction management in applications.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-zytron": {
       "git": {
@@ -3822,12 +6009,22 @@
       "npm": {
         "repo": "@elizaos/plugin-zytron",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-cardano": {
       "git": {
@@ -3844,12 +6041,19 @@
       "npm": {
         "repo": "@elizaos/plugin-cardano",
         "v0": null,
-        "v1": "1.0.11"
+        "v1": "1.0.11",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.9"
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-reveel-payid": {
       "git": {
@@ -3866,40 +6070,83 @@
       "npm": {
         "repo": "@elizaos/plugin-reveel-payid",
         "v0": null,
-        "v1": null
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@elizaos/plugin-xmtp": {
       "git": {
         "repo": "elizaos-plugins/plugin-xmtp",
         "v0": {
           "version": null,
-          "branch": null
+          "branch": "main"
         },
         "v1": {
-          "version": "v1.0.4",
+          "version": "v1.1.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-xmtp",
         "v0": null,
-        "v1": "1.0.4"
+        "v1": "1.1.0",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.3.1"
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      },
+      "description": "Enables secure, decentralized, and end-to-end encrypted messaging through the XMTP protocol.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 3,
+      "language": "TypeScript"
+    },
+    "@esscrypt/plugin-polkadot": {
+      "git": {
+        "repo": "Esscrypt/plugin-polkadot",
+        "v0": {
+          "version": "0.0.3",
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.12",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@esscrypt/plugin-polkadot",
+        "v0": "0.0.3",
+        "v1": null,
+        "v0CoreRange": "^1.0.10",
+        "v1CoreRange": null
       },
       "supports": {
         "v0": false,
-        "v1": true
-      }
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@kudo-dev/plugin-kudo": {
       "git": {
         "repo": "Kudo-Archi/plugin-kudo",
         "v0": {
-          "version": "0.1.3",
+          "version": "0.1.14",
           "branch": null
         },
         "v1": {
@@ -3909,35 +6156,118 @@
       },
       "npm": {
         "repo": "@kudo-dev/plugin-kudo",
-        "v0": "0.1.3",
-        "v1": null
+        "v0": "0.1.14",
+        "v1": null,
+        "v0CoreRange": "^1.0.4",
+        "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [
+        "ai",
+        "crypto",
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     },
     "@mazzz/plugin-elizaos-compchembridge": {
       "git": {
         "repo": "Mazzz-zzz/plugin-elizaos-compchembridge",
         "v0": {
           "version": "0.1.8",
-          "branch": null
+          "branch": "master"
         },
         "v1": {
           "version": null,
-          "branch": null
+          "branch": "main"
         }
       },
       "npm": {
         "repo": "@mazzz/plugin-elizaos-compchembridge",
         "v0": "0.1.8",
-        "v1": null
+        "v1": null,
+        "v0CoreRange": "latest",
+        "v1CoreRange": null
       },
       "supports": {
         "v0": true,
+        "v1": true
+      },
+      "description": "ElizaOS plugin for parsing Gaussian 16 quantum chemistry logfiles into a knowledge graph",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 1,
+      "language": "TypeScript"
+    },
+    "@onbonsai/plugin-bonsai": {
+      "git": {
+        "repo": "onbonsai/plugin-bonsai",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.0",
+          "branch": "main"
+        }
+      },
+      "npm": {
+        "repo": "@onbonsai/plugin-bonsai",
+        "v0": null,
+        "v1": "1.0.0",
+        "v0CoreRange": null,
+        "v1CoreRange": "latest"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "This package allows any ElizaOS agent to pay for content generation on Bonsai.",
+      "homepage": "https://onbonsai.gitbook.io/docs/elizaos/plugin-bonsai",
+      "topics": [
+        "crypto",
+        "elizaos-plugins",
+        "genai",
+        "x402"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-action-bench": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-action-bench",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.4.1",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-action-bench",
+        "v0": null,
+        "v1": "1.4.1",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.4.2"
+      },
+      "supports": {
+        "v0": false,
         "v1": false
-      }
+      },
+      "description": "Action calling benchmark for Eliza v2, including Typewriter, Relational Data and Multiverse Math.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
     }
   }
 }
