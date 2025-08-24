@@ -19,7 +19,7 @@ All official plugins are hosted at [github.com/elizaos-plugins](https://github.c
 - [@elizaos/plugin-image](https://github.com/elizaos-plugins/plugin-image) - Image processing and analysis
 - [@elizaos/plugin-video](https://github.com/elizaos-plugins/plugin-video) - Video processing capabilities
 - [@elizaos/plugin-local-ai](https://github.com/elizaos-plugins/plugin-local-ai) - Local LLaMA model integration
-
+- [@elizaos-plugins/plugin-rss-feed](https://github.com/jasny/elizaos-rss-feed) - RSS feed ingestion
 Visit the our [Registry Hub](https://eliza.how/packages)
 
 ### Adding Plugins on eliza
