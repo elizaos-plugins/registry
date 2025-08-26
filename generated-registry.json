@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-08-12T15:17:30.280Z",
+  "lastUpdatedAt": "2025-08-26T17:31:18.532Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -143,7 +143,7 @@
       "description": "Vector database adapter for Qdrant with similarity search capabilities.",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "language": "TypeScript"
     },
     "@elizaos/adapter-sqlite": {
@@ -546,7 +546,7 @@
         "ai",
         "elizaos-plugin"
       ],
-      "stargazers_count": 35,
+      "stargazers_count": 37,
       "language": "TypeScript"
     },
     "@elizaos/client-twitter-api-access": {
@@ -702,7 +702,7 @@
         "ai",
         "elizaos-plugin"
       ],
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "language": "TypeScript"
     },
     "@elizaos/plugin-abstract": {
@@ -766,7 +766,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "language": "TypeScript"
     },
     "@elizaos/plugin-allora": {
@@ -827,7 +827,7 @@
       "description": "Provides blockchain data query interfaces for wallet information, NFT operations, and token analytics.",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "language": "TypeScript"
     },
     "@elizaos/plugin-anthropic": {
@@ -1070,7 +1070,7 @@
       "description": "Automatically generate n8n workflows which your agent can set up and run",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "language": "TypeScript"
     },
     "@elizaos/plugin-autonome": {
@@ -1227,7 +1227,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "language": "TypeScript"
     },
     "@elizaos/plugin-bink": {
@@ -1287,7 +1287,7 @@
       "topics": [
         "elizaos-plugins"
       ],
-      "stargazers_count": 7,
+      "stargazers_count": 6,
       "language": "TypeScript"
     },
     "@elizaos/plugin-bitquery": {
@@ -1429,16 +1429,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.4.2",
+          "version": "1.4.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.4.2",
+        "v1": "1.4.5",
         "v0CoreRange": "0.25.9",
-        "v1CoreRange": "1.4.2"
+        "v1CoreRange": "1.4.5"
       },
       "supports": {
         "v0": false,
@@ -2131,7 +2131,7 @@
         "ai",
         "elizaos-plugin"
       ],
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "language": "TypeScript"
     },
     "@elizaos/plugin-edwin": {
@@ -2786,7 +2786,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "language": "TypeScript"
     },
     "@elizaos/plugin-grix": {
@@ -2878,7 +2878,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "language": "TypeScript"
     },
     "@elizaos/plugin-holdstation": {
@@ -3001,7 +3001,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 10,
+      "stargazers_count": 11,
       "language": "TypeScript"
     },
     "@elizaos/plugin-icp": {
@@ -3066,7 +3066,7 @@
         "crypto",
         "elizaos-plugins"
       ],
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "language": "TypeScript"
     },
     "@elizaos/plugin-image-generation": {
@@ -3287,7 +3287,7 @@
       "description": "Eliza RAG Knowledge Plugin",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "language": "TypeScript"
     },
     "@elizaos/plugin-lensNetwork": {
@@ -4225,14 +4225,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.10",
+          "version": "v1.0.11",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.10",
+        "v1": "1.0.11",
         "v0CoreRange": "0.25.6-alpha.1",
         "v1CoreRange": "^1.0.0"
       },
@@ -4382,14 +4382,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.1",
+          "version": "v1.0.2",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-pdf",
         "v0": null,
-        "v1": "1.0.1",
+        "v1": "1.0.2",
         "v0CoreRange": null,
         "v1CoreRange": "^1.0.0"
       },
@@ -4835,7 +4835,7 @@
       "description": "A shell plugin for ElizaOS. USE AT YOUR OWN RISK. THIS GIVES AI FULL ACCESS TO THE HOST MACHINE",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 2,
+      "stargazers_count": 3,
       "language": "TypeScript"
     },
     "@elizaos/plugin-siwe": {
@@ -4911,14 +4911,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.3",
+          "version": "v1.1.1",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-solana",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.0.3",
+        "v1": "1.1.1",
         "v0CoreRange": "0.25.6-alpha.1",
         "v1CoreRange": "^1.0.0"
       },
@@ -4932,7 +4932,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "language": "TypeScript"
     },
     "@elizaos/plugin-sonic": {
@@ -5008,16 +5008,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.4.2",
+          "version": "1.4.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.4.2",
+        "v1": "1.4.5",
         "v0CoreRange": null,
-        "v1CoreRange": "1.4.2"
+        "v1CoreRange": "1.4.5"
       },
       "supports": {
         "v0": false,
@@ -5418,7 +5418,7 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.0",
+          "version": "v1.4.2",
           "branch": "1.x"
         }
       },
@@ -5598,7 +5598,7 @@
         "ai",
         "elizaos-plugin"
       ],
-      "stargazers_count": 28,
+      "stargazers_count": 29,
       "language": "TypeScript"
     },
     "@elizaos/plugin-venice": {
@@ -6240,6 +6240,40 @@
       "stargazers_count": 0,
       "language": "TypeScript"
     },
+    "@theschein/plugin-polymarket": {
+      "git": {
+        "repo": "Okay-Bet/plugin-polymarket",
+        "v0": {
+          "version": "0.1.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@theschein/plugin-polymarket",
+        "v0": "0.1.1",
+        "v1": null,
+        "v0CoreRange": "^1.4.2",
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "An ElizaOs plugin that enables Polymarket market data and trading on an agent",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugins",
+        "polymarket",
+        "prediction-markets"
+      ],
+      "stargazers_count": 3,
+      "language": "TypeScript"
+    },
     "@elizaos/plugin-action-bench": {
       "git": {
         "repo": "elizaos-plugins/plugin-action-bench",
@@ -6248,14 +6282,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.4.1",
+          "version": "v1.4.4",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-action-bench",
         "v0": null,
-        "v1": "1.4.1",
+        "v1": "1.4.4",
         "v0CoreRange": null,
         "v1CoreRange": "^1.4.2"
       },
