@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-08-26T17:43:57.561Z",
+  "lastUpdatedAt": "2025-08-26T17:56:49.507Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -705,6 +705,35 @@
       "stargazers_count": 4,
       "language": "TypeScript"
     },
+    "@elizaos/plugin-ATTPs": {
+      "git": {
+        "repo": "APRO-com/plugin-ATTPs",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-ATTPs",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "The ElizaOS plugin for APRO ATTPs",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
     "@elizaos/plugin-abstract": {
       "git": {
         "repo": "elizaos-plugins/plugin-abstract",
@@ -735,6 +764,35 @@
         "elizaos-plugin"
       ],
       "stargazers_count": 1,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-action-bench": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-action-bench",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.4.4",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-action-bench",
+        "v0": null,
+        "v1": "1.4.4",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.4.2"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Action calling benchmark for Eliza v2, including Typewriter, Relational Data and Multiverse Math.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
       "language": "TypeScript"
     },
     "@elizaos/plugin-akash": {
@@ -984,35 +1042,6 @@
         "elizaos-plugin"
       ],
       "stargazers_count": 2,
-      "language": "TypeScript"
-    },
-    "@elizaos/plugin-ATTPs": {
-      "git": {
-        "repo": "APRO-com/plugin-ATTPs",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-ATTPs",
-        "v0": null,
-        "v1": null,
-        "v0CoreRange": null,
-        "v1CoreRange": null
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      },
-      "description": "The ElizaOS plugin for APRO ATTPs",
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 0,
       "language": "TypeScript"
     },
     "@elizaos/plugin-autocoder": {
@@ -1479,6 +1508,35 @@
       "stargazers_count": 1,
       "language": "TypeScript"
     },
+    "@elizaos/plugin-cardano": {
+      "git": {
+        "repo": "relipasoft/plugin-cardano",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.11",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-cardano",
+        "v0": null,
+        "v1": "1.0.11",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.0.9"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 2,
+      "language": "TypeScript"
+    },
     "@elizaos/plugin-ccxt": {
       "git": {
         "repo": "pranavjadhav1363/plugin-ccxt",
@@ -1503,6 +1561,35 @@
         "v1": false
       },
       "description": "@elizaos/plugin-ccxt enables cryptocurrency trading and arbitrage on Eliza OS using CCXT. It lets users check balances, place market/limit orders, and find arbitrage opportunities across exchanges. Configurable via API keys, it supports multiple platforms while adhering to exchange rate limits. Ideal for traders seeking automated trading solutions.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-clanker": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-clanker",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-clanker",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": null,
       "homepage": null,
       "topics": [],
       "stargazers_count": 0,
@@ -1570,35 +1657,6 @@
         "elizaos-plugin"
       ],
       "stargazers_count": 4,
-      "language": "TypeScript"
-    },
-    "@elizaos/plugin-clanker": {
-      "git": {
-        "repo": "elizaos-plugins/plugin-clanker",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": "1.x"
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-clanker",
-        "v0": null,
-        "v1": null,
-        "v0CoreRange": null,
-        "v1CoreRange": null
-      },
-      "supports": {
-        "v0": false,
-        "v1": true
-      },
-      "description": null,
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 0,
       "language": "TypeScript"
     },
     "@elizaos/plugin-coingecko": {
@@ -1916,6 +1974,35 @@
       "stargazers_count": 0,
       "language": "TypeScript"
     },
+    "@elizaos/plugin-defillama": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-defillama",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.3.5",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-defillama",
+        "v0": null,
+        "v1": "1.3.5",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.3.1"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
     "@elizaos/plugin-depin": {
       "git": {
         "repo": "elizaos-plugins/plugin-depin",
@@ -2042,35 +2129,6 @@
       "homepage": null,
       "topics": [],
       "stargazers_count": 2,
-      "language": "TypeScript"
-    },
-    "@elizaos/plugin-defillama": {
-      "git": {
-        "repo": "elizaos-plugins/plugin-defillama",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": "v1.3.5",
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-defillama",
-        "v0": null,
-        "v1": "1.3.5",
-        "v0CoreRange": null,
-        "v1CoreRange": "^1.3.1"
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      },
-      "description": null,
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 0,
       "language": "TypeScript"
     },
     "@elizaos/plugin-e2b": {
@@ -3354,6 +3412,35 @@
       "stargazers_count": 0,
       "language": "TypeScript"
     },
+    "@elizaos/plugin-lightlink": {
+      "git": {
+        "repo": "lightlink-network/plugin-lightlink",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-lightlink",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Adds lightlink support to ElizaOS - @elizaos/plugin-lightlink",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
     "@elizaos/plugin-linear": {
       "git": {
         "repo": "elizaos-plugins/plugin-linear",
@@ -3410,35 +3497,6 @@
       "homepage": null,
       "topics": [],
       "stargazers_count": 3,
-      "language": "TypeScript"
-    },
-    "@elizaos/plugin-lightlink": {
-      "git": {
-        "repo": "lightlink-network/plugin-lightlink",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-lightlink",
-        "v0": null,
-        "v1": null,
-        "v0CoreRange": null,
-        "v1CoreRange": null
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      },
-      "description": "Adds lightlink support to ElizaOS - @elizaos/plugin-lightlink",
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 0,
       "language": "TypeScript"
     },
     "@elizaos/plugin-local-ai": {
@@ -4680,6 +4738,35 @@
       "stargazers_count": 1,
       "language": "TypeScript"
     },
+    "@elizaos/plugin-reveel-payid": {
+      "git": {
+        "repo": "r3vl/plugin-reveel-payid",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-reveel-payid",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
     "@elizaos/plugin-rss3": {
       "git": {
         "repo": "rss3-network/elizaos-plugin-rss3",
@@ -4871,38 +4958,6 @@
       "stargazers_count": 1,
       "language": "TypeScript"
     },
-    "@elizaos/plugin-solana-agent-kit": {
-      "git": {
-        "repo": "elizaos-plugins/plugin-solana-agent-kit",
-        "v0": {
-          "version": "0.25.6-alpha.1",
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-solana-agent-kit",
-        "v0": "0.25.6-alpha.1",
-        "v1": null,
-        "v0CoreRange": "0.25.6-alpha.1",
-        "v1CoreRange": null
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      },
-      "description": "Integrates Solana Agent Kit into Eliza for token operations, swaps, lending, and staking on Solana.",
-      "homepage": null,
-      "topics": [
-        "crypto",
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 5,
-      "language": "TypeScript"
-    },
     "@elizaos/plugin-solana": {
       "git": {
         "repo": "elizaos-plugins/plugin-solana",
@@ -4933,6 +4988,38 @@
         "elizaos-plugin"
       ],
       "stargazers_count": 9,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-solana-agent-kit": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-solana-agent-kit",
+        "v0": {
+          "version": "0.25.6-alpha.1",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-solana-agent-kit",
+        "v0": "0.25.6-alpha.1",
+        "v1": null,
+        "v0CoreRange": "0.25.6-alpha.1",
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Integrates Solana Agent Kit into Eliza for token operations, swaps, lending, and staking on Solana.",
+      "homepage": null,
+      "topics": [
+        "crypto",
+        "elizaos-plugin"
+      ],
+      "stargazers_count": 5,
       "language": "TypeScript"
     },
     "@elizaos/plugin-sonic": {
@@ -5752,35 +5839,6 @@
       "stargazers_count": 5,
       "language": "TypeScript"
     },
-    "@elizaos/plugin-wolfram": {
-      "git": {
-        "repo": "elizaos-plugins/plugin-wolfram",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": "v1.3.2",
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-wolfram",
-        "v0": null,
-        "v1": "1.3.2",
-        "v0CoreRange": null,
-        "v1CoreRange": "^1.3.2"
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      },
-      "description": null,
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 1,
-      "language": "TypeScript"
-    },
     "@elizaos/plugin-whatsapp": {
       "git": {
         "repo": "elizaos-plugins/plugin-whatsapp",
@@ -5812,6 +5870,35 @@
       "stargazers_count": 3,
       "language": "TypeScript"
     },
+    "@elizaos/plugin-wolfram": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-wolfram",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.3.2",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-wolfram",
+        "v0": null,
+        "v1": "1.3.2",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.3.2"
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 1,
+      "language": "TypeScript"
+    },
     "@elizaos/plugin-xdc": {
       "git": {
         "repo": "xdc-community/plugin-xdc",
@@ -5839,6 +5926,35 @@
       "homepage": null,
       "topics": [],
       "stargazers_count": 1,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-xmtp": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-xmtp",
+        "v0": {
+          "version": null,
+          "branch": "main"
+        },
+        "v1": {
+          "version": "v1.1.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-xmtp",
+        "v0": null,
+        "v1": "1.1.0",
+        "v0CoreRange": null,
+        "v1CoreRange": "^1.3.1"
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      },
+      "description": "Enables secure, decentralized, and end-to-end encrypted messaging through the XMTP protocol.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 3,
       "language": "TypeScript"
     },
     "@elizaos/plugin-youtube-to-text": {
@@ -6026,93 +6142,6 @@
       "stargazers_count": 0,
       "language": "TypeScript"
     },
-    "@elizaos/plugin-cardano": {
-      "git": {
-        "repo": "relipasoft/plugin-cardano",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": "1.0.11",
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-cardano",
-        "v0": null,
-        "v1": "1.0.11",
-        "v0CoreRange": null,
-        "v1CoreRange": "^1.0.9"
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      },
-      "description": null,
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 2,
-      "language": "TypeScript"
-    },
-    "@elizaos/plugin-reveel-payid": {
-      "git": {
-        "repo": "r3vl/plugin-reveel-payid",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-reveel-payid",
-        "v0": null,
-        "v1": null,
-        "v0CoreRange": null,
-        "v1CoreRange": null
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      },
-      "description": null,
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 0,
-      "language": "TypeScript"
-    },
-    "@elizaos/plugin-xmtp": {
-      "git": {
-        "repo": "elizaos-plugins/plugin-xmtp",
-        "v0": {
-          "version": null,
-          "branch": "main"
-        },
-        "v1": {
-          "version": "v1.1.0",
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-xmtp",
-        "v0": null,
-        "v1": "1.1.0",
-        "v0CoreRange": null,
-        "v1CoreRange": "^1.3.1"
-      },
-      "supports": {
-        "v0": true,
-        "v1": false
-      },
-      "description": "Enables secure, decentralized, and end-to-end encrypted messaging through the XMTP protocol.",
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 3,
-      "language": "TypeScript"
-    },
     "@esscrypt/plugin-polkadot": {
       "git": {
         "repo": "Esscrypt/plugin-polkadot",
@@ -6272,35 +6301,6 @@
         "prediction-markets"
       ],
       "stargazers_count": 3,
-      "language": "TypeScript"
-    },
-    "@elizaos/plugin-action-bench": {
-      "git": {
-        "repo": "elizaos-plugins/plugin-action-bench",
-        "v0": {
-          "version": null,
-          "branch": null
-        },
-        "v1": {
-          "version": "v1.4.4",
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@elizaos/plugin-action-bench",
-        "v0": null,
-        "v1": "1.4.4",
-        "v0CoreRange": null,
-        "v1CoreRange": "^1.4.2"
-      },
-      "supports": {
-        "v0": false,
-        "v1": false
-      },
-      "description": "Action calling benchmark for Eliza v2, including Typewriter, Relational Data and Multiverse Math.",
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 0,
       "language": "TypeScript"
     }
   }
