@@ -205,5 +205,6 @@
     "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
     "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai",
     "@elizaos/plugin-action-bench": "github:elizaos-plugins/plugin-action-bench",
-    "@elizaos-plugins/plugin-vercel-ai-gateway": "github:elizaos-plugins/plugin-vercel-ai-gateway"
+    "@elizaos-plugins/plugin-vercel-ai-gateway": "github:elizaos-plugins/plugin-vercel-ai-gateway",
+    "plugin-raids": "github:dexploarer/plugin-raids"
 }
