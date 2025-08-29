@@ -93,7 +93,7 @@
    "@elizaos/plugin-goplus":"github:elizaos-plugins/plugin-goplus",
    "@elizaos/plugin-grix":"github:grixprotocol/plugin-grix",
    "@elizaos/plugin-groq":"github:elizaos-plugins/plugin-groq",
-   "@elizaos/plugin-hedera":"github:hedera-dev/plugin-hedera",
+   "@elizaos/plugin-hedera":"github:elizaos-plugins/plugin-hedera",
    "@elizaos/plugin-holdstation":"github:elizaos-plugins/plugin-holdstation",
    "@elizaos/plugin-holoworld":"github:mcp-dao/plugin-holoworld",
    "@elizaos/plugin-hyperbolic":"github:elizaos-plugins/plugin-hyperbolic",
