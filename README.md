@@ -4,7 +4,7 @@
 
 ## Intro
 
-elizaOS supports dynamic plugin loading directly from the package registry. This registry serves as the central directory for all elizaOS plugins, rendered in the elizaOS CLI and the registry web page at [eliza.how/packages](https://eliza.how/packages).
+elizaOS supports dynamic plugin loading directly from the package registry. This registry serves as the central directory for all elizaOS plugins, rendered in the elizaOS CLI and the registry web page at [docs.elizaos.ai](https://docs.elizaos.ai/plugins/registry).
 
 ## Registry Format
 
