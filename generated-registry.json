@@ -1,35 +1,6 @@
 {
-  "lastUpdatedAt": "2025-08-28T10:02:05.797Z",
+  "lastUpdatedAt": "2025-08-29T13:07:08.084Z",
   "registry": {
-    "@bealers/plugin-mattermost": {
-      "git": {
-        "repo": "bealers/plugin-mattermost",
-        "v0": {
-          "version": "v0.5.0",
-          "branch": "main"
-        },
-        "v1": {
-          "version": null,
-          "branch": null
-        }
-      },
-      "npm": {
-        "repo": "@bealers/plugin-mattermost",
-        "v0": "0.5.1",
-        "v1": null,
-        "v0CoreRange": "latest",
-        "v1CoreRange": null
-      },
-      "supports": {
-        "v0": true,
-        "v1": false
-      },
-      "description": null,
-      "homepage": null,
-      "topics": [],
-      "stargazers_count": 0,
-      "language": "TypeScript"
-    },
     "@elizaos/adapter-mongodb": {
       "git": {
         "repo": "elizaos-plugins/adapter-mongodb",
@@ -1458,16 +1429,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.4.5",
+          "version": "1.5.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.4.5",
+        "v1": "1.5.0",
         "v0CoreRange": "0.25.9",
-        "v1CoreRange": "1.4.5"
+        "v1CoreRange": "1.5.0"
       },
       "supports": {
         "v0": false,
@@ -2936,8 +2907,8 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 6,
-      "language": "TypeScript"
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/plugin-holdstation": {
       "git": {
@@ -4429,7 +4400,7 @@
         "solana",
         "web3"
       ],
-      "stargazers_count": 19,
+      "stargazers_count": 20,
       "language": "TypeScript"
     },
     "@elizaos/plugin-pdf": {
@@ -5095,16 +5066,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.4.5",
+          "version": "1.5.0",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.4.5",
+        "v1": "1.5.0",
         "v0CoreRange": null,
-        "v1CoreRange": "1.4.5"
+        "v1CoreRange": "1.5.0"
       },
       "supports": {
         "v0": false,
@@ -6357,7 +6328,7 @@
         "v0": false,
         "v1": true
       },
-      "description": "tokenmetrics",
+      "description": "This plugin provides comprehensive cryptocurrency analysis across 20 endpoints from Token Metrics API into the ElizaOS framework, enabling AI agents to provide crypto insights",
       "homepage": "https://developers.tokenmetrics.com/docs/getting-started",
       "topics": [],
       "stargazers_count": 0,
