@@ -1,6 +1,35 @@
 {
-  "lastUpdatedAt": "2025-08-29T13:07:08.084Z",
+  "lastUpdatedAt": "2025-08-29T13:09:08.903Z",
   "registry": {
+    "@bealers/plugin-mattermost": {
+      "git": {
+        "repo": "bealers/plugin-mattermost",
+        "v0": {
+          "version": "v0.5.0",
+          "branch": "main"
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@bealers/plugin-mattermost",
+        "v0": "0.5.1",
+        "v1": null,
+        "v0CoreRange": "latest",
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
     "@elizaos/adapter-mongodb": {
       "git": {
         "repo": "elizaos-plugins/adapter-mongodb",
