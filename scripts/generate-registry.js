@@ -441,7 +441,8 @@ async function parseRegistry(githubToken) {
   
   const report = {};
   const allIssues = {};
-  const entries = Object.entries(filteredRegistry);
+  // Sort entries alphabetically by key before processing
+  const entries = Object.entries(filteredRegistry).sort(([a], [b]) => a.localeCompare(b));
   const batchSize = CONFIG.BATCH_SIZE;
   
   console.log(`Processing ${entries.length} repositories in batches of ${batchSize}...`);
@@ -482,9 +483,15 @@ async function parseRegistry(githubToken) {
     }
   }
 
+  // Sort the final report by keys
+  const sortedReport = {};
+  Object.keys(report).sort().forEach(key => {
+    sortedReport[key] = report[key];
+  });
+
   return {
     lastUpdatedAt: new Date().toISOString(),
-    registry: report,
+    registry: sortedReport,
   };
 }
 

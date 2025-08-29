@@ -4,7 +4,32 @@
 
 ## Intro
 
-elizaOS supports dynamic plugin loading directly from the package registry.
+elizaOS supports dynamic plugin loading directly from the package registry. This registry serves as the central directory for all elizaOS plugins, rendered in the elizaOS CLI and the registry web page at [eliza.how/packages](https://eliza.how/packages).
+
+## Registry Format
+
+The `index.json` file contains plugin mappings in the following format:
+
+```json
+{
+  "@npm-package-name": "github:organization/repository-name"
+}
+```
+
+**Format Requirements:**
+- **Left side (key)**: NPM package name (e.g., `@elizaos/plugin-solana`)
+- **Right side (value)**: GitHub repository reference (e.g., `github:elizaos-plugins/plugin-solana`)
+- Each plugin must be on its own line with proper JSON formatting
+- Entries should be alphabetically sorted by package name
+
+**Example entries:**
+```json
+{
+  "@elizaos/plugin-discord": "github:elizaos-plugins/plugin-discord",
+  "@elizaos/plugin-solana": "github:elizaos-plugins/plugin-solana",
+  "@elizaos/plugin-twitter": "github:elizaos-plugins/plugin-twitter"
+}
+```
 
 ### Available Plugins
 
@@ -21,6 +46,46 @@ All official plugins are hosted at [github.com/elizaos-plugins](https://github.c
 - [@elizaos/plugin-local-ai](https://github.com/elizaos-plugins/plugin-local-ai) - Local LLaMA model integration
 - [@elizaos-plugins/plugin-rss-feed](https://github.com/jasny/elizaos-rss-feed) - RSS feed ingestion
 Visit the our [Registry Hub](https://eliza.how/packages)
+
+## Contributing to the Registry
+
+To add your plugin to the elizaOS Registry, follow these steps:
+
+### 1. Prepare Your Plugin
+Ensure your plugin follows the [Plugin Development Guidelines](#plugin-development-guidelines) and includes:
+- Proper plugin structure and interface implementation
+- Complete documentation in your repository
+- Working demo evidence
+- Required branding assets (logo.png, banner.png)
+- GitHub topics including `elizaos-plugins`
+
+### 2. Submit Your Plugin
+Create a Pull Request that **ONLY modifies the `index.json` file**:
+
+1. Fork this repository
+2. Edit the `index.json` file to add your plugin entry:
+   ```json
+   {
+     "@your-org/plugin-name": "github:your-org/your-plugin-repo"
+   }
+   ```
+3. Ensure your entry follows the alphabetical sorting
+4. **Important**: Do not modify any other files - PRs that change files other than `index.json` will be rejected
+5. Create a Pull Request with a clear description of your plugin
+
+### 3. Automated Review Process
+- Our Claude Code review workflow will automatically check that only `index.json` is modified
+- The review will verify the JSON format and contribution guidelines
+- If other files are modified, you'll receive feedback to remove those changes
+- Once approved, your plugin will be automatically processed and added to the generated registry
+
+### 4. Registry Generation
+After your PR is merged:
+- A GitHub Action automatically processes your plugin entry
+- The `generated-registry.json` file is updated with your plugin's metadata
+- Your plugin becomes available in the elizaOS CLI and web registry
+
+**Remember**: Only contribute plugins you own or have permission to register. The registry serves the entire elizaOS community.
 
 ### Adding Plugins on eliza
 
