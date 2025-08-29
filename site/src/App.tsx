@@ -94,7 +94,7 @@ const App = () => {
 
   const [plugins, setPlugins] = useState<Plugin[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
   const fetchPlugins = async (forceRefresh = false) => {
@@ -152,39 +152,46 @@ const App = () => {
             .split("/");
 
           try {
-            const packageJsonResponse = await fetch(
-              `https://raw.githubusercontent.com/${owner}/${repo}/main/package.json`
-            );
+            let packageJsonResponse;
+            let content;
+            
+            try {
+              packageJsonResponse = await fetch(
+                `https://raw.githubusercontent.com/${owner}/${repo}/main/package.json`
+              );
+            } catch (networkError) {
+              console.warn(`Network error fetching ${name}:`, networkError);
+              throw new Error(`Network error for ${name}`);
+            }
 
             if (!packageJsonResponse.ok) {
               console.warn(
                 `Failed to fetch package.json for ${name}, trying 'master' branch`
               );
               // Try master branch as fallback
-              const fallbackResponse = await fetch(
-                `https://raw.githubusercontent.com/${owner}/${repo}/master/package.json`
-              );
+              try {
+                const fallbackResponse = await fetch(
+                  `https://raw.githubusercontent.com/${owner}/${repo}/master/package.json`
+                );
 
-              if (!fallbackResponse.ok) {
+                if (!fallbackResponse.ok) {
+                  throw new Error(`Failed to fetch package.json for ${name}`);
+                }
+                content = await fallbackResponse.json();
+              } catch (fallbackError) {
                 throw new Error(`Failed to fetch package.json for ${name}`);
               }
-
-              const content = await fallbackResponse.json();
-              return {
-                name: name.replace("@elizaos/", ""),
-                version: content.version,
-                description: content.description,
-                author: content.author,
-                githubUrl: `https://github.com/${owner}/${repo}`,
-              };
+            } else {
+              content = await packageJsonResponse.json();
             }
 
-            const content = await packageJsonResponse.json();
             return {
               name: name.replace("@elizaos/", ""),
-              version: content.version,
-              description: content.description,
-              author: content.author,
+              version: content.version || 'unknown',
+              description: content.description || 'No description available',
+              author: typeof content.author === 'object' 
+                ? content.author?.name || content.author?.email || 'unknown'
+                : content.author || 'unknown',
               githubUrl: `https://github.com/${owner}/${repo}`,
             };
           } catch (err) {
