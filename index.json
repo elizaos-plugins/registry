@@ -198,11 +198,11 @@
    "@elizaos/plugin-zerion":"github:elizaos-plugins/plugin-zerion",
    "@elizaos/plugin-zksync-era":"github:elizaos-plugins/plugin-zksync-era",
    "@elizaos/plugin-zytron":"github:zypher-network/plugin-zytron",
+   "@dexploarer/plugin-vercel-ai-gateway":"github:Dexploarer/plugin-vercel-ai-gateway",
    "@esscrypt/plugin-polkadot":"github:Esscrypt/plugin-polkadot",
    "@kudo-dev/plugin-kudo":"github:Kudo-Archi/plugin-kudo",
    "@mazzz/plugin-elizaos-compchembridge":"github:Mazzz-zzz/plugin-elizaos-compchembridge",
    "@mascotai/plugin-connections":"github:mascotai/plugin-connections",
    "@onbonsai/plugin-bonsai":"github:onbonsai/plugin-bonsai",
-   "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket",
-   "@dexploarer/plugin-vercel-ai-gateway":"github:Dexploarer/plugin-vercel-ai-gateway"
+   "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket"
 }
