@@ -203,5 +203,6 @@
    "@mazzz/plugin-elizaos-compchembridge":"github:Mazzz-zzz/plugin-elizaos-compchembridge",
    "@mascotai/plugin-connections":"github:mascotai/plugin-connections",
    "@onbonsai/plugin-bonsai":"github:onbonsai/plugin-bonsai",
-   "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket"
+   "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket",
+   "@dexploarer/plugin-vercel-ai-gateway":"github:Dexploarer/plugin-vercel-ai-gateway"
 }
