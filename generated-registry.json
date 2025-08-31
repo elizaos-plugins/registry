@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-08-29T13:27:30.650Z",
+  "lastUpdatedAt": "2025-08-31T04:50:02.390Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -1458,16 +1458,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.5.0",
+          "version": "1.5.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.5.0",
+        "v1": "1.5.2",
         "v0CoreRange": "0.25.9",
-        "v1CoreRange": "1.5.0"
+        "v1CoreRange": "1.5.2"
       },
       "supports": {
         "v0": false,
@@ -2912,13 +2912,13 @@
     },
     "@elizaos/plugin-hedera": {
       "git": {
-        "repo": "hedera-dev/plugin-hedera",
+        "repo": "elizaos-plugins/plugin-hedera",
         "v0": {
           "version": null,
           "branch": null
         },
         "v1": {
-          "version": "1.0.1",
+          "version": "v1.0.1",
           "branch": null
         }
       },
@@ -2937,7 +2937,7 @@
       "homepage": null,
       "topics": [],
       "stargazers_count": 0,
-      "language": null
+      "language": "TypeScript"
     },
     "@elizaos/plugin-holdstation": {
       "git": {
@@ -5095,16 +5095,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.5.0",
+          "version": "1.5.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.5.0",
+        "v1": "1.5.2",
         "v0CoreRange": null,
-        "v1CoreRange": "1.5.0"
+        "v1CoreRange": "1.5.2"
       },
       "supports": {
         "v0": false,
@@ -5462,7 +5462,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "language": "TypeScript"
     },
     "@elizaos/plugin-thirdweb": {
@@ -5925,7 +5925,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "language": "TypeScript"
     },
     "@elizaos/plugin-xmtp": {
