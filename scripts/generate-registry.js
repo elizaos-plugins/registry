@@ -66,16 +66,26 @@ function normalizeDependencyRange(depRange) {
   }
 }
 
-// Helper function to safely check semver satisfaction
-function safelyCheckSemverSatisfies(version, range) {
+// Check if plugin's core dependency range is compatible with a major version
+function isCompatibleWithMajorVersion(pluginCoreRange, majorVersion) {
   try {
-    const normalizedRange = normalizeDependencyRange(range);
+    const normalizedRange = normalizeDependencyRange(pluginCoreRange);
     if (!normalizedRange) {
       return false;
     }
-    return semver.satisfies(version, normalizedRange);
+    
+    // Test if any version in the major version range satisfies the plugin's requirements
+    if (majorVersion === 0) {
+      // v0 compatibility: test 0.x versions
+      return semver.satisfies("0.25.9", normalizedRange) || semver.satisfies("0.9.0", normalizedRange);
+    } else if (majorVersion === 1) {
+      // v1 compatibility: test 1.x versions  
+      return semver.satisfies("1.0.0", normalizedRange) || semver.satisfies("1.5.0", normalizedRange);
+    }
+    
+    return false;
   } catch (error) {
-    console.warn(`  Failed to check semver satisfies for ${version} against ${range}: ${error.message}`);
+    console.warn(`  Failed to check compatibility for major version ${majorVersion} against ${pluginCoreRange}: ${error.message}`);
     return false;
   }
 }
@@ -337,8 +347,8 @@ async function processRepo(npmId, gitRef, octokit) {
   for (const pkg of pkgs) {
     if (pkg.version && pkg.coreRange) {
       const pkgMajor = semver.major(semver.clean(pkg.version));
-      const satisfiesV0Core = safelyCheckSemverSatisfies("0.9.0", pkg.coreRange);
-      const satisfiesV1Core = safelyCheckSemverSatisfies("1.0.0", pkg.coreRange);
+      const satisfiesV0Core = isCompatibleWithMajorVersion(pkg.coreRange, 0);
+      const satisfiesV1Core = isCompatibleWithMajorVersion(pkg.coreRange, 1);
 
       // For v0: package version must be < 1.0.0 AND core dependency should be compatible
       // Branches can be "0.x" or "main"
@@ -362,14 +372,14 @@ async function processRepo(npmId, gitRef, octokit) {
   // Check if NPM versions have proper core dependencies
   if (npmInfo?.v0 && npmInfo?.v0CoreRange) {
     const v0Major = semver.major(semver.clean(npmInfo.v0));
-    const satisfiesV0Core = safelyCheckSemverSatisfies("0.9.0", npmInfo.v0CoreRange);
+    const satisfiesV0Core = isCompatibleWithMajorVersion(npmInfo.v0CoreRange, 0);
     if (v0Major === 0 && satisfiesV0Core) {
       supportsV0 = true;
     }
   }
   if (npmInfo?.v1 && npmInfo?.v1CoreRange) {
     const v1Major = semver.major(semver.clean(npmInfo.v1));
-    const satisfiesV1Core = safelyCheckSemverSatisfies("1.0.0", npmInfo.v1CoreRange);
+    const satisfiesV1Core = isCompatibleWithMajorVersion(npmInfo.v1CoreRange, 1);
     if (v1Major >= 1 && satisfiesV1Core) {
       supportsV1 = true;
     }

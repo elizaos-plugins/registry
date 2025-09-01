@@ -204,6 +204,6 @@
    "@mazzz/plugin-elizaos-compchembridge":"github:Mazzz-zzz/plugin-elizaos-compchembridge",
    "@mascotai/plugin-connections":"github:mascotai/plugin-connections",
    "@onbonsai/plugin-bonsai":"github:onbonsai/plugin-bonsai",
-   "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket"
-   "plugin-connections": "github:mascotai/plugin-connections",
+   "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket",
+   "plugin-connections": "github:mascotai/plugin-connections"
 }
