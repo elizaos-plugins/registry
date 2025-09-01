@@ -56,34 +56,27 @@ function normalizeDependencyRange(depRange) {
     return null;
   }
   
-  // Try to validate the range as-is
+  // Validate the range and return the normalized value (or null)
   try {
-    // Test if semver can parse this range
-    semver.validRange(trimmed);
-    return trimmed;
+    const valid = semver.validRange(trimmed);
+    return valid || null;
   } catch {
     return null;
   }
 }
 
-// Check if plugin's core dependency range is compatible with a major version
+// Check if plugin's core dependency range intersects a major version band
 function isCompatibleWithMajorVersion(pluginCoreRange, majorVersion) {
   try {
     const normalizedRange = normalizeDependencyRange(pluginCoreRange);
     if (!normalizedRange) {
       return false;
     }
-    
-    // Test if any version in the major version range satisfies the plugin's requirements
-    if (majorVersion === 0) {
-      // v0 compatibility: test 0.x versions
-      return semver.satisfies("0.25.9", normalizedRange) || semver.satisfies("0.9.0", normalizedRange);
-    } else if (majorVersion === 1) {
-      // v1 compatibility: test 1.x versions  
-      return semver.satisfies("1.0.0", normalizedRange) || semver.satisfies("1.5.0", normalizedRange);
-    }
-    
-    return false;
+
+    // v0 band: >0.x and <1.x  → [0.0.0, 1.0.0)
+    // v1 band: >1.x and <2.x  → [1.0.0, 2.0.0)
+    const band = majorVersion === 0 ? ">=0.0.0 <1.0.0" : ">=1.0.0 <2.0.0";
+    return semver.intersects(normalizedRange, band, { includePrerelease: true });
   } catch (error) {
     console.warn(`  Failed to check compatibility for major version ${majorVersion} against ${pluginCoreRange}: ${error.message}`);
     return false;
