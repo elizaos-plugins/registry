@@ -205,5 +205,6 @@
    "@mascotai/plugin-connections":"github:mascotai/plugin-connections",
    "@onbonsai/plugin-bonsai":"github:onbonsai/plugin-bonsai",
    "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket",
+    "@yungalgo/plugin-gorpi": "github:yungalgo/plugin-gorpi",
    "plugin-connections": "github:mascotai/plugin-connections"
 }
