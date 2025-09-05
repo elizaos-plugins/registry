@@ -206,5 +206,5 @@
    "@onbonsai/plugin-bonsai":"github:onbonsai/plugin-bonsai",
    "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket",
    "plugin-connections": "github:mascotai/plugin-connections",
-    "plugin-delta": "github:1BDO/plugin-delta"
+    "@1BDO/plugin-delta": "github:1BDO/plugin-delta"
 }
