@@ -206,5 +206,6 @@
    "@onbonsai/plugin-bonsai":"github:onbonsai/plugin-bonsai",
    "@standujar/plugin-composio":"github:standujar/plugin-composio",
    "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket",
-   "plugin-connections": "github:mascotai/plugin-connections"
+   "plugin-connections": "github:mascotai/plugin-connections",
+   "plugin-octav": "github:wpoulin/plugin-octav"
 }
