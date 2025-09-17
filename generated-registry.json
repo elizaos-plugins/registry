@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-09-10T21:06:51.186Z",
+  "lastUpdatedAt": "2025-09-17T15:51:50.570Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -546,7 +546,7 @@
         "ai",
         "elizaos-plugin"
       ],
-      "stargazers_count": 38,
+      "stargazers_count": 37,
       "language": "TypeScript"
     },
     "@elizaos/client-twitter-api-access": {
@@ -824,7 +824,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "language": "TypeScript"
     },
     "@elizaos/plugin-allora": {
@@ -1458,16 +1458,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.5.7",
+          "version": "1.5.9",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.5.7",
+        "v1": "1.5.9",
         "v0CoreRange": "0.25.9",
-        "v1CoreRange": "1.5.7"
+        "v1CoreRange": "1.5.9"
       },
       "supports": {
         "v0": true,
@@ -2250,7 +2250,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "language": "TypeScript"
     },
     "@elizaos/plugin-enso": {
@@ -2314,7 +2314,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 12,
+      "stargazers_count": 15,
       "language": "TypeScript"
     },
     "@elizaos/plugin-executor": {
@@ -2812,7 +2812,7 @@
       "description": "LLM ElizaOS plugin for google genai",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "language": "TypeScript"
     },
     "@elizaos/plugin-goplus": {
@@ -3327,14 +3327,14 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.2.2",
+          "version": "v1.2.3",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.2.2",
+        "v1": "1.2.3",
         "v0CoreRange": null,
         "v1CoreRange": "^1.2.0"
       },
@@ -3345,7 +3345,7 @@
       "description": "Eliza RAG Knowledge Plugin",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 10,
+      "stargazers_count": 9,
       "language": "TypeScript"
     },
     "@elizaos/plugin-lensNetwork": {
@@ -5095,16 +5095,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.5.7",
+          "version": "1.5.9",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.5.7",
+        "v1": "1.5.9",
         "v0CoreRange": null,
-        "v1CoreRange": "1.5.7"
+        "v1CoreRange": "1.5.9"
       },
       "supports": {
         "v0": false,
@@ -5526,7 +5526,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 16,
+      "stargazers_count": 17,
       "language": "TypeScript"
     },
     "@elizaos/plugin-trn": {
@@ -6364,7 +6364,7 @@
       "git": {
         "repo": "Okay-Bet/plugin-polymarket",
         "v0": {
-          "version": "0.1.1",
+          "version": "0.2.1",
           "branch": null
         },
         "v1": {
@@ -6374,9 +6374,9 @@
       },
       "npm": {
         "repo": "@theschein/plugin-polymarket",
-        "v0": "0.1.1",
+        "v0": "0.2.1",
         "v1": null,
-        "v0CoreRange": "^1.4.2",
+        "v0CoreRange": "1.5.7",
         "v1CoreRange": null
       },
       "supports": {
@@ -6391,7 +6391,7 @@
         "polymarket",
         "prediction-markets"
       ],
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "language": "TypeScript"
     },
     "@token-metrics/plugin-tokenmetrics": {
@@ -6447,6 +6447,37 @@
         "v1": true
       },
       "description": null,
+      "homepage": null,
+      "topics": [
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "plugin-octav": {
+      "git": {
+        "repo": "wpoulin/plugin-octav",
+        "v0": {
+          "version": "0.1.2",
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "plugin-octav",
+        "v0": "0.1.2",
+        "v1": null,
+        "v0CoreRange": "1.5.7",
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Fetch blockchain data using Octav API",
       "homepage": null,
       "topics": [
         "elizaos-plugins"
