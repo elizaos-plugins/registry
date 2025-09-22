@@ -176,6 +176,7 @@
    "@elizaos/plugin-tee-marlin":"github:elizaos-plugins/plugin-tee-marlin",
    "@elizaos/plugin-telegram":"github:elizaos-plugins/plugin-telegram",
    "@elizaos/plugin-thirdweb":"github:elizaos-plugins/plugin-thirdweb",
+    "@leopham/plugin-u2u": "github:HongThaiPham/plugin-u2u",
    "@token-metrics/plugin-tokenmetrics":"github:token-metrics/plugin-tokenmetrics",
    "@elizaos/plugin-ton":"github:elizaos-plugins/plugin-ton",
    "@elizaos/plugin-trn":"github:Gen3Games/plugin-trn",
