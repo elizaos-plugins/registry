@@ -38,6 +38,7 @@
    "@elizaos/plugin-autonome":"github:elizaos-plugins/plugin-autonome",
    "@elizaos/plugin-avail":"github:elizaos-plugins/plugin-avail",
    "@elizaos/plugin-avalanche":"github:elizaos-plugins/plugin-avalanche",
+   "@elizaos/plugin-beacon":"github:beacon-protocol/plugin-beacon",
    "@elizaos/plugin-bedrock":"github:elizaos-plugins/plugin-bedrock",
    "@elizaos/plugin-binance":"github:elizaos-plugins/plugin-binance",
    "@elizaos/plugin-bink":"github:Bink-AI/elizaos-plugin-binkai",
