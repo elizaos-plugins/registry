@@ -152,6 +152,7 @@
    "@elizaos/plugin-raiinmaker":"github:Coiin-Blockchain/plugin-raiinmaker",
    "@elizaos/plugin-recall":"github:recallnet/plugin-recall",
    "@elizaos/plugin-redpill":"github:elizaos-plugins/plugin-redpill",
+   "@elizaos/plugin-relay":"github:elizaos-plugins/plugin-relay",
    "@elizaos/plugin-reveel-payid":"github:r3vl/plugin-reveel-payid",
    "@elizaos/plugin-rss3":"github:rss3-network/elizaos-plugin-rss3",
    "@elizaos/plugin-safe":"github:5afe/plugin-safe",
