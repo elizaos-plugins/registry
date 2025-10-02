@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-09-22T13:09:42.605Z",
+  "lastUpdatedAt": "2025-10-02T19:02:39.765Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -1458,16 +1458,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.5.10",
+          "version": "1.6.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.5.10",
+        "v1": "1.6.1",
         "v0CoreRange": "0.25.9",
-        "v1CoreRange": "1.5.10"
+        "v1CoreRange": "1.6.1"
       },
       "supports": {
         "v0": true,
@@ -2232,16 +2232,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.5",
+          "version": "v1.5.13",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-elevenlabs",
         "v0": null,
-        "v1": "1.0.5",
+        "v1": "1.5.13",
         "v0CoreRange": null,
-        "v1CoreRange": "latest"
+        "v1CoreRange": "1.5.10"
       },
       "supports": {
         "v0": false,
@@ -2250,7 +2250,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "language": "TypeScript"
     },
     "@elizaos/plugin-enso": {
@@ -3215,7 +3215,7 @@
       "topics": [
         "elizaos-plugin"
       ],
-      "stargazers_count": 2,
+      "stargazers_count": 3,
       "language": "TypeScript"
     },
     "@elizaos/plugin-irys": {
@@ -4084,7 +4084,7 @@
         "ai",
         "elizaos-plugin"
       ],
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "language": "TypeScript"
     },
     "@elizaos/plugin-okto": {
@@ -4283,16 +4283,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.5.14",
+          "version": "v1.5.15",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.5.14",
+        "v1": "1.5.15",
         "v0CoreRange": "0.25.6-alpha.1",
-        "v1CoreRange": "^1.5.10"
+        "v1CoreRange": "^1.6.0-alpha.4"
       },
       "supports": {
         "v0": true,
@@ -4312,16 +4312,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.5.10",
+          "version": "v1.5.14",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openrouter",
         "v0": null,
-        "v1": "1.5.10",
+        "v1": "1.5.14",
         "v0CoreRange": null,
-        "v1CoreRange": "^1.5.10"
+        "v1CoreRange": "^1.6.1"
       },
       "supports": {
         "v0": false,
@@ -4738,6 +4738,35 @@
       "stargazers_count": 1,
       "language": "TypeScript"
     },
+    "@elizaos/plugin-relay": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-relay",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "v1.0.1",
+          "branch": "1.x"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-relay",
+        "v0": null,
+        "v1": "1.0.1",
+        "v0CoreRange": null,
+        "v1CoreRange": "latest"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "The fastest and cheapest way to bridge & transact across chains with ElizaOS",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
     "@elizaos/plugin-reveel-payid": {
       "git": {
         "repo": "r3vl/plugin-reveel-payid",
@@ -5095,16 +5124,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.5.10",
+          "version": "1.6.1",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.5.10",
+        "v1": "1.6.1",
         "v0CoreRange": null,
-        "v1CoreRange": "1.5.10"
+        "v1CoreRange": "1.6.1"
       },
       "supports": {
         "v0": false,
@@ -5338,7 +5367,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 9,
+      "stargazers_count": 10,
       "language": "TypeScript"
     },
     "@elizaos/plugin-tee": {
@@ -5685,7 +5714,7 @@
         "ai",
         "elizaos-plugin"
       ],
-      "stargazers_count": 29,
+      "stargazers_count": 30,
       "language": "TypeScript"
     },
     "@elizaos/plugin-venice": {
@@ -5896,7 +5925,7 @@
       "topics": [
         "elizaos-plugin"
       ],
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "language": "TypeScript"
     },
     "@elizaos/plugin-wolfram": {
@@ -6197,7 +6226,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 0,
+      "stargazers_count": 2,
       "language": "TypeScript"
     },
     "@kudo-dev/plugin-kudo": {
@@ -6344,9 +6373,9 @@
       "npm": {
         "repo": "@standujar/plugin-composio",
         "v0": null,
-        "v1": "1.3.3",
+        "v1": "1.6.0",
         "v0CoreRange": null,
-        "v1CoreRange": "1.5.5"
+        "v1CoreRange": "1.6.1"
       },
       "supports": {
         "v0": false,
