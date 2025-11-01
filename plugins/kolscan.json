@@ -1,0 +1,10 @@
+{
+  "name": "@laurabee19802025-max/plugin-kolscan",
+  "version": "1.0.0",
+  "description": "AI-powered Solana token trading insights with real-time KOL data analysis",
+  "author": "laurabee19802025-max",
+  "homepage": "https://api.ai16x402.com",
+  "repository": "https://github.com/laurabee19802025-max/elizaos-plugin-kolscan",
+  "category": "trading",
+  "compatibility": "v1.x"
+}
