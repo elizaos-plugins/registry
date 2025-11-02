@@ -1,0 +1,31 @@
+{
+  "name": "plugin-ai16x402",
+  "version": "1.0.1",
+  "description": "AI-powered Solana token trading insights with real-time KOL data analysis. Provides BUY/HOLD/SELL recommendations, hot tokens monitoring, and top trader leaderboard tracking.",
+  "author": "ai16x402",
+  "homepage": "https://api.ai16x402.com",
+  "repository": "https://github.com/ai16x402/elizaos-plugin-ai16x402",
+  "npmPackage": "https://www.npmjs.com/package/plugin-ai16x402",
+  "keywords": [
+    "solana",
+    "trading",
+    "kol",
+    "crypto",
+    "defi",
+    "token-analysis",
+    "blockchain",
+    "ai-agent"
+  ],
+  "category": "trading",
+  "compatibility": "v1.x",
+  "features": [
+    "Real-time token analysis with BUY/HOLD/SELL recommendations",
+    "Hot tokens monitoring (1h timeframe)",
+    "Top trader leaderboard tracking",
+    "AI-driven trading signals with confidence scores",
+    "Risk level assessment (LOW/MEDIUM/HIGH)",
+    "Support for X402 micropayments"
+  ],
+  "documentation": "https://github.com/ai16x402/elizaos-plugin-ai16x402#readme",
+  "license": "MIT"
+}
