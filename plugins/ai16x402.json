@@ -1,6 +1,6 @@
 {
   "name": "plugin-ai16x402",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered Solana token trading insights with real-time KOL data analysis. Provides BUY/HOLD/SELL recommendations, hot tokens monitoring, and top trader leaderboard tracking.",
   "author": "ai16x402",
   "homepage": "https://api.ai16x402.com",
