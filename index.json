@@ -136,6 +136,7 @@
    "@elizaos/plugin-ollama":"github:elizaos-plugins/plugin-ollama",
    "@elizaos/plugin-omniflix":"github:elizaos-plugins/plugin-omniflix",
    "@elizaos/plugin-opacity":"github:elizaos-plugins/plugin-opacity",
+   "plugin-otaku-x402":"github:otaku-x402/elizaos-plugin-otaku-x402",
    "@elizaos/plugin-open-weather":"github:elizaos-plugins/plugin-open-weather",
    "@elizaos/plugin-openai":"github:elizaos-plugins/plugin-openai",
    "@elizaos/plugin-openrouter":"github:elizaos-plugins/plugin-openrouter",
