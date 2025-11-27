@@ -25,6 +25,7 @@
    "@elizaos/plugin-ATTPs":"github:APRO-com/plugin-ATTPs",
    "@elizaos/plugin-abstract":"github:elizaos-plugins/plugin-abstract",
    "@elizaos/plugin-action-bench":"github:elizaos-plugins/plugin-action-bench",
+   "@elizaos/plugin-agent-factory":"github:elizaos-plugins/plugin-agent-factory",
    "@elizaos/plugin-akash":"github:elizaos-plugins/plugin-akash",
    "@elizaos/plugin-allora":"github:elizaos-plugins/plugin-allora",
    "@elizaos/plugin-ankr":"github:elizaos-plugins/plugin-ankr",
