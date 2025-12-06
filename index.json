@@ -72,6 +72,7 @@
    "@elizaos/plugin-echochambers":"github:elizaos-plugins/plugin-echochambers",
    "@elizaos/plugin-edwin":"github:elizaos-plugins/plugin-edwin",
    "@elizaos/plugin-elevenlabs":"github:elizaos-plugins/plugin-elevenlabs",
+   "@elizaos/plugin-elizacloud":"github:elizaos-plugins/plugin-elizacloud",
    "@elizaos/plugin-enso":"github:EnsoBuild/plugin-enso",
    "@elizaos/plugin-evm":"github:elizaos-plugins/plugin-evm",
    "@elizaos/plugin-executor":"github:t3rn/plugin-t3rn-executor",
