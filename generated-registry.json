@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-12-06T20:00:14.186Z",
+  "lastUpdatedAt": "2025-12-11T16:31:24.236Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -1458,16 +1458,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.6.4",
+          "version": "1.6.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.6.4",
+        "v1": "1.6.5",
         "v0CoreRange": "0.25.9",
-        "v1CoreRange": "1.6.4"
+        "v1CoreRange": "1.6.5"
       },
       "supports": {
         "v0": true,
@@ -2032,7 +2032,7 @@
         "ai",
         "elizaos-plugin"
       ],
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "language": "TypeScript"
     },
     "@elizaos/plugin-dexpaprika": {
@@ -5153,16 +5153,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.6.4",
+          "version": "1.6.5",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.6.4",
+        "v1": "1.6.5",
         "v0CoreRange": null,
-        "v1CoreRange": "1.6.4"
+        "v1CoreRange": "1.6.5"
       },
       "supports": {
         "v0": false,
@@ -5264,7 +5264,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 1,
+      "stargazers_count": 2,
       "language": "TypeScript"
     },
     "@elizaos/plugin-storacha": {
@@ -6508,6 +6508,35 @@
       },
       "description": "This plugin provides comprehensive cryptocurrency analysis across 20 endpoints from Token Metrics API into the ElizaOS framework, enabling AI agents to provide crypto insights",
       "homepage": "https://developers.tokenmetrics.com/docs/getting-started",
+      "topics": [],
+      "stargazers_count": 0,
+      "language": "TypeScript"
+    },
+    "@tonyflam/plugin-openchat": {
+      "git": {
+        "repo": "Tonyflam/plugin-openchat",
+        "v0": {
+          "version": "0.1.1",
+          "branch": "main"
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@tonyflam/plugin-openchat",
+        "v0": "0.1.1",
+        "v1": null,
+        "v0CoreRange": "*",
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": true,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
       "topics": [],
       "stargazers_count": 0,
       "language": "TypeScript"
