@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-12-11T16:31:24.236Z",
+  "lastUpdatedAt": "2025-12-11T16:36:03.722Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -6417,6 +6417,35 @@
       ],
       "stargazers_count": 0,
       "language": "TypeScript"
+    },
+    "@pyboom/plugin-moralis-v2": {
+      "git": {
+        "repo": "matteo-brandolino/plugin-moralis-v2",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@pyboom/plugin-moralis-v2",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": "Fetches real-time DeFi data including trading pairs, statistics, and price history through Moralis APIs.",
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@standujar/plugin-composio": {
       "git": {
