@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-12-11T16:36:03.722Z",
+  "lastUpdatedAt": "2025-12-16T12:19:42.971Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -2407,6 +2407,37 @@
       "homepage": null,
       "topics": [],
       "stargazers_count": 10,
+      "language": "TypeScript"
+    },
+    "@elizaos/plugin-farcaster-local-hub": {
+      "git": {
+        "repo": "AntoineVergne/plugin-farcaster-local-hub",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": "main"
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-farcaster-local-hub",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
+      },
+      "description": "  Self-hosted Farcaster plugin for ElizaOS - direct hub communication, no external APIs, includes timestamp epoch fix",
+      "homepage": null,
+      "topics": [
+        "elizaos-plugins"
+      ],
+      "stargazers_count": 0,
       "language": "TypeScript"
     },
     "@elizaos/plugin-ferePro": {
