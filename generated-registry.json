@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-12-16T12:19:42.971Z",
+  "lastUpdatedAt": "2025-12-19T10:19:47.019Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -6310,7 +6310,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -6405,7 +6405,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -6530,7 +6530,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "An ElizaOs plugin that enables Polymarket market data and trading on an agent",
       "homepage": null,
@@ -6576,24 +6576,24 @@
       "git": {
         "repo": "Tonyflam/plugin-openchat",
         "v0": {
-          "version": "0.1.1",
-          "branch": "main"
+          "version": "0.1.2",
+          "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "1.0.0",
+          "branch": "main"
         }
       },
       "npm": {
         "repo": "@tonyflam/plugin-openchat",
-        "v0": "0.1.1",
-        "v1": null,
+        "v0": "0.1.2",
+        "v1": "1.0.0",
         "v0CoreRange": "*",
-        "v1CoreRange": null
+        "v1CoreRange": "latest"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -6653,7 +6653,7 @@
       },
       "supports": {
         "v0": false,
-        "v1": false
+        "v1": true
       },
       "description": "Fetch blockchain data using Octav API",
       "homepage": null,
