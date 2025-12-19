@@ -361,20 +361,50 @@ async function processRepo(npmId, gitRef, octokit) {
 
   const [gitTagInfo, npmInfo, repoInfo] = await Promise.all([tagsPromise, npmPromise, repoInfoPromise]);
 
+  // Helper to detect if a raw core range is clearly v0 or v1 targeted
+  // Only matches definitive constraints: exact versions, ^ (compatible), ~ (patch)
+  // Excludes ambiguous operators like >=, >, <, <= that may span multiple majors
+  const getCoreRangeMajor = (range) => {
+    if (!range || typeof range !== 'string') return null;
+    const trimmed = range.trim();
+    if (trimmed === 'latest') return null; // ambiguous
+    // Check for explicit v0 patterns: "0.x", "^0.x", "~0.x" (but NOT ">=0.x", "<1.x")
+    if (/^[\^~]?0\./.test(trimmed)) return 0;
+    // Check for explicit v1 patterns: "1.x", "^1.x", "~1.x" (but NOT ">=1.x", "<2.x")
+    if (/^[\^~]?1\./.test(trimmed)) return 1;
+    return null;
+  };
+
   // Set version support based on npm versions and core dependencies (more reliable)
-  // Check if NPM versions have proper core dependencies
+  // The core dependency is what determines actual compatibility, not the package version
   if (npmInfo?.v0 && npmInfo?.v0CoreRange) {
     const v0Major = semver.major(semver.clean(npmInfo.v0));
     const satisfiesV0Core = isCompatibleWithMajorVersion(npmInfo.v0CoreRange, 0);
+    const satisfiesV1Core = isCompatibleWithMajorVersion(npmInfo.v0CoreRange, 1);
+    const coreTargetMajor = getCoreRangeMajor(npmInfo.v0CoreRange);
+    
     if (v0Major === 0 && satisfiesV0Core) {
       supportsV0 = true;
+    }
+    // v0 package with v1 core dependency → it's actually a v1 plugin (just versioned wrong)
+    if (v0Major === 0 && coreTargetMajor === 1) {
+      supportsV1 = true; // Mark as v1 compatible since it depends on v1 core
+      issues.push(`⚠️ v0 package (${npmInfo.v0}) depends on v1 core (${npmInfo.v0CoreRange}) - should publish as v1.x`);
     }
   }
   if (npmInfo?.v1 && npmInfo?.v1CoreRange) {
     const v1Major = semver.major(semver.clean(npmInfo.v1));
     const satisfiesV1Core = isCompatibleWithMajorVersion(npmInfo.v1CoreRange, 1);
+    const satisfiesV0Core = isCompatibleWithMajorVersion(npmInfo.v1CoreRange, 0);
+    const coreTargetMajor = getCoreRangeMajor(npmInfo.v1CoreRange);
+    
     if (v1Major >= 1 && satisfiesV1Core) {
       supportsV1 = true;
+    }
+    // v1 package with v0 core dependency → it's actually a v0 plugin (core dep not updated)
+    if (v1Major >= 1 && coreTargetMajor === 0) {
+      supportsV0 = true; // Mark as v0 compatible since it depends on v0 core
+      issues.push(`⚠️ v1 package (${npmInfo.v1}) depends on v0 core (${npmInfo.v1CoreRange}) - needs to update @elizaos/core to ^1.0.0`);
     }
   }
 
