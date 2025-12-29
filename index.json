@@ -1,6 +1,5 @@
 {
    "@bealers/plugin-mattermost":"github:bealers/plugin-mattermost",
-   "plugin-coinrailz": "npm:plugin-coinrailz"
    "@elizaos/adapter-mongodb":"github:elizaos-plugins/adapter-mongodb",
    "@elizaos/adapter-pglite":"github:elizaos-plugins/adapter-pglite",
    "@elizaos/adapter-postgres":"github:elizaos-plugins/adapter-postgres",
@@ -56,6 +55,7 @@
    "@elizaos/plugin-coinbase":"github:elizaos-plugins/plugin-coinbase",
    "@elizaos/plugin-coingecko":"github:elizaos-plugins/plugin-coingecko",
    "@elizaos/plugin-coinmarketcap":"github:elizaos-plugins/plugin-coinmarketcap",
+   "plugin-coinrailz": "npm:plugin-coinrailz",
    "@elizaos/plugin-compass":"github:CompassLabs/plugin-compass",
    "@elizaos/plugin-computer-use":"github:amit0365/plugin-computer-use",
    "@elizaos/plugin-conflux":"github:elizaos-plugins/plugin-conflux",
