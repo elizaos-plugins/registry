@@ -1,5 +1,6 @@
 {
    "@bealers/plugin-mattermost":"github:bealers/plugin-mattermost",
+   "@blockrun/elizaos-plugin":"github:BlockRunAI/elizaos-plugin-blockrun",
    "@elizaos/adapter-mongodb":"github:elizaos-plugins/adapter-mongodb",
    "@elizaos/adapter-pglite":"github:elizaos-plugins/adapter-pglite",
    "@elizaos/adapter-postgres":"github:elizaos-plugins/adapter-postgres",
