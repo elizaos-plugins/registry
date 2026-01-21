@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2025-12-19T10:19:47.019Z",
+  "lastUpdatedAt": "2026-01-21T18:29:27.149Z",
   "registry": {
     "@bealers/plugin-mattermost": {
       "git": {
@@ -540,14 +540,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "This package integrates Twitter/X with the Eliza AI agent, enabling post generation, interaction handling, search functionality, Twitter Spaces support, and an optional approval workflow via Discord.",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "ai",
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 40,
-      "language": "TypeScript"
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-twitter-api-access": {
       "git": {
@@ -1256,7 +1253,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 5,
+      "stargazers_count": 6,
       "language": "TypeScript"
     },
     "@elizaos/plugin-bink": {
@@ -1458,16 +1455,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.6.5",
+          "version": "1.7.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-bootstrap",
         "v0": "0.25.9",
-        "v1": "1.6.5",
+        "v1": "1.7.2",
         "v0CoreRange": "0.25.9",
-        "v1CoreRange": "1.6.5"
+        "v1CoreRange": "1.7.2"
       },
       "supports": {
         "v0": true,
@@ -1688,7 +1685,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 11,
+      "stargazers_count": 12,
       "language": "TypeScript"
     },
     "@elizaos/plugin-coinmarketcap": {
@@ -2000,7 +1997,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "language": "TypeScript"
     },
     "@elizaos/plugin-depin": {
@@ -2110,16 +2107,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.3.4",
+          "version": "v1.3.7",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-discord",
         "v0": null,
-        "v1": "1.3.3",
+        "v1": "1.3.7",
         "v0CoreRange": null,
-        "v1CoreRange": "^1.6.4"
+        "v1CoreRange": "^1.7.2"
       },
       "supports": {
         "v0": false,
@@ -2128,7 +2125,7 @@
       "description": "A Discord plugin for ElizaOS, enabling integration with Discord servers for interaction, voice, and message management.",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "language": "TypeScript"
     },
     "@elizaos/plugin-e2b": {
@@ -2261,16 +2258,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.5.20",
+          "version": "v1.7.5",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-elizacloud",
         "v0": null,
-        "v1": "1.5.20",
+        "v1": "1.7.5",
         "v0CoreRange": null,
-        "v1CoreRange": "^1.6.0-alpha.4"
+        "v1CoreRange": "^1.7.0"
       },
       "supports": {
         "v0": false,
@@ -2343,7 +2340,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 16,
+      "stargazers_count": 18,
       "language": "TypeScript"
     },
     "@elizaos/plugin-executor": {
@@ -2388,16 +2385,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.0.5",
+          "version": "v1.7.2",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-farcaster",
         "v0": null,
-        "v1": "1.0.5",
+        "v1": "1.7.2",
         "v0CoreRange": null,
-        "v1CoreRange": "^1.0.8"
+        "v1CoreRange": "^1.7.0"
       },
       "supports": {
         "v0": false,
@@ -2406,7 +2403,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 10,
+      "stargazers_count": 11,
       "language": "TypeScript"
     },
     "@elizaos/plugin-farcaster-local-hub": {
@@ -3387,16 +3384,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.5.16",
+          "version": "v1.6.1",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-knowledge",
         "v0": null,
-        "v1": "1.5.15",
+        "v1": "1.6.1",
         "v0CoreRange": null,
-        "v1CoreRange": "^1.6.4"
+        "v1CoreRange": "^1.7.0"
       },
       "supports": {
         "v0": false,
@@ -3405,7 +3402,7 @@
       "description": "Eliza RAG Knowledge Plugin",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 12,
+      "stargazers_count": 13,
       "language": "TypeScript"
     },
     "@elizaos/plugin-lensNetwork": {
@@ -3657,16 +3654,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.3.5",
+          "version": "v1.7.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-mcp",
         "v0": null,
-        "v1": "1.3.5",
+        "v1": "1.7.0",
         "v0CoreRange": null,
-        "v1CoreRange": "^1.5.4"
+        "v1CoreRange": "^1.7.0"
       },
       "supports": {
         "v0": false,
@@ -3675,7 +3672,7 @@
       "description": "ElizaOS plugin allowing agents to connect to MCP servers",
       "homepage": null,
       "topics": [],
-      "stargazers_count": 7,
+      "stargazers_count": 9,
       "language": "TypeScript"
     },
     "@elizaos/plugin-membase": {
@@ -4237,7 +4234,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "language": "TypeScript"
     },
     "@elizaos/plugin-omniflix": {
@@ -4343,16 +4340,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.5.18",
+          "version": "v1.6.0",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openai",
         "v0": "0.25.6-alpha.1",
-        "v1": "1.5.18",
+        "v1": "1.6.0",
         "v0CoreRange": "0.25.6-alpha.1",
-        "v1CoreRange": "^1.6.0-alpha.4"
+        "v1CoreRange": "^1.7.0"
       },
       "supports": {
         "v0": true,
@@ -4372,16 +4369,16 @@
           "branch": null
         },
         "v1": {
-          "version": "v1.5.15",
+          "version": "v1.5.17",
           "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-openrouter",
         "v0": null,
-        "v1": "1.5.15",
+        "v1": "1.5.17",
         "v0CoreRange": null,
-        "v1CoreRange": "^1.6.1"
+        "v1CoreRange": "^1.7.0"
       },
       "supports": {
         "v0": false,
@@ -5076,7 +5073,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 10,
+      "stargazers_count": 12,
       "language": "TypeScript"
     },
     "@elizaos/plugin-solana-agent-kit": {
@@ -5184,16 +5181,16 @@
           "branch": null
         },
         "v1": {
-          "version": "1.6.5",
+          "version": "1.7.2",
           "branch": null
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-sql",
         "v0": null,
-        "v1": "1.6.5",
+        "v1": "1.7.2",
         "v0CoreRange": null,
-        "v1CoreRange": "1.6.5"
+        "v1CoreRange": "1.7.2"
       },
       "supports": {
         "v0": false,
@@ -5615,7 +5612,7 @@
         "crypto",
         "elizaos-plugin"
       ],
-      "stargazers_count": 18,
+      "stargazers_count": 19,
       "language": "TypeScript"
     },
     "@elizaos/plugin-trn": {
@@ -5803,7 +5800,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 3,
+      "stargazers_count": 4,
       "language": "TypeScript"
     },
     "@elizaos/plugin-vercel-ai-gateway": {
@@ -5933,20 +5930,20 @@
           "branch": null
         },
         "v1": {
-          "version": null,
-          "branch": null
+          "version": "v1.0.1",
+          "branch": "1.x"
         }
       },
       "npm": {
         "repo": "@elizaos/plugin-web-search",
         "v0": "0.25.6-alpha.1",
-        "v1": null,
+        "v1": "1.0.1",
         "v0CoreRange": "0.25.6-alpha.1",
-        "v1CoreRange": null
+        "v1CoreRange": "1.7.0"
       },
       "supports": {
         "v0": true,
-        "v1": false
+        "v1": true
       },
       "description": "A plugin for powerful web search capabilities, enabling efficient search query handling and result processing through a customizable API interface.",
       "homepage": null,
@@ -5985,7 +5982,7 @@
       "topics": [
         "elizaos-plugin"
       ],
-      "stargazers_count": 4,
+      "stargazers_count": 5,
       "language": "TypeScript"
     },
     "@elizaos/plugin-wolfram": {
@@ -6286,7 +6283,7 @@
       "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 2,
+      "stargazers_count": 3,
       "language": "TypeScript"
     },
     "@kudo-dev/plugin-kudo": {
@@ -6580,14 +6577,14 @@
           "branch": null
         },
         "v1": {
-          "version": "1.0.0",
+          "version": "1.0.4",
           "branch": "main"
         }
       },
       "npm": {
         "repo": "@tonyflam/plugin-openchat",
         "v0": "0.1.2",
-        "v1": "1.0.0",
+        "v1": "1.0.4",
         "v0CoreRange": "*",
         "v1CoreRange": "latest"
       },
