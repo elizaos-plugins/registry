@@ -50,6 +50,7 @@
    "@elizaos/plugin-browser":"github:elizaos-plugins/plugin-browser",
    "@elizaos/plugin-cardano":"github:relipasoft/plugin-cardano",
    "@elizaos/plugin-ccxt":"github:pranavjadhav1363/plugin-ccxt",
+   "@elizaos/plugin-cerebras": "github:Xayaan/plugin-cerebras",
    "@elizaos/plugin-clanker":"github:elizaos-plugins/plugin-clanker",
    "@elizaos/plugin-clara-twitter":"github:warp-contracts/plugin-clara-twitter",
    "@elizaos/plugin-coinbase":"github:elizaos-plugins/plugin-coinbase",
