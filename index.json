@@ -149,7 +149,6 @@
    "@elizaos/plugin-proof-of-agent":"github:automata-network/elizaos-plugin-proof-of-agent",
    "@elizaos/plugin-pundiai-dataset":"github:PundiAI/plugin-pundiai-dataset",
    "@elizaos/plugin-pyth-data":"github:elizaos-plugins/plugin-pyth-data",
-   "@proofgate/eliza-plugin":"github:ProofGate/proofgate-eliza-plugin",
    "@elizaos/plugin-quai":"github:elizaos-plugins/plugin-quai",
    "@elizaos/plugin-rabbi-trader":"github:elizaos-plugins/plugin-rabbi-trader",
    "@elizaos/plugin-raiinmaker":"github:Coiin-Blockchain/plugin-raiinmaker",
@@ -214,5 +213,6 @@
    "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket",
     "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
    "plugin-connections": "github:mascotai/plugin-connections",
-   "plugin-octav": "github:wpoulin/plugin-octav"
+   "plugin-octav": "github:wpoulin/plugin-octav",
+   "@proofgate/eliza-plugin":"github:ProofGate/proofgate-eliza-plugin"
 }
