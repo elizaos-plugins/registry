@@ -213,5 +213,9 @@
    "@theschein/plugin-polymarket":"github:Okay-Bet/plugin-polymarket",
     "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
    "plugin-connections": "github:mascotai/plugin-connections",
-   "plugin-octav": "github:wpoulin/plugin-octav"
+    "plugin-octav": "github:wpoulin/plugin-octav",
+ "plugin-moltbazaar": "github:10inchdev/plugin-moltbazaar"
+}
+}
+```
 }
