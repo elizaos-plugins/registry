@@ -1,6 +1,35 @@
 {
-  "lastUpdatedAt": "2026-02-08T18:28:34.503Z",
+  "lastUpdatedAt": "2026-02-08T18:32:41.730Z",
   "registry": {
+    "@1BDO/plugin-delta": {
+      "git": {
+        "repo": "1BDO/plugin-delta",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@1BDO/plugin-delta",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
     "@arthur-orderly/plugin-arthur-dex": {
       "git": {
         "repo": "arthur-orderly/arthur-eliza-plugin",
@@ -81,6 +110,35 @@
       "supports": {
         "v0": true,
         "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
+    "@blockrun/elizaos-plugin": {
+      "git": {
+        "repo": "BlockRunAI/elizaos-plugin-blockrun",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": "1.0.0",
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@blockrun/elizaos-plugin",
+        "v0": null,
+        "v1": "1.0.0",
+        "v0CoreRange": null,
+        "v1CoreRange": ">=1.0.0"
+      },
+      "supports": {
+        "v0": false,
+        "v1": true
       },
       "description": null,
       "homepage": null,
@@ -1393,6 +1451,35 @@
       "stargazers_count": 0,
       "language": null
     },
+    "@elizaos/plugin-beacon": {
+      "git": {
+        "repo": "beacon-protocol/plugin-beacon",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-beacon",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
     "@elizaos/plugin-bedrock": {
       "git": {
         "repo": "elizaos-plugins/plugin-bedrock",
@@ -1770,6 +1857,35 @@
       "stargazers_count": 0,
       "language": null
     },
+    "@elizaos/plugin-cerebras": {
+      "git": {
+        "repo": "Xayaan/plugin-cerebras",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-cerebras",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
     "@elizaos/plugin-chart": {
       "git": {
         "repo": "elizaos-plugins/plugin-chart",
@@ -2103,6 +2219,35 @@
       },
       "npm": {
         "repo": "@elizaos/plugin-d.a.t.a",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
+    "@elizaos/plugin-datai": {
+      "git": {
+        "repo": "Datai-Network/plugin-datai",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-datai",
         "v0": null,
         "v1": null,
         "v0CoreRange": null,
@@ -6323,6 +6468,35 @@
       "stargazers_count": 0,
       "language": null
     },
+    "@erdgecrawl/plugin-base-signals": {
+      "git": {
+        "repo": "erdGeclaw/plugin-base-signals",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@erdgecrawl/plugin-base-signals",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
     "@esscrypt/plugin-polkadot": {
       "git": {
         "repo": "Esscrypt/plugin-polkadot",
@@ -6809,6 +6983,35 @@
       "supports": {
         "v0": false,
         "v1": true
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
+    "plugin-otaku-x402": {
+      "git": {
+        "repo": "otaku-x402/elizaos-plugin-otaku-x402",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "plugin-otaku-x402",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
       },
       "description": null,
       "homepage": null,
