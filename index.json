@@ -230,5 +230,6 @@
     "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
     "@zane-archer/plugin-aimo-router": "github:takasaki404/plugin-aimo-router",
    "plugin-connections": "github:mascotai/plugin-connections",
-   "plugin-octav": "github:wpoulin/plugin-octav"
+    "plugin-octav": "github:wpoulin/plugin-octav",
+ "plugin-moltbazaar": "github:10inchdev/plugin-moltbazaar"
 }
