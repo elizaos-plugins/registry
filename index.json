@@ -160,6 +160,7 @@
    "@elizaos/plugin-pdf":"github:elizaos-plugins/plugin-pdf",
    "@elizaos/plugin-primus":"github:elizaos-plugins/plugin-primus",
    "@elizaos/plugin-proof-of-agent":"github:automata-network/elizaos-plugin-proof-of-agent",
+   "@proofgate/eliza-plugin": "github:ProofGate/proofgate-eliza-plugin",
    "@elizaos/plugin-pundiai-dataset":"github:PundiAI/plugin-pundiai-dataset",
    "@elizaos/plugin-pyth-data":"github:elizaos-plugins/plugin-pyth-data",
    "@elizaos/plugin-quai":"github:elizaos-plugins/plugin-quai",
