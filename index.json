@@ -1,4 +1,5 @@
 {
+   "@arthur-orderly/plugin-arthur-dex":"github:arthur-orderly/arthur-eliza-plugin",
    "@bealers/plugin-mattermost":"github:bealers/plugin-mattermost",
    "@coinrailz/plugin-coinrailz":"github:tdnupe3/coinrailz-eliza-plugin",
    "@elizaos/adapter-mongodb":"github:elizaos-plugins/adapter-mongodb",
