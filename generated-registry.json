@@ -1,12 +1,12 @@
 {
-  "lastUpdatedAt": "2026-02-08T18:22:33.999Z",
+  "lastUpdatedAt": "2026-02-08T18:28:34.503Z",
   "registry": {
     "@arthur-orderly/plugin-arthur-dex": {
       "git": {
         "repo": "arthur-orderly/arthur-eliza-plugin",
         "v0": {
           "version": null,
-          "branch": "main"
+          "branch": null
         },
         "v1": {
           "version": null,
@@ -21,27 +21,50 @@
         "v1CoreRange": null
       },
       "supports": {
-        "v0": true,
+        "v0": false,
         "v1": false
       },
-      "description": "ElizaOS plugin for trading perpetual futures on Arthur DEX (Orderly Network)",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "ai-agents",
-        "defi",
-        "elizaos",
-        "orderly-network",
-        "perp-trading"
-      ],
+      "topics": [],
       "stargazers_count": 0,
-      "language": "TypeScript"
+      "language": null
+    },
+    "@asterpay/plugin-payments": {
+      "git": {
+        "repo": "AsterPay/plugin-payments",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@asterpay/plugin-payments",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@bealers/plugin-mattermost": {
       "git": {
         "repo": "bealers/plugin-mattermost",
         "v0": {
-          "version": "v0.5.0",
-          "branch": "main"
+          "version": "0.5.1",
+          "branch": null
         },
         "v1": {
           "version": null,
@@ -63,7 +86,7 @@
       "homepage": null,
       "topics": [],
       "stargazers_count": 0,
-      "language": "TypeScript"
+      "language": null
     },
     "@coinrailz/plugin-coinrailz": {
       "git": {
@@ -88,11 +111,11 @@
         "v0": false,
         "v1": true
       },
-      "description": "Coin Railz x402 micropayment infrastructure plugin for ElizaOS",
+      "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 1,
-      "language": "TypeScript"
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/adapter-mongodb": {
       "git": {
@@ -117,11 +140,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "Database adapter for MongoDB enabling document storage with query capabilities.",
+      "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 1,
-      "language": "TypeScript"
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/adapter-pglite": {
       "git": {
@@ -146,11 +169,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "Lightweight PostgreSQL adapter for embedded database applications.",
+      "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 1,
-      "language": "TypeScript"
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/adapter-postgres": {
       "git": {
@@ -175,11 +198,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "Adapter that provides PostgreSQL connectivity with vector embedding support for semantic search capabilities.",
+      "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 3,
-      "language": "TypeScript"
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/adapter-qdrant": {
       "git": {
@@ -204,11 +227,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "Vector database adapter for Qdrant with similarity search capabilities.",
+      "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 1,
-      "language": "TypeScript"
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/adapter-sqlite": {
       "git": {
@@ -233,11 +256,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "File-based SQL database adapter for lightweight local storage.",
+      "description": null,
       "homepage": null,
       "topics": [],
       "stargazers_count": 0,
-      "language": "TypeScript"
+      "language": null
     },
     "@elizaos/adapter-sqljs": {
       "git": {
@@ -264,11 +287,9 @@
       },
       "description": null,
       "homepage": null,
-      "topics": [
-        "elizaos-plugin"
-      ],
+      "topics": [],
       "stargazers_count": 0,
-      "language": "TypeScript"
+      "language": null
     },
     "@elizaos/adapter-supabase": {
       "git": {
@@ -293,13 +314,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "Enables ElizaOS integration with Supabase for data persistence and real-time capabilities.",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 8,
-      "language": "TypeScript"
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-auto": {
       "git": {
@@ -326,11 +345,9 @@
       },
       "description": null,
       "homepage": null,
-      "topics": [
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 1,
-      "language": "TypeScript"
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-clara": {
       "git": {
@@ -355,15 +372,11 @@
         "v0": false,
         "v1": false
       },
-      "description": "Comprehensive management system for agent-to-agent interactions. It acts as a multifaceted platform, encompassing a registry, a matching engine, and a payment system.",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "ai",
-        "crypto",
-        "elizaos-plugins"
-      ],
+      "topics": [],
       "stargazers_count": 0,
-      "language": "TypeScript"
+      "language": null
     },
     "@elizaos/client-discord": {
       "git": {
@@ -388,13 +401,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "A Discord client for ElizaOS, enabling integration with Discord servers for interaction, voice, and message management.",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 9,
-      "language": "TypeScript"
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-farcaster": {
       "git": {
@@ -419,13 +430,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "Client that enables eliza agents to integrate with the Farcaster social network",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 4,
-      "language": "TypeScript"
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-github": {
       "git": {
@@ -450,13 +459,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "A component of the Eliza framework designed to interact with GitHub repositories, offering functionalities like cloning, managing branches, and creating pull requests.",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "elizaos-plugin"
-      ],
+      "topics": [],
       "stargazers_count": 0,
-      "language": "TypeScript"
+      "language": null
     },
     "@elizaos/client-lens": {
       "git": {
@@ -481,14 +488,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "A plugin designed to enhance the visibility and management of client information within a software application.",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "ai",
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 1,
-      "language": "TypeScript"
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-slack": {
       "git": {
@@ -513,13 +517,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "This package integrates the Eliza AI agent with Slack, allowing users to interact with Eliza within a Slack workspace.",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 2,
-      "language": "TypeScript"
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-tako": {
       "git": {
@@ -544,11 +546,11 @@
         "v0": false,
         "v1": false
       },
-      "description": "Tako Client for ElizaOS",
+      "description": null,
       "homepage": null,
       "topics": [],
-      "stargazers_count": 2,
-      "language": "TypeScript"
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-telegram": {
       "git": {
@@ -573,13 +575,11 @@
         "v0": true,
         "v1": false
       },
-      "description": "Integrates a Telegram client with ElizaOS, enabling characters to interact via Telegram with easy setup and basic lifecycle management.",
+      "description": null,
       "homepage": null,
-      "topics": [
-        "elizaos-plugin"
-      ],
-      "stargazers_count": 4,
-      "language": "TypeScript"
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
     },
     "@elizaos/client-twitter": {
       "git": {
@@ -5272,6 +5272,35 @@
       "supports": {
         "v0": true,
         "v1": true
+      },
+      "description": null,
+      "homepage": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "language": null
+    },
+    "@elizaos/plugin-sportradar": {
+      "git": {
+        "repo": "elizaos-plugins/plugin-sportradar",
+        "v0": {
+          "version": null,
+          "branch": null
+        },
+        "v1": {
+          "version": null,
+          "branch": null
+        }
+      },
+      "npm": {
+        "repo": "@elizaos/plugin-sportradar",
+        "v0": null,
+        "v1": null,
+        "v0CoreRange": null,
+        "v1CoreRange": null
+      },
+      "supports": {
+        "v0": false,
+        "v1": false
       },
       "description": null,
       "homepage": null,
