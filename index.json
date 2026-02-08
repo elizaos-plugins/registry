@@ -217,6 +217,7 @@
    "@elizaos/plugin-zytron":"github:zypher-network/plugin-zytron",
    "@elizaos/plugin-vercel-ai-gateway":"github:elizaos-plugins/plugin-vercel-ai-gateway",
    "@esscrypt/plugin-polkadot":"github:Esscrypt/plugin-polkadot",
+   "@kamiyo/eliza":"github:kamiyo-ai/kamiyo-protocol#main:packages/kamiyo-eliza",
    "@kudo-dev/plugin-kudo":"github:Kudo-Archi/plugin-kudo",
    "@mazzz/plugin-elizaos-compchembridge":"github:Mazzz-zzz/plugin-elizaos-compchembridge",
    "@mascotai/plugin-connections":"github:mascotai/plugin-connections",
