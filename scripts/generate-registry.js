@@ -486,20 +486,87 @@ async function processRepo(npmId, gitRef, octokit) {
   // Version support flags have already been properly set based on version constraints
   // No need to override them here
 
-  return [
-    npmId,
-    {
-      git: gitInfo,
-      npm: npmInfo,
-      supports: { v0: supportsV0, v1: supportsV1, v2: supportsV2 },
-      description: repoInfo.description,
-      homepage: repoInfo.homepage,
-      topics: repoInfo.topics,
-      stargazers_count: repoInfo.stargazers_count,
-      language: repoInfo.language,
-    },
-    issues,
-  ];
+  // ── App metadata detection ────────────────────────────────────────────
+  // Check if this package declares itself as an app via:
+  //   1. elizaos.plugin.json with kind: "app"
+  //   2. package.json with elizaos.kind: "app"
+  // If found, include the app metadata in the registry entry.
+  let appMeta = null;
+
+  // Determine the best branch to check for app metadata (prefer main, then master)
+  const appMetaBranch = branchCandidates.find(b => b === "main") ||
+    branchCandidates.find(b => b === "master") ||
+    branchCandidates[0] || "main";
+
+  // Try fetching elizaos.plugin.json first (the canonical manifest location)
+  const pluginManifest = await fetchGitHubFile(owner, repo, "elizaos.plugin.json", appMetaBranch, octokit, 1);
+  if (pluginManifest && pluginManifest.kind === "app" && pluginManifest.app) {
+    appMeta = {
+      displayName: pluginManifest.app.displayName || pluginManifest.name || npmId.replace(/^@elizaos\/app-/, ""),
+      category: pluginManifest.app.category || "game",
+      launchType: pluginManifest.app.launchType || "url",
+      launchUrl: pluginManifest.app.launchUrl || null,
+      icon: pluginManifest.app.icon || null,
+      capabilities: pluginManifest.app.capabilities || [],
+      minPlayers: pluginManifest.app.minPlayers || null,
+      maxPlayers: pluginManifest.app.maxPlayers || null,
+    };
+  }
+
+  // Fallback: check package.json elizaos.kind field
+  if (!appMeta) {
+    const mainPkg = await fetchGitHubFile(owner, repo, "package.json", appMetaBranch, octokit, 1);
+    if (mainPkg && mainPkg.elizaos && mainPkg.elizaos.kind === "app" && mainPkg.elizaos.app) {
+      const pkgApp = mainPkg.elizaos.app;
+      appMeta = {
+        displayName: pkgApp.displayName || mainPkg.name || npmId.replace(/^@elizaos\/app-/, ""),
+        category: pkgApp.category || "game",
+        launchType: pkgApp.launchType || "url",
+        launchUrl: pkgApp.launchUrl || null,
+        icon: pkgApp.icon || null,
+        capabilities: pkgApp.capabilities || [],
+        minPlayers: pkgApp.minPlayers || null,
+        maxPlayers: pkgApp.maxPlayers || null,
+      };
+    }
+  }
+
+  // Also check for monorepo structures: try typescript/elizaos.plugin.json
+  if (!appMeta) {
+    const tsManifest = await fetchGitHubFile(owner, repo, "typescript/elizaos.plugin.json", appMetaBranch, octokit, 1);
+    if (tsManifest && tsManifest.kind === "app" && tsManifest.app) {
+      appMeta = {
+        displayName: tsManifest.app.displayName || tsManifest.name || npmId.replace(/^@elizaos\/app-/, ""),
+        category: tsManifest.app.category || "game",
+        launchType: tsManifest.app.launchType || "url",
+        launchUrl: tsManifest.app.launchUrl || null,
+        icon: tsManifest.app.icon || null,
+        capabilities: tsManifest.app.capabilities || [],
+        minPlayers: tsManifest.app.minPlayers || null,
+        maxPlayers: tsManifest.app.maxPlayers || null,
+      };
+    }
+  }
+
+  const entry = {
+    git: gitInfo,
+    npm: npmInfo,
+    supports: { v0: supportsV0, v1: supportsV1, v2: supportsV2 },
+    description: repoInfo.description,
+    homepage: repoInfo.homepage,
+    topics: repoInfo.topics,
+    stargazers_count: repoInfo.stargazers_count,
+    language: repoInfo.language,
+  };
+
+  // Attach app metadata when present — consumers use this to distinguish apps from plugins
+  if (appMeta) {
+    entry.kind = "app";
+    entry.app = appMeta;
+    console.log(`  ✨ Detected as app: ${appMeta.displayName} (${appMeta.launchType})`);
+  }
+
+  return [npmId, entry, issues];
 }
 
 // Main function to parse registry
