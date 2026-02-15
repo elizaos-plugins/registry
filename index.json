@@ -126,6 +126,7 @@
    "@elizaos/plugin-irys": "github:elizaos-plugins/plugin-irys",
    "@elizaos/plugin-isaacx": "github:isaacx0/plugin-isaacx",
    "@elizaos/plugin-kaia": "github:kaiachain/kaia-eliza-plugin",
+   "@elizaos/plugin-kamiyo-trust": "github:kamiyo-ai/plugin-kamiyo-trust",
    "@elizaos/plugin-knowledge": "github:elizaos-plugins/plugin-knowledge",
    "@elizaos/plugin-lensNetwork": "github:elizaos-plugins/plugin-lensNetwork",
    "@elizaos/plugin-letzai": "github:elizaos-plugins/plugin-letzai",
