@@ -30,6 +30,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
+          # pull_request_target runs with base-repo permissions/secrets; never check out untrusted PR code.
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
 
       - name: Run Claude Code Review
         id: claude-review
