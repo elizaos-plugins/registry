@@ -22,7 +22,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-      issues: write
+      issues: read
       id-token: write
     
     steps:
@@ -36,7 +36,7 @@ jobs:
 
       - name: Run Claude Code Review
         id: claude-review
-        uses: anthropics/claude-code-action@beta
+        uses: anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
 
@@ -52,18 +52,16 @@ jobs:
             2. Changes must follow the registry format specified in the README
             3. JSON must be valid and maintain alphabetical sorting
             4. No duplicate entries
-            5. Validate that packages and repositories actually exist
-            
+            5. Validate that referenced GitHub repositories exist and are publicly accessible
+
             **Validation Steps:**
             For each new registry entry, use the available tools to verify:
             
-            - **NPM Package Validation**: Run `npm view @package-name` to check if the NPM package exists
-            - **GitHub Repository Validation**: Use `curl -I https://github.com/org/repo` or `git ls-remote https://github.com/org/repo.git` to verify the GitHub repository exists and is accessible
-            
+            - **GitHub Repository Validation**: Verify the GitHub repo exists and is public (and ideally uses `main` as default branch)
+
             **Review Actions:**
             - If other files are modified: Reject and ask contributor to only modify index.json
             - If format is incorrect: Reference the "Registry Format" section in README
-            - If NPM package doesn't exist: Ask contributor to publish package to NPM first or correct the package name
             - If GitHub repository doesn't exist or is inaccessible: Ask contributor to verify the repository URL and ensure it's public
             - If everything is correct: Approve and welcome the contributor
             
@@ -86,8 +84,7 @@ jobs:
           #   'Welcome! Please review this PR from a first-time contributor. Be encouraging and provide detailed explanations for any suggestions.' ||
           #   'Please provide a thorough code review focusing on our coding standards and best practices.' }}
           
-          # Enable tools for validation
-          allowed_tools: "Bash(npm view),Bash(curl),Bash(git ls-remote)"
+          disallowed_tools: "Bash"
           
           # Optional: Skip review for certain conditions
           # if: |
