@@ -225,7 +225,7 @@
    "@erdgecrawl/plugin-base-signals": "github:erdGeclaw/plugin-base-signals",
    "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
    "@kamiyo/eliza": "github:kamiyo-ai/kamiyo-protocol#main:packages/kamiyo-eliza",
-   "@knowmint/eliza-plugin": "github:Sou0327/knowledge_market",
+   "@knowmint/eliza-plugin": "github:Sou0327/knowmint-eliza-plugin",
    "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
    "@mascotai/plugin-connections": "github:mascotai/plugin-connections",
    "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
