@@ -226,6 +226,7 @@
    "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
    "@kamiyo/eliza": "github:kamiyo-ai/kamiyo-protocol#main:packages/kamiyo-eliza",
    "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
+   "@liqdlad/eliza-plugin-a2a-swap": "github:liqdlad-rgb/a2a-swap#main:eliza-plugin",
    "@mascotai/plugin-connections": "github:mascotai/plugin-connections",
    "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
    "@nuggetslife/plugin-nuggets": "github:NuggetsLtd/eliza-plugin-nuggets",
