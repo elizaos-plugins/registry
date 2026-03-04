@@ -195,6 +195,7 @@
    "@elizaos/plugin-storage-s3": "github:elizaos-plugins/plugin-storage-s3",
    "@elizaos/plugin-story": "github:elizaos-plugins/plugin-story",
    "@elizaos/plugin-sui": "github:elizaos-plugins/plugin-sui",
+   "@targe/plugin-eliza": "github:pabloleaf/plugin-targe",
    "@elizaos/plugin-tee": "github:elizaos-plugins/plugin-tee",
    "@elizaos/plugin-tee-log": "github:elizaos-plugins/plugin-tee-log",
    "@elizaos/plugin-tee-marlin": "github:elizaos-plugins/plugin-tee-marlin",
@@ -233,6 +234,7 @@
    "@proofgate/eliza-plugin": "github:ProofGate/proofgate-eliza-plugin",
    "@pyboom/plugin-moralis-v2": "github:matteo-brandolino/plugin-moralis-v2",
    "@standujar/plugin-composio": "github:standujar/plugin-composio",
+   "@targe/plugin-eliza": "github:pabloleaf/plugin-targe"
    "@theschein/plugin-polymarket": "github:Okay-Bet/plugin-polymarket",
    "@token-metrics-ai/plugin-tokenmetrics": "github:token-metrics/plugin-tokenmetrics",
    "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
