@@ -2,6 +2,7 @@
    "@1BDO/plugin-delta": "github:1BDO/plugin-delta",
    "@arthur-orderly/plugin-arthur-dex": "github:arthur-orderly/arthur-eliza-plugin",
    "@asterpay/plugin-payments": "github:AsterPay/plugin-payments",
+   "@axonfi/plugin-elizaos": "github:axonfi/plugin-elizaos",
    "@bealers/plugin-mattermost": "github:bealers/plugin-mattermost",
    "@blockrun/elizaos-plugin": "github:BlockRunAI/elizaos-plugin-blockrun",
    "@coinrailz/plugin-coinrailz": "github:tdnupe3/coinrailz-eliza-plugin",
