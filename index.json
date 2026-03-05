@@ -224,6 +224,7 @@
    "@elizaos/plugin-zytron": "github:zypher-network/plugin-zytron",
    "@erdgecrawl/plugin-base-signals": "github:erdGeclaw/plugin-base-signals",
    "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
+   "@jonathanbulkeley/plugin-mycelia-signal": "github:jonathanbulkeley/elizaos-plugin-mycelia-signal",
    "@kamiyo/eliza": "github:kamiyo-ai/kamiyo-protocol#main:packages/kamiyo-eliza",
    "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
    "@mascotai/plugin-connections": "github:mascotai/plugin-connections",
@@ -240,6 +241,5 @@
    "plugin-connections": "github:mascotai/plugin-connections",
    "plugin-moltbazaar": "github:10inchdev/plugin-moltbazaar",
    "plugin-octav": "github:wpoulin/plugin-octav",
-   "plugin-otaku-x402": "github:otaku-x402/elizaos-plugin-otaku-x402",
-   "@jonathanbulkeley/plugin-mycelia-signal": "github:jonathanbulkeley/elizaos-plugin-mycelia-signal"
+   "plugin-otaku-x402": "github:otaku-x402/elizaos-plugin-otaku-x402"
 }
