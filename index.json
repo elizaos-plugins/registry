@@ -237,7 +237,7 @@
    "@token-metrics-ai/plugin-tokenmetrics": "github:token-metrics/plugin-tokenmetrics",
    "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
    "@zane-archer/plugin-aimo-router": "github:takasaki404/plugin-aimo-router",
-   "elizaos-plugin-agentwallet": "github:up2itnow0822/elizaos-plugin-agentwallet",
+   "@up2itnow0822/plugin-agentwallet": "github:up2itnow0822/elizaos-plugin-agentwallet#v1.0.0",
    "plugin-connections": "github:mascotai/plugin-connections",
    "plugin-moltbazaar": "github:10inchdev/plugin-moltbazaar",
    "plugin-octav": "github:wpoulin/plugin-octav",
