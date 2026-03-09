@@ -232,6 +232,7 @@
    "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai",
    "@proofgate/eliza-plugin": "github:ProofGate/proofgate-eliza-plugin",
    "@pyboom/plugin-moralis-v2": "github:matteo-brandolino/plugin-moralis-v2",
+   "@scoutscore/plugin-eliza": "github:scoutscore/plugin-scoutscore",
    "@standujar/plugin-composio": "github:standujar/plugin-composio",
    "@theschein/plugin-polymarket": "github:Okay-Bet/plugin-polymarket",
    "@token-metrics-ai/plugin-tokenmetrics": "github:token-metrics/plugin-tokenmetrics",
