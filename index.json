@@ -230,6 +230,7 @@
    "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
    "@nuggetslife/plugin-nuggets": "github:NuggetsLtd/eliza-plugin-nuggets",
    "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai",
+   "@picoads/eliza-plugin": "github:picoads/eliza-plugin",
    "@proofgate/eliza-plugin": "github:ProofGate/proofgate-eliza-plugin",
    "@pyboom/plugin-moralis-v2": "github:matteo-brandolino/plugin-moralis-v2",
    "@standujar/plugin-composio": "github:standujar/plugin-composio",
