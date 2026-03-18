@@ -359,7 +359,7 @@ async function processRepo(npmId, gitRef, octokit) {
   if (branches.length === 0) {
     issues.push(`No branches found (might be API issue)`);
   }
-  const branchCandidates = ["main", "master", "0.x", "1.x", "next", "alpha", "2.0.0"].filter((b) =>
+  const branchCandidates = ["main", "master", "0.x", "1.x", "alpha", "next", "2.0.0"].filter((b) =>
     branches.includes(b)
   );
   if (branchCandidates.length === 0 && branches.length > 0) {
