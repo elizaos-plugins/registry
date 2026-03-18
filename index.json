@@ -1,5 +1,6 @@
 {
    "@1BDO/plugin-delta": "github:1BDO/plugin-delta",
+   "@ai-agent-economy/plugin-agent-wallet": "github:up2itnow0822/plugin-agent-wallet",
    "@arthur-orderly/plugin-arthur-dex": "github:arthur-orderly/arthur-eliza-plugin",
    "@asterpay/plugin-payments": "github:AsterPay/plugin-payments",
    "@bealers/plugin-mattermost": "github:bealers/plugin-mattermost",
