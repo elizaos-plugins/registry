@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2026-03-18T02:52:28.577Z",
+  "lastUpdatedAt": "2026-03-18T03:01:49.922Z",
   "registry": {
     "@1BDO/plugin-delta": {
       "git": {
@@ -2024,7 +2024,7 @@
         },
         "alpha": {
           "version": "2.0.0-alpha.7",
-          "branch": "next"
+          "branch": "alpha"
         }
       },
       "npm": {
@@ -6509,7 +6509,7 @@
         },
         "alpha": {
           "version": "2.0.0-alpha.7",
-          "branch": "next"
+          "branch": "alpha"
         }
       },
       "npm": {
@@ -8945,7 +8945,7 @@
         },
         "alpha": {
           "version": "2.0.0-alpha.8",
-          "branch": "next"
+          "branch": "alpha"
         }
       },
       "npm": {
