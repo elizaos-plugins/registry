@@ -209,6 +209,7 @@
   "@elizaos/plugin-open-weather": "github:elizaos-plugins/plugin-open-weather",
   "@elizaos/plugin-openai": "github:elizaos-plugins/plugin-openai",
   "@elizaos/plugin-openrouter": "github:elizaos-plugins/plugin-openrouter",
+  "@elizaos/plugin-openttt": "github:Heime-Jorgen/plugin-openttt",
   "@elizaos/plugin-orca": "github:elizaos-plugins/plugin-orca",
   "@elizaos/plugin-orderly": "github:orderlynetwork/plugin-orderly",
   "@elizaos/plugin-para": "github:aipop-fun/plugin-para",
