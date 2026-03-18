@@ -128,7 +128,7 @@
   "@elizaos/plugin-flow": "github:elizaos-plugins/plugin-flow",
   "@elizaos/plugin-flow-advanced": "github:fixes-world/plugin-flow-advanced",
   "@elizaos/plugin-football": "github:elizaos-plugins/plugin-football",
-  "@elizaos/plugin-form": "github:elizaos-plugins/plugin-form",
+  "@elizaos/plugin-form-chain": "github:elizaos-plugins/plugin-form-chain",
   "@elizaos/plugin-fuel": "github:elizaos-plugins/plugin-fuel",
   "@elizaos/plugin-gelato": "github:elizaos-plugins/plugin-gelato",
   "@elizaos/plugin-genlayer": "github:elizaos-plugins/plugin-genlayer",
