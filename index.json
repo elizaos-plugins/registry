@@ -219,7 +219,7 @@
   "@elizaos/plugin-safe": "github:5afe/plugin-safe",
   "@elizaos/plugin-scheduling": "github:elizaos-plugins/plugin-scheduling",
   "@elizaos/plugin-scratchpad": "github:elizaos-plugins/plugin-scratchpad",
-  "@elizaos/plugin-secrets-manager": "github:elizaos-plugins/plugin-auto",
+  "@elizaos/plugin-secrets-manager": "github:elizaos-plugins/plugin-secrets-manager",
   "@elizaos/plugin-sei": "github:elizaos-plugins/plugin-sei",
   "@elizaos/plugin-sgx": "github:elizaos-plugins/plugin-sgx",
   "@elizaos/plugin-shell": "github:elizaos-plugins/plugin-shell",
