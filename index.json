@@ -340,6 +340,7 @@
   "@elizaos/plugin-whatsapp": "github:elizaos-plugins/plugin-whatsapp",
   "@elizaos/plugin-wolfram": "github:elizaos-plugins/plugin-wolfram",
   "@elizaos/plugin-xai": "github:elizaos-plugins/plugin-xai",
+  "@elizaos/plugin-xproof": "github:jasonxkensei/plugin-xproof",
   "@elizaos/plugin-xdc": "github:xdc-community/plugin-xdc",
   "@elizaos/plugin-xmtp": "github:elizaos-plugins/plugin-xmtp",
   "@elizaos/plugin-youtube-to-text": "github:wellaios/plugin-youtube-to-text",
