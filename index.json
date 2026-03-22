@@ -187,6 +187,7 @@
    "@elizaos/plugin-sonic": "github:thopatevijay/plugin-sonic",
    "@elizaos/plugin-spheron": "github:elizaos-plugins/plugin-spheron",
    "@elizaos/plugin-sportradar": "github:elizaos-plugins/plugin-sportradar",
+   "@elizaos/plugin-spraay-wallet": "github:plagtech/plugin-spraay-wallet",
    "@elizaos/plugin-sql": "github:elizaos-plugins/plugin-sql",
    "@elizaos/plugin-squid-router": "github:elizaos-plugins/plugin-squid-router",
    "@elizaos/plugin-stargaze": "github:elizaos-plugins/plugin-stargaze",
