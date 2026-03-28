@@ -65,17 +65,39 @@ function normalizeDependencyRange(depRange) {
   }
 }
 
+// Check if a core dependency is a dist-tag like "next", "alpha", "latest"
+function isDistTag(dep) {
+  if (!dep || typeof dep !== 'string') return false;
+  const trimmed = dep.trim();
+  return ['next', 'alpha', 'latest', 'beta', 'canary'].includes(trimmed);
+}
+
 // Check if plugin's core dependency range intersects a major version band
 function isCompatibleWithMajorVersion(pluginCoreRange, majorVersion) {
   try {
+    // Handle dist-tags like "next" or "alpha" - these are v2/alpha compatible
+    if (isDistTag(pluginCoreRange)) {
+      return majorVersion === 2;
+    }
+
     const normalizedRange = normalizeDependencyRange(pluginCoreRange);
     if (!normalizedRange) {
       return false;
     }
 
-    // v0 band: >0.x and <1.x  → [0.0.0, 1.0.0)
-    // v1 band: >1.x and <2.x  → [1.0.0, 2.0.0)
-    const band = majorVersion === 0 ? ">=0.0.0 <1.0.0" : ">=1.0.0 <2.0.0";
+    // v0 band: >=0.0.0 <1.0.0
+    // v1 band: >=1.0.0 <2.0.0
+    // v2 band: >=2.0.0-0 <3.0.0 (includes pre-releases like 2.0.0-alpha.*)
+    let band;
+    if (majorVersion === 0) {
+      band = ">=0.0.0 <1.0.0";
+    } else if (majorVersion === 1) {
+      band = ">=1.0.0 <2.0.0";
+    } else if (majorVersion === 2) {
+      band = ">=2.0.0-0 <3.0.0";
+    } else {
+      return false;
+    }
     return semver.intersects(normalizedRange, band, { includePrerelease: true });
   } catch (error) {
     console.warn(`  Failed to check compatibility for major version ${majorVersion} against ${pluginCoreRange}: ${error.message}`);
@@ -194,30 +216,42 @@ async function getLatestGitTags(owner, repo, octokit) {
     
     // Find latest v0 tag
     const latestV0Tag = sorted.find((tag) => semver.major(semver.clean(tag.name)) === 0);
-    
+
     // Find latest v1 tag (including beta and stable)
     const v1Tags = sorted.filter((tag) => semver.major(semver.clean(tag.name)) === 1);
     let latestV1Tag = null;
-    
+
     if (v1Tags.length > 0) {
-      // First, try to find a stable v1 tag
       const stableV1Tag = v1Tags.find(tag => !semver.clean(tag.name).includes('-'));
       if (stableV1Tag) {
         latestV1Tag = stableV1Tag;
       } else {
-        // If no stable version, use the latest pre-release
         latestV1Tag = v1Tags[0];
       }
     }
-    
+
+    // Find latest v2 tag (alpha/pre-release)
+    const v2Tags = sorted.filter((tag) => semver.major(semver.clean(tag.name)) === 2);
+    let latestV2Tag = null;
+
+    if (v2Tags.length > 0) {
+      const stableV2Tag = v2Tags.find(tag => !semver.clean(tag.name).includes('-'));
+      if (stableV2Tag) {
+        latestV2Tag = stableV2Tag;
+      } else {
+        latestV2Tag = v2Tags[0];
+      }
+    }
+
     return {
       repo: `${owner}/${repo}`,
       v0: latestV0Tag ? latestV0Tag.name : null,
       v1: latestV1Tag ? latestV1Tag.name : null,
+      alpha: latestV2Tag ? latestV2Tag.name : null,
     };
   } catch (error) {
     console.warn(`Failed to get tags for ${owner}/${repo}:`, error.message);
-    return { repo: `${owner}/${repo}`, v0: null, v1: null };
+    return { repo: `${owner}/${repo}`, v0: null, v1: null, alpha: null };
   }
 }
 
@@ -225,51 +259,71 @@ async function getLatestGitTags(owner, repo, octokit) {
 async function inspectNpm(pkgName) {
   const meta = await safeFetchJSON(`https://registry.npmjs.org/${pkgName}`);
   if (!meta || !meta.versions) {
-    return { repo: pkgName, v0: null, v1: null, v0CoreRange: null, v1CoreRange: null };
+    return { repo: pkgName, v0: null, v1: null, alpha: null, v0CoreRange: null, v1CoreRange: null, alphaCoreRange: null };
   }
   const versions = Object.keys(meta.versions);
   const sorted = versions.sort(semver.rcompare);
-  
+
   // Find latest v0 version
   const v0 = sorted.find((v) => semver.major(v) === 0) || null;
-  
+
   // Find latest v1 version (including beta and stable)
   const v1Versions = sorted.filter((v) => semver.major(v) === 1);
   let v1 = null;
-  
+
   if (v1Versions.length > 0) {
-    // First, try to find a stable v1 version
     const stableV1 = v1Versions.find(v => !v.includes('-'));
     if (stableV1) {
       v1 = stableV1;
     } else {
-      // If no stable version, use the latest pre-release
       v1 = v1Versions[0];
     }
   }
-  
+
+  // Find latest v2 version (alpha/pre-release)
+  const v2Versions = sorted.filter((v) => semver.major(v) === 2);
+  let alpha = null;
+
+  if (v2Versions.length > 0) {
+    const stableV2 = v2Versions.find(v => !v.includes('-'));
+    if (stableV2) {
+      alpha = stableV2;
+    } else {
+      alpha = v2Versions[0];
+    }
+  }
+
   // Get core dependency ranges for the found versions
   let v0CoreRange = null;
   let v1CoreRange = null;
-  
+  let alphaCoreRange = null;
+
   if (v0 && meta.versions[v0]) {
     const v0Pkg = meta.versions[v0];
-    v0CoreRange = v0Pkg.dependencies?.["@elizaos/core"] || 
+    v0CoreRange = v0Pkg.dependencies?.["@elizaos/core"] ||
                   v0Pkg.peerDependencies?.["@elizaos/core"] || null;
   }
-  
+
   if (v1 && meta.versions[v1]) {
     const v1Pkg = meta.versions[v1];
-    v1CoreRange = v1Pkg.dependencies?.["@elizaos/core"] || 
+    v1CoreRange = v1Pkg.dependencies?.["@elizaos/core"] ||
                   v1Pkg.peerDependencies?.["@elizaos/core"] || null;
   }
-  
+
+  if (alpha && meta.versions[alpha]) {
+    const alphaPkg = meta.versions[alpha];
+    alphaCoreRange = alphaPkg.dependencies?.["@elizaos/core"] ||
+                     alphaPkg.peerDependencies?.["@elizaos/core"] || null;
+  }
+
   return {
     repo: pkgName,
     v0,
     v1,
+    alpha,
     v0CoreRange,
     v1CoreRange,
+    alphaCoreRange,
   };
 }
 
@@ -305,7 +359,7 @@ async function processRepo(npmId, gitRef, octokit) {
   if (branches.length === 0) {
     issues.push(`No branches found (might be API issue)`);
   }
-  const branchCandidates = ["main", "master", "0.x", "1.x"].filter((b) =>
+  const branchCandidates = ["main", "master", "0.x", "1.x", "alpha", "next", "2.0.0"].filter((b) =>
     branches.includes(b)
   );
   if (branchCandidates.length === 0 && branches.length > 0) {
@@ -321,6 +375,7 @@ async function processRepo(npmId, gitRef, octokit) {
   const supportedBranches = {
     v0: null,
     v1: null,
+    alpha: null,
   };
 
   for (let i = 0; i < pkgResults.length; i++) {
@@ -336,82 +391,109 @@ async function processRepo(npmId, gitRef, octokit) {
 
   let supportsV0 = false;
   let supportsV1 = false;
+  let supportsAlpha = false;
 
   for (const pkg of pkgs) {
-    if (pkg.version && pkg.coreRange) {
-      const pkgMajor = semver.major(semver.clean(pkg.version));
-      const satisfiesV0Core = isCompatibleWithMajorVersion(pkg.coreRange, 0);
-      const satisfiesV1Core = isCompatibleWithMajorVersion(pkg.coreRange, 1);
+    if (pkg.version) {
+      const cleanVersion = semver.clean(pkg.version);
+      if (!cleanVersion) continue;
+      const pkgMajor = semver.major(cleanVersion);
 
-      // For v0: package version must be < 1.0.0 AND core dependency should be compatible
-      // Branches can be "0.x" or "main"
-      if (pkgMajor === 0 && satisfiesV0Core) {
-        supportsV0 = true;
-        supportedBranches.v0 = pkg.branch;
+      if (pkg.coreRange) {
+        const satisfiesV0Core = isCompatibleWithMajorVersion(pkg.coreRange, 0);
+        const satisfiesV1Core = isCompatibleWithMajorVersion(pkg.coreRange, 1);
+        const satisfiesV2Core = isCompatibleWithMajorVersion(pkg.coreRange, 2);
+
+        // For v0: package version must be < 1.0.0 AND core dependency should be compatible
+        if (pkgMajor === 0 && satisfiesV0Core) {
+          supportsV0 = true;
+          supportedBranches.v0 = pkg.branch;
+        }
+
+        // For v1: package version must be >= 1.0.0 AND core dependency should be compatible
+        if (pkgMajor === 1 && satisfiesV1Core) {
+          supportsV1 = true;
+          supportedBranches.v1 = pkg.branch;
+        }
+
+        // For alpha/v2: package version is 2.0.0-alpha.* OR core dep targets v2/next
+        if (pkgMajor === 2 && satisfiesV2Core) {
+          supportsAlpha = true;
+          supportedBranches.alpha = pkg.branch;
+        }
       }
-      
-      // For v1: package version must be >= 1.0.0 AND core dependency should be compatible
-      // Only set v1 branch if the package version is actually v1
-      if (pkgMajor >= 1 && satisfiesV1Core) {
-        supportsV1 = true;
-        supportedBranches.v1 = pkg.branch;
+
+      // Also detect v2 alpha by version alone (core dep might be "next" dist-tag)
+      if (pkgMajor === 2 && cleanVersion.includes('-alpha')) {
+        supportsAlpha = true;
+        if (!supportedBranches.alpha) {
+          supportedBranches.alpha = pkg.branch;
+        }
       }
     }
   }
 
   const [gitTagInfo, npmInfo, repoInfo] = await Promise.all([tagsPromise, npmPromise, repoInfoPromise]);
 
-  // Helper to detect if a raw core range is clearly v0 or v1 targeted
-  // Only matches definitive constraints: exact versions, ^ (compatible), ~ (patch)
-  // Excludes ambiguous operators like >=, >, <, <= that may span multiple majors
+  // Helper to detect if a raw core range is clearly v0, v1, or v2 targeted
   const getCoreRangeMajor = (range) => {
     if (!range || typeof range !== 'string') return null;
     const trimmed = range.trim();
     if (trimmed === 'latest') return null; // ambiguous
-    // Check for explicit v0 patterns: "0.x", "^0.x", "~0.x" (but NOT ">=0.x", "<1.x")
+    // Dist-tags like "next", "alpha" → v2
+    if (['next', 'alpha'].includes(trimmed)) return 2;
+    // Check for explicit v0 patterns: "0.x", "^0.x", "~0.x"
     if (/^[\^~]?0\./.test(trimmed)) return 0;
-    // Check for explicit v1 patterns: "1.x", "^1.x", "~1.x" (but NOT ">=1.x", "<2.x")
+    // Check for explicit v1 patterns: "1.x", "^1.x", "~1.x"
     if (/^[\^~]?1\./.test(trimmed)) return 1;
+    // Check for explicit v2 patterns: "2.x", "^2.x", "~2.x"
+    if (/^[\^~]?2\./.test(trimmed)) return 2;
     return null;
   };
 
   // Set version support based on npm versions and core dependencies (more reliable)
-  // The core dependency is what determines actual compatibility, not the package version
   if (npmInfo?.v0 && npmInfo?.v0CoreRange) {
     const v0Major = semver.major(semver.clean(npmInfo.v0));
     const satisfiesV0Core = isCompatibleWithMajorVersion(npmInfo.v0CoreRange, 0);
-    const satisfiesV1Core = isCompatibleWithMajorVersion(npmInfo.v0CoreRange, 1);
     const coreTargetMajor = getCoreRangeMajor(npmInfo.v0CoreRange);
-    
+
     if (v0Major === 0 && satisfiesV0Core) {
       supportsV0 = true;
     }
-    // v0 package with v1 core dependency → it's actually a v1 plugin (just versioned wrong)
     if (v0Major === 0 && coreTargetMajor === 1) {
-      supportsV1 = true; // Mark as v1 compatible since it depends on v1 core
+      supportsV1 = true;
       issues.push(`⚠️ v0 package (${npmInfo.v0}) depends on v1 core (${npmInfo.v0CoreRange}) - should publish as v1.x`);
+    }
+    if (v0Major === 0 && coreTargetMajor === 2) {
+      supportsAlpha = true;
+      issues.push(`⚠️ v0 package (${npmInfo.v0}) depends on v2 core (${npmInfo.v0CoreRange}) - should publish as v2.x`);
     }
   }
   if (npmInfo?.v1 && npmInfo?.v1CoreRange) {
     const v1Major = semver.major(semver.clean(npmInfo.v1));
     const satisfiesV1Core = isCompatibleWithMajorVersion(npmInfo.v1CoreRange, 1);
-    const satisfiesV0Core = isCompatibleWithMajorVersion(npmInfo.v1CoreRange, 0);
     const coreTargetMajor = getCoreRangeMajor(npmInfo.v1CoreRange);
-    
+
     if (v1Major >= 1 && satisfiesV1Core) {
       supportsV1 = true;
     }
-    // v1 package with v0 core dependency → it's actually a v0 plugin (core dep not updated)
     if (v1Major >= 1 && coreTargetMajor === 0) {
-      supportsV0 = true; // Mark as v0 compatible since it depends on v0 core
+      supportsV0 = true;
       issues.push(`⚠️ v1 package (${npmInfo.v1}) depends on v0 core (${npmInfo.v1CoreRange}) - needs to update @elizaos/core to ^1.0.0`);
     }
   }
+  if (npmInfo?.alpha && npmInfo?.alphaCoreRange) {
+    const alphaMajor = semver.major(semver.clean(npmInfo.alpha));
+    const satisfiesV2Core = isCompatibleWithMajorVersion(npmInfo.alphaCoreRange, 2);
 
-  console.log(`${npmId} → v0:${supportsV0} v1:${supportsV1}`);
+    if (alphaMajor === 2 && satisfiesV2Core) {
+      supportsAlpha = true;
+    }
+  }
+
+  console.log(`${npmId} → v0:${supportsV0} v1:${supportsV1} alpha:${supportsAlpha}`);
 
   // Prepare git info with versions and branches
-  // When GitHub data is not available, use npm data as fallback
   const gitInfo = {
     repo: gitTagInfo?.repo || npmInfo?.repo || `${owner}/${repo}`,
     v0: {
@@ -422,17 +504,18 @@ async function processRepo(npmId, gitRef, octokit) {
       version: gitTagInfo?.v1 || npmInfo?.v1 || null,
       branch: supportedBranches.v1,
     },
+    alpha: {
+      version: gitTagInfo?.alpha || npmInfo?.alpha || null,
+      branch: supportedBranches.alpha,
+    },
   };
-
-  // Version support flags have already been properly set based on version constraints
-  // No need to override them here
 
   return [
     npmId,
     {
       git: gitInfo,
       npm: npmInfo,
-      supports: { v0: supportsV0, v1: supportsV1 },
+      supports: { v0: supportsV0, v1: supportsV1, alpha: supportsAlpha },
       description: repoInfo.description,
       homepage: repoInfo.homepage,
       topics: repoInfo.topics,
