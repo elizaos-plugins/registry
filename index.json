@@ -37,7 +37,6 @@
   "@elizaos/plugin-0x": "github:elizaos-plugins/plugin-0x",
   "@elizaos/plugin-3d-generation": "github:elizaos-plugins/plugin-3d-generation",
   "@elizaos/plugin-8004": "github:elizaos-plugins/plugin-8004",
-  "@elizaos/plugin-ATTPs": "github:APRO-com/plugin-ATTPs",
   "@elizaos/plugin-abstract": "github:elizaos-plugins/plugin-abstract",
   "@elizaos/plugin-acp": "github:elizaos-plugins/plugin-acp",
   "@elizaos/plugin-action-bench": "github:elizaos-plugins/plugin-action-bench",
@@ -57,6 +56,7 @@
   "@elizaos/plugin-arkham": "github:elizaos-plugins/plugin-arkham",
   "@elizaos/plugin-arthera": "github:elizaos-plugins/plugin-arthera",
   "@elizaos/plugin-asterai": "github:elizaos-plugins/plugin-asterai",
+  "@elizaos/plugin-ATTPs": "github:APRO-com/plugin-ATTPs",
   "@elizaos/plugin-auto-trader": "github:elizaos-plugins/plugin-auto-trader",
   "@elizaos/plugin-autocoder": "github:elizaos-plugins/plugin-autocoder",
   "@elizaos/plugin-autofun": "github:elizaos-plugins/plugin-autofun",
@@ -353,6 +353,7 @@
   "@elizaos/plugin-zytron": "github:zypher-network/plugin-zytron",
   "@erdgecrawl/plugin-base-signals": "github:erdGeclaw/plugin-base-signals",
   "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
+  
   "@kamiyo/eliza": "github:kamiyo-ai/kamiyo-protocol#main:packages/kamiyo-eliza",
   "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
   "@mascotai/plugin-connections": "github:mascotai/plugin-connections",
@@ -369,5 +370,6 @@
   "plugin-connections": "github:mascotai/plugin-connections",
   "plugin-moltbazaar": "github:10inchdev/plugin-moltbazaar",
   "plugin-octav": "github:wpoulin/plugin-octav",
-  "plugin-otaku-x402": "github:otaku-x402/elizaos-plugin-otaku-x402"
+  "plugin-otaku-x402": "github:otaku-x402/elizaos-plugin-otaku-x402",
+  "swarms-x402": "github:ItachiDevv/eliza-x402-swarms"
 }
