@@ -2,6 +2,7 @@
   "@1BDO/plugin-delta": "github:1BDO/plugin-delta",
   "@andysalvo/plugin-x402-trust": "github:andysalvo/plugin-x402-trust",
   "@arthur-orderly/plugin-arthur-dex": "github:arthur-orderly/arthur-eliza-plugin",
+  "@axnetfun/plugin-axnetfun": "github:axnetfun/plugin-axnetfun",
   "@asterpay/plugin-payments": "github:AsterPay/plugin-payments",
   "@bealers/plugin-mattermost": "github:bealers/plugin-mattermost",
   "@blockrun/elizaos-plugin": "github:BlockRunAI/elizaos-plugin-blockrun",
