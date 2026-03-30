@@ -365,6 +365,7 @@
   "@theschein/plugin-polymarket": "github:Okay-Bet/plugin-polymarket",
   "@token-metrics-ai/plugin-tokenmetrics": "github:token-metrics/plugin-tokenmetrics",
   "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
+  "@wzrd_sol/eliza-plugin": "github:twzrd-sol/eliza-plugin",
   "@zane-archer/plugin-aimo-router": "github:takasaki404/plugin-aimo-router",
   "plugin-connections": "github:mascotai/plugin-connections",
   "plugin-moltbazaar": "github:10inchdev/plugin-moltbazaar",
