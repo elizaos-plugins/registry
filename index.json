@@ -1,5 +1,6 @@
 {
   "@1BDO/plugin-delta": "github:1BDO/plugin-delta",
+  "@aicre8dev/plugin-vybes": "github:AICre8dev/plugin-vybes",
   "@andysalvo/plugin-x402-trust": "github:andysalvo/plugin-x402-trust",
   "@arthur-orderly/plugin-arthur-dex": "github:arthur-orderly/arthur-eliza-plugin",
   "@asterpay/plugin-payments": "github:AsterPay/plugin-payments",
