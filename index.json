@@ -356,6 +356,7 @@
   "@kamiyo/eliza": "github:kamiyo-ai/kamiyo-protocol#main:packages/kamiyo-eliza",
   "@kudo-dev/plugin-kudo": "github:Kudo-Archi/plugin-kudo",
   "@mascotai/plugin-connections": "github:mascotai/plugin-connections",
+  "@madeonsol/plugin-madeonsol": "github:LamboPoewert/plugin-madeonsol",
   "@mazzz/plugin-elizaos-compchembridge": "github:Mazzz-zzz/plugin-elizaos-compchembridge",
   "@nuggetslife/plugin-nuggets": "github:NuggetsLtd/eliza-plugin-nuggets",
   "@onbonsai/plugin-bonsai": "github:onbonsai/plugin-bonsai",
