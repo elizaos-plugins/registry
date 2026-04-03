@@ -308,6 +308,7 @@
   "@elizaos/plugin-story": "github:elizaos-plugins/plugin-story",
   "@elizaos/plugin-sui": "github:elizaos-plugins/plugin-sui",
   "@elizaos/plugin-suno": "github:elizaos-plugins/plugin-suno",
+  "@elizaos/plugin-swapapi": "github:MoonSoon69/eliza-plugin-swapapi",
   "@elizaos/plugin-tee": "github:elizaos-plugins/plugin-tee",
   "@elizaos/plugin-tee-log": "github:elizaos-plugins/plugin-tee-log",
   "@elizaos/plugin-tee-marlin": "github:elizaos-plugins/plugin-tee-marlin",
