@@ -364,6 +364,7 @@
   "@standujar/plugin-composio": "github:standujar/plugin-composio",
   "@theschein/plugin-polymarket": "github:Okay-Bet/plugin-polymarket",
   "@token-metrics-ai/plugin-tokenmetrics": "github:token-metrics/plugin-tokenmetrics",
+  "@trustlayer/plugin-elizaos": "github:goatgaucho/elizaos-plugin-trustlayer",
   "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
   "@zane-archer/plugin-aimo-router": "github:takasaki404/plugin-aimo-router",
   "plugin-connections": "github:mascotai/plugin-connections",
