@@ -352,6 +352,7 @@
   "@elizaos/plugin-zilliqa": "github:elizaos-plugins/plugin-zilliqa",
   "@elizaos/plugin-zksync-era": "github:elizaos-plugins/plugin-zksync-era",
   "@elizaos/plugin-zytron": "github:zypher-network/plugin-zytron",
+  "@ensoul-network/plugin-elizaos": "github:suitandclaw/ensoul",
   "@erdgecrawl/plugin-base-signals": "github:erdGeclaw/plugin-base-signals",
   "@esscrypt/plugin-polkadot": "github:Esscrypt/plugin-polkadot",
   "@kamiyo/eliza": "github:kamiyo-ai/kamiyo-protocol#main:packages/kamiyo-eliza",
