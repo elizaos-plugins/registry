@@ -363,6 +363,7 @@
   "@proofgate/eliza-plugin": "github:ProofGate/proofgate-eliza-plugin",
   "@pyboom/plugin-moralis-v2": "github:matteo-brandolino/plugin-moralis-v2",
   "@standujar/plugin-composio": "github:standujar/plugin-composio",
+  "@thecolony/elizaos-plugin": "github:TheColonyCC/elizaos-plugin",
   "@theschein/plugin-polymarket": "github:Okay-Bet/plugin-polymarket",
   "@token-metrics-ai/plugin-tokenmetrics": "github:token-metrics/plugin-tokenmetrics",
   "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
