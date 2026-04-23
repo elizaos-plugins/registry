@@ -5,6 +5,7 @@
   "@asterpay/plugin-payments": "github:AsterPay/plugin-payments",
   "@bealers/plugin-mattermost": "github:bealers/plugin-mattermost",
   "@blockrun/elizaos-plugin": "github:BlockRunAI/elizaos-plugin-blockrun",
+  "@blueprint.xyz/plugin-solentic": "github:blueprint-infrastructure/plugin-solentic",
   "@coinrailz/plugin-coinrailz": "github:tdnupe3/coinrailz-eliza-plugin",
   "@elisym/plugin-elizaos-elisym": "github:elisymlabs/plugin-elizaos-elisym",
   "@elizaos/adapter-mongodb": "github:elizaos-plugins/adapter-mongodb",
