@@ -367,6 +367,7 @@
   "@token-metrics-ai/plugin-tokenmetrics": "github:token-metrics/plugin-tokenmetrics",
   "@tonyflam/plugin-openchat": "github:Tonyflam/plugin-openchat",
   "@zane-archer/plugin-aimo-router": "github:takasaki404/plugin-aimo-router",
+  "megaswap-elizaos-plugin": "github:jacksun911/megaswap-elizaos-plugin",
   "plugin-connections": "github:mascotai/plugin-connections",
   "plugin-moltbazaar": "github:10inchdev/plugin-moltbazaar",
   "plugin-octav": "github:wpoulin/plugin-octav",
